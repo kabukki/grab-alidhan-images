@@ -139,6 +139,7 @@ all = {
 		{'name': 'araignee', 'iter': 5},
 		{'name': 'abeille', 'iter': 3},
 		{'name': 'abeille', 'iter': 1, 'pad': True},
+		{'name': 'libellule', 'iter': 4},
 	],
 	'monstre/prison': [
 		{'name': 'poisson'},
@@ -168,7 +169,6 @@ all = {
 		{'name': 'demon', 'iter': 1},
 		{'name': 'ours', 'iter': 6},
 		{'name': 'ours', 'iter': 8},
-		{'name': 'libellule', 'iter': 4},
 		{'name': 'chauve_souris', 'iter': 1},
 	],
 	'monstre/boss': [
