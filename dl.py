@@ -234,7 +234,7 @@ all = {
         {'name': 'chemise', 'iter': 2},
         {'name': 'citrouille'},
         {'name': 'cle', 'iter': 1},
-        {'name': 'collier01', 'iter': ['a', 'g', 'm', 'p'], 'pad': True},
+        {'name': 'collier01', 'iter': ['a', 'g', 'm', 'p'], 'underscore': True},
         {'name': 'collier', 'iter': 4, 'pad': True},
         {'name': 'collier_infini_scintillant'},
         {'name': 'collier_infini_sup'},
