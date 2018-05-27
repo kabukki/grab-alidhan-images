@@ -97,7 +97,7 @@ all = {
 		{'name': 'grenouille', 'iter': 2},
 		{'name': 'araignee', 'iter': 5},
 		{'name': 'abeille', 'iter': 3},
-		{'name': 'libellule', 'iter': 20, 'pad': True}, #none
+		{'name': 'libellule', 'iter': 4}
 	],
 	'monstre/prison': [
 		{'name': 'poisson'},
@@ -144,7 +144,7 @@ all = {
 }
 
 # Data to fetch
-enabled = ['objet', 'monstre/flore']
+enabled = ['monstre/insecte']
 
 new = 0
 skip = 0
@@ -174,7 +174,7 @@ def getFile (dir, name):
 	except IOError:
 		pass
 		
-# Build name from index and formatting options
+# Build name from value in iter and formatting options
 def nthItem (name, n, underscore=False, pad=False):
 	if (underscore): name += '_'
 	if (pad): name += '0'
