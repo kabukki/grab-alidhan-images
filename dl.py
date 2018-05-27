@@ -83,6 +83,7 @@ all = {
         {'name': 'poisson', 'iter': 5},
         {'name': 'pomme', 'iter': 2},
         {'name': 'potion', 'iter': 50},
+        {'name': 'potion_agile_majeure'},
         {'name': 'potion_constit_majeure'},
         {'name': 'potion_dext_majeure'},
         {'name': 'potion_force_majeure'},
