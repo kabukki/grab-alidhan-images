@@ -10,6 +10,7 @@ all = {
         {'iter': 4}
     ],
     'objet': [
+        {'name': 'ashkran'},
         {'name': 'aile', 'iter': 1},
         {'name': 'aile', 'iter': 5, 'underscore': True},
         {'name': 'bec', 'iter': 2, 'underscore': True},
