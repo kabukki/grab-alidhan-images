@@ -72,7 +72,7 @@ all = {
     'pnjDetail': [
         {'name': 'bougie'},
         {'name': 'competence'},
-		{'name': 'defaut'},
+        {'name': 'defaut'},
         {'name': 'Eidola'},
         {'name': 'fille_couteau'},
         {'name': 'garde3_detail'},
@@ -85,14 +85,14 @@ all = {
         {'name': 'pr_lactos'},
         {'name': 'soldat_arene'},
         {'name': 'Tynus'},
-		# Detail pour les pnj existants	
-		{'name': 'pnj20detail'},	
-        {'name': 'pnj25_detail'},	
-        {'name': 'pnj28detail'},	
-        {'name': 'pnj29detail'},	
-        {'name': 'pnj75_detail'},	
-        {'name': 'pnj80_detail'},	
-		{'name': 'pnj86_detail'},
+        # Detail pour les pnj existants
+        {'name': 'pnj20detail'},
+        {'name': 'pnj25_detail'},
+        {'name': 'pnj28detail'},
+        {'name': 'pnj29detail'},
+        {'name': 'pnj75_detail'},
+        {'name': 'pnj80_detail'},
+        {'name': 'pnj86_detail'},
     ],
     'potion': [
         {'name': 'bonbec', 'iter': 13},
@@ -115,25 +115,25 @@ all = {
         {'name': 'viande', 'iter': 7},
     ],
     'competence': [
-		{'name': 'BSA'},
+        {'name': 'BSA'},
         {'name': 'chasseur_de_prime'},
         {'name': 'coup_precis', 'ext': ['gif']},
-		{'name': 'cueillette'},
-		{'name': 'depecage'},
+        {'name': 'cueillette'},
+        {'name': 'depecage'},
         {'name': 'esprit_voyageur', 'ext': ['gif']},
         {'name': 'esprit_voyageur_majeur', 'ext': ['gif']},
         {'name': 'justicier', 'ext': ['gif']},
-		{'name': 'lien_tellurique'},
-		{'name': 'minage'},
-		{'name': 'peche'},
-		{'name': 'piege_meurtrier'},
-		{'name': 'piege_mortel'},
+        {'name': 'lien_tellurique'},
+        {'name': 'minage'},
+        {'name': 'peche'},
+        {'name': 'piege_meurtrier'},
+        {'name': 'piege_mortel'},
         {'name': 'pousser'},
         {'name': 'regeneration_energie', 'ext': ['gif']},
         {'name': 'regeneration_vie', 'ext': ['gif']},
         {'name': 'skill', 'iter': 100, 'ext': ['png', 'gif']},
         {'name': 'suractivite_mineure', 'ext': ['gif']},
-		{'name': 'tempete'},
+        {'name': 'tempete'},
         {'name': 'tirer'},
     ],
     'classe': [
@@ -168,9 +168,9 @@ all = {
         {'name': 'murdoc', 'ext': ['gif']},
         {'name': 'sparkman2', 'ext': ['gif']},
     ],
-	'ecran': [
-		{'name': 'auberge'}
-	],
+    'ecran': [
+        {'name': 'auberge'}
+    ],
     'arme': [
         {'name': 'amulette', 'iter': 13, 'pad': True},
         # la faute est volontaire
@@ -339,10 +339,10 @@ all = {
         {'name': 'ghrimlong10yjzjb'},
         {'name': 'ghrimlong11btfeu'},
         {'name': 'cimetiere', 'iter': 2},
-		{'name': 'douane'},
+        {'name': 'douane'},
         {'name': 'maptuto'},
-		{'name': 'sous_sol'},
-		{'name': 'villetuto'},
+        {'name': 'sous_sol'},
+        {'name': 'villetuto'},
     ],
     'monstre/insecte': [
         {'name': 'lezard'},
@@ -389,7 +389,7 @@ all = {
         {'name': 'demon', 'iter': 1},
         {'name': 'ours', 'iter': 6},
         {'name': 'chauve_souris', 'iter': 1},
-		{'name': 'rat'},
+        {'name': 'rat'},
     ],
     'monstre/boss': [
         {'name': 'poisson'},
@@ -421,59 +421,59 @@ fail = 0
 
 # Download a given file
 def getFile (dir, name, ext='png'):
-	global new, skip, fail
-	fname = name + '.' + ext
-	path = dir + '/' + fname
+    global new, skip, fail
+    fname = name + '.' + ext
+    path = dir + '/' + fname
 
-	try:
-		if os.path.exists(path):
-			skip += 1
-			print Fore.MAGENTA + name + ' already exists, skipping'
-			return
-		response = urllib2.urlopen('http://data2.alidhan.net/img/' + dir + '/' + fname)
-		new += 1
-		if not os.path.exists(dir):
-			os.makedirs(dir)
-		with open(path, 'wb') as out:
-			out.write(response.read())
-			print Fore.GREEN + name
-	except urllib2.HTTPError as e:
-		fail += 1
-		print Fore.RED + name
-	except IOError:
-		pass
+    try:
+        if os.path.exists(path):
+            skip += 1
+            print Fore.MAGENTA + name + ' already exists, skipping'
+            return
+        response = urllib2.urlopen('http://data2.alidhan.net/img/' + dir + '/' + fname)
+        new += 1
+        if not os.path.exists(dir):
+            os.makedirs(dir)
+        with open(path, 'wb') as out:
+            out.write(response.read())
+            print Fore.GREEN + name
+    except urllib2.HTTPError as e:
+        fail += 1
+        print Fore.RED + name
+    except IOError:
+        pass
 
 # Build name from value in iter and formatting options
 def nthItem (name, n, underscore=False, pad=False):
-	if (underscore): name += '_'
-	if (pad and isinstance(n, int) and n < 10): name += '0'
-	name += str(n)
-	return name
+    if (underscore): name += '_'
+    if (pad and isinstance(n, int) and n < 10): name += '0'
+    name += str(n)
+    return name
 
 # Main
 init(autoreset=True)
 for key in set(enabled):
-	if key not in all: continue
-	items = all[key]
-	print '--- ' + key + ' ---'
-	for item in items:
-		exts = item['ext'] if 'ext' in item and isinstance(item['ext'], list) else ['png']
-		for ext in exts:
-			if 'iter' in item and item['iter']:
-				values = []
-				# Iterate over a list
-				if isinstance(item['iter'], list):
-					values = item['iter']
-				# Iterate over a range
-				elif isinstance(item['iter'], int):
-					values = range(1, item['iter'] + 1)
-				for n in values:
-					getFile(key, nthItem(
-						item['name'] if 'name' in item else '',
-						n,
-						item['underscore'] if 'underscore' in item else False,
-						item['pad'] if 'pad' in item else False
-					), ext)
-			else:
-				getFile(key, item['name'])
+    if key not in all: continue
+    items = all[key]
+    print '--- ' + key + ' ---'
+    for item in items:
+        exts = item['ext'] if 'ext' in item and isinstance(item['ext'], list) else ['png']
+        for ext in exts:
+            if 'iter' in item and item['iter']:
+                values = []
+                # Iterate over a list
+                if isinstance(item['iter'], list):
+                    values = item['iter']
+                # Iterate over a range
+                elif isinstance(item['iter'], int):
+                    values = range(1, item['iter'] + 1)
+                for n in values:
+                    getFile(key, nthItem(
+                        item['name'] if 'name' in item else '',
+                        n,
+                        item['underscore'] if 'underscore' in item else False,
+                        item['pad'] if 'pad' in item else False
+                    ), ext)
+            else:
+                getFile(key, item['name'])
 print '--- ' + str(new) + ' files downloaded, ' + str(skip) + ' skipped, ' + str(fail) + ' failed ---'
