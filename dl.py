@@ -1,4 +1,5 @@
-import urllib2
+from urllib.request import urlopen
+from urllib.error import HTTPError
 import os
 
 from colorama import init, Style, Fore
@@ -428,18 +429,18 @@ def getFile (dir, name, ext='png'):
     try:
         if os.path.exists(path):
             skip += 1
-            print Fore.MAGENTA + name + ' already exists, skipping'
+            print(Fore.MAGENTA + name + ' already exists, skipping')
             return
-        response = urllib2.urlopen('http://data2.alidhan.net/img/' + dir + '/' + fname)
+        response = urlopen('http://data2.alidhan.net/img/' + dir + '/' + fname)
         new += 1
         if not os.path.exists(dir):
             os.makedirs(dir)
         with open(path, 'wb') as out:
             out.write(response.read())
-            print Fore.GREEN + name
-    except urllib2.HTTPError as e:
+            print(Fore.GREEN + name)
+    except HTTPError as e:
         fail += 1
-        print Fore.RED + name
+        print(Fore.RED + name)
     except IOError:
         pass
 
@@ -455,7 +456,7 @@ init(autoreset=True)
 for key in set(enabled):
     if key not in all: continue
     items = all[key]
-    print '--- ' + key + ' ---'
+    print('--- ' + key + ' ---')
     for item in items:
         exts = item['ext'] if 'ext' in item and isinstance(item['ext'], list) else ['png']
         for ext in exts:
@@ -476,4 +477,4 @@ for key in set(enabled):
                     ), ext)
             else:
                 getFile(key, item['name'])
-print '--- ' + str(new) + ' files downloaded, ' + str(skip) + ' skipped, ' + str(fail) + ' failed ---'
+print('--- ' + str(new) + ' files downloaded, ' + str(skip) + ' skipped, ' + str(fail) + ' failed ---')
