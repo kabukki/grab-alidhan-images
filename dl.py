@@ -61,7 +61,6 @@ all = {
 		{'name': 'competence'},
 		{'name': 'Eidola'},
 		{'name': 'fille_couteau'},
-		{'name': 'fille_couteau'},
 		{'name': 'garde3_detail'},
 		{'name': 'garde4_detail'},
 		{'name': 'garde5_detail'},
