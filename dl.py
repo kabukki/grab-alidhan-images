@@ -9,17 +9,40 @@ all = {
 		{'iter': 4}
 	],
 	'objet': [
-		{'name': 'grimoire'},
-		{'name': 'coquille', 'iter': 6},
-		{'name': 'feuille', 'iter': 3},
-		{'name': 'chapeau', 'iter': 5},
-		{'name': 'peau', 'iter': 6},
+		{'name': 'bec', 'iter': 2, 'underscore': True},
+		{'name': 'blood'},
+		{'name': 'bolef5'},
+		{'name': 'bouteille_vide'},
+		{'name': 'cadavre_chenille'},
 		{'name': 'carapace', 'iter': 2},
+		{'name': 'chapeau', 'iter': 5},
+		{'name': 'chardon'},
+		{'name': 'coquille', 'iter': 6},
+		{'name': 'cristal', 'iter': 9},
+		{'name': 'dent', 'iter': 5},
+		{'name': 'feuille', 'iter': 3},
+		{'name': 'fiolevide'},
+		{'name': 'fragment'},
+        {'name': 'griffe'},
+        {'name': 'grimoire'},
+		{'name': 'jevx7i5doqbh'},
+		{'name': 'lame_depeceur'},
+		{'name': 'manche_mineur'},
+		{'name': 'minerai','iter':11},
+		{'name': 'p9jp2wnq9bsa'},
+		{'name': 'patte'},
+		{'name': 'peau', 'iter': 6},
 		{'name': 'piece', 'iter': 1},
+		{'name': 'pierre', 'iter': 12},
+		{'name': 'pierre_golem'},
+		{'name': 'plume_coq'},
+		{'name': 'zj20ek71lkzk'},
 	],
 	'objetquete': [
+		{'name': 'bousolle'},
 		{'name': 'clef', 'iter': 10, 'underscore': True},
-		{'name': 'gateau_noel', 'iter': 10, 'underscore': True, 'pad': True}
+		{'name': 'gateau_noel', 'iter': 10, 'underscore': True, 'pad': True},
+		{'name': 'parchemin','iter': 5},
 	],
 	'pnj': [
 		{'name': 'pnj', 'iter': 200},
@@ -34,31 +57,43 @@ all = {
 		{'name': 'new_garde', 'iter': ['r', 'e', 'c'], 'underscore': True},
 	],
 	'pnjDetail': [
-		{'name': 'paladin_varox'},
-		{'name': 'jeune_guerrier'},
 		{'name': 'bougie'},
+		{'name': 'competence'},
+		{'name': 'Eidola'},
+		{'name': 'fille_couteau'},
+		{'name': 'garde3_detail'},
+		{'name': 'garde4_detail'},
+		{'name': 'garde5_detail'},
+		{'name': 'jeune_guerrier'},
 		{'name': 'lynus'},
 		{'name': 'moine_copiste'},
-		{'name': 'tynus'},
+		{'name': 'paladin_varox'},
+		{'name': 'pr_lactos'},
+		{'name': 'soldat_arene'},
+		{'name': 'Tynus'},
 	],
 	'potion': [
-		{'name': 'potion', 'iter': 50},
-		{'name': 'poisson', 'iter': 5},
-		{'name': 'feuille', 'iter': 11},
-		{'name': 'viande', 'iter': 7},
-		{'name': 'pomme', 'iter': 2},
+		{'name': 'bonbec', 'iter': 13},
 		{'name': 'buffpot', 'iter': 8},
 		{'name': 'carotte'},
-		{'name': 'gateau'},
+		{'name': 'feuille', 'iter': 11},
 		{'name': 'flacon'},
+		{'name': 'gateau'},
+		{'name': 'millefeuilleschamsrz6'},
+		{'name': 'poisson', 'iter': 5},
+		{'name': 'pomme', 'iter': 2},
+		{'name': 'potion', 'iter': 50},
 		{'name': 'potion_constit_majeure'},
-		{'name': 'potion_force_majeure'},
 		{'name': 'potion_dext_majeure'},
+		{'name': 'potion_force_majeure'},
+		{'name': 'potiron'},
+		{'name': 'viande', 'iter': 7},
 	],
 	'competence': [
 		{'name': 'skill', 'iter': 100}
 	],
 	'classe': [
+		{'name': 'manant', 'iter': ['m','f'], 'underscore': True},
 		{'name': 'magicien', 'iter': ['m', 'mr', 'me', 'mc', 'f', 'fr', 'fe', 'fc'], 'underscore': True},
 		{'name': 'moine', 'iter': ['m', 'mr', 'me', 'mc', 'f', 'fr', 'fe', 'fc'], 'underscore': True},
 		{'name': 'guerrier', 'iter': ['m', 'mr', 'me', 'mc', 'f', 'fr', 'fe', 'fc'], 'underscore': True},
@@ -79,6 +114,12 @@ all = {
 		{'name': 'heros_fr', 'iter': ['v', 'f', 'm', 'c', 'e'], 'underscore': True},
 		{'name': 'heros_fe', 'iter': ['v', 'f', 'm', 'c', 'e'], 'underscore': True},
 		{'name': 'heros_fc', 'iter': ['v', 'f', 'm', 'c', 'e'], 'underscore': True},
+		{'name': 'bagnard','iter':2},
+		{'name': 'balrog'},
+		{'name': 'felin'},
+		{'name': 'grenouille'},
+		{'name': 'ogre'},
+		{'name': 'metal'},
 	],
 	'arme': [
 		{'name': 'champi'},
@@ -97,7 +138,8 @@ all = {
 		{'name': 'grenouille', 'iter': 2},
 		{'name': 'araignee', 'iter': 5},
 		{'name': 'abeille', 'iter': 3},
-		{'name': 'libellule', 'iter': 4}
+		{'name': 'abeille', 'iter': 1, 'pad': True},
+		{'name': 'libellule', 'iter': 4},
 	],
 	'monstre/prison': [
 		{'name': 'poisson'},
@@ -106,9 +148,11 @@ all = {
 	'monstre/bizarre': [
 		{'name': 'tortue'},
 		{'name': 'galahaad'},
+		{'name': 'epouvantail'},
 		{'name': 'MudGolem'},
 		{'name': 'fantome', 'iter': 1},
 		{'name': 'elemental', 'iter': 13},
+		{'name': 'ange', 'iter': 2},
 	],
 	'monstre/bestiaux': [
 		{'name': 'chat3nd2'},
@@ -130,9 +174,12 @@ all = {
 		{'name': 'poisson'},
 		{'name': 'herisson-lion'},
 		{'name': 'bouquetin'},
+		{'name': 'dragon'},
 		{'name': 'ombre_ailee'},
 		{'name': 'Gomina'},
 		{'name': 'fv1006'},
+		{'name': 'aigle'},
+		{'name': 'yeti'},
 	],
 	'monstre/flore': [
 		{'name': 'tournesol', 'iter': 2},
@@ -153,7 +200,7 @@ fail = 0
 # Download a given file
 def getFile (dir, name):
 	global new, skip, fail
-	
+
 	fname = name + '.png'
 	path = dir + '/' + fname
 	try:
