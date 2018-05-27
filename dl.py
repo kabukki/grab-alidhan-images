@@ -473,4 +473,4 @@ for key in set(enabled):
 					), ext)
 			else:
 				getFile(key, item['name'])
-	print '--- ' + str(new) + ' files downloaded, ' + str(skip) + ' skipped, ' + str(fail) + ' failed ---'
+print '--- ' + str(new) + ' files downloaded, ' + str(skip) + ' skipped, ' + str(fail) + ' failed ---'
