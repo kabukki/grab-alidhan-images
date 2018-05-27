@@ -192,7 +192,7 @@ all = {
 }
 
 # Data to fetch
-enabled = ['objet', 'monstre/flore']
+enabled = ['monstre/insecte']
 
 new = 0
 skip = 0
@@ -221,8 +221,8 @@ def getFile (dir, name):
 		print Fore.RED + name
 	except IOError:
 		pass
-
-# Build name from index and formatting options
+		
+# Build name from value in iter and formatting options
 def nthItem (name, n, underscore=False, pad=False):
 	if (underscore): name += '_'
 	if (pad): name += '0'
