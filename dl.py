@@ -59,6 +59,7 @@ all = {
     'pnjDetail': [
         {'name': 'bougie'},
         {'name': 'competence'},
+        {'name': 'defaut'},
         {'name': 'Eidola'},
         {'name': 'fille_couteau'},
         {'name': 'garde3_detail'},
@@ -71,6 +72,14 @@ all = {
         {'name': 'pr_lactos'},
         {'name': 'soldat_arene'},
         {'name': 'Tynus'},
+		# Detail pour les pnj existants
+        {'name': 'pnj20detail'},
+        {'name': 'pnj25_detail'},
+        {'name': 'pnj28detail'},
+        {'name': 'pnj29detail'},
+        {'name': 'pnj75_detail'},
+        {'name': 'pnj80_detail'},
+        {'name': 'pnj86_detail'},
     ],
     'potion': [
         {'name': 'bonbec', 'iter': 13},
@@ -91,16 +100,24 @@ all = {
         {'name': 'viande', 'iter': 7},
     ],
     'competence': [
+        {'name': 'BSA'},
         {'name': 'chasseur_de_prime'},
         {'name': 'coup_precis', 'ext': ['gif']},
+        {'name': 'cueillette'},
+        {'name': 'depecage'},
         {'name': 'esprit_voyageur', 'ext': ['gif']},
         {'name': 'esprit_voyageur_majeur', 'ext': ['gif']},
         {'name': 'justicier', 'ext': ['gif']},
+        {'name': 'lien_tellurique'},
+        {'name': 'minage'},
+        {'name': 'peche'},
+        {'name': 'piege_meurtrier'},
         {'name': 'pousser'},
         {'name': 'regeneration_energie', 'ext': ['gif']},
         {'name': 'regeneration_vie', 'ext': ['gif']},
         {'name': 'skill', 'iter': 100, 'ext': ['png', 'gif']},
         {'name': 'suractivite_mineure', 'ext': ['gif']},
+        {'name': 'tempete'},
         {'name': 'tirer'},
     ],
     'classe': [
@@ -278,11 +295,33 @@ all = {
         {'name': '2dffqsjy'},
         {'name': '3xrpttdsa'},
         {'name': '4sdzezoid'},
+        {'name': 'cne8585sd'},
+        {'name': 'ezrgpok52k2'},
+        {'name': '6re4hr54z'},
+        {'name': 'dfsdf342354'},
+        {'name': '9llleze5'},
+        {'name': '5lllezesd4'},
+        {'name': '13zesdqs3'},
+        {'name': 'xcvxc4422365'},
+        {'name': 'vxcvxcvx14sfsf'},
+        {'name': 'fzef8ezr6sdf3sdf1'},
+        {'name': '1alllezesdqs1'},
+        {'name': '1alllezesdqs2'},
+        {'name': 'cvfghnjkloi865'},
+        {'name': 'sdfgxcxciopklmjkluyaz2'},
+        {'name': 'sdfgxcxciopklmjkluyaz'},
+        {'name': 'scxcvxcbhrturtujkolo'},
+        {'name': 'ergsdfsdckxjbcvbor'},
+        {'name': ''},
+        {'name': 'xcvxcvcbnvgjghjyikklpo'},
         {'name': 'ergsdfsdckxjbcvbor'},
         {'name': 'ghrimlong10yjzjb'},
         {'name': 'ghrimlong11btfeu'},
         {'name': 'cimetiere', 'iter': 2},
+        {'name': 'douane'},
         {'name': 'maptuto'},
+        {'name': 'sous_sol'},
+        {'name': 'villetuto'},
     ],
     'monstre/insecte': [
         {'name': 'lezard'},
@@ -329,6 +368,7 @@ all = {
         {'name': 'demon', 'iter': 1},
         {'name': 'ours', 'iter': 6},
         {'name': 'chauve_souris', 'iter': 1},
+        {'name': 'rat'},
     ],
     'monstre/boss': [
         {'name': 'poisson'},
@@ -351,8 +391,8 @@ all = {
 }
 
 # Data to fetch
-enabled = ['competence']
-#enabled = all.keys()
+#enabled = ['competence']
+enabled = all.keys()
 
 new = 0
 skip = 0
@@ -385,7 +425,7 @@ def getFile (dir, name, ext='png'):
 # Build name from value in iter and formatting options
 def nthItem (name, n, underscore=False, pad=False):
 	if (underscore): name += '_'
-	if (pad): name += '0'
+	if (pad and isinstance(n, int) and n < 10): name += '0'
 	name += str(n)
 	return name
 
