@@ -127,6 +127,7 @@ all = {
 		{'name': 'minage'},
 		{'name': 'peche'},
 		{'name': 'piege_meurtrier'},
+		{'name': 'piege_mortel'},
         {'name': 'pousser'},
         {'name': 'regeneration_energie', 'ext': ['gif']},
         {'name': 'regeneration_vie', 'ext': ['gif']},
@@ -164,6 +165,8 @@ all = {
         {'name': 'grenouille'},
         {'name': 'ogre'},
         {'name': 'metal'},
+        {'name': 'murdoc', 'ext': ['gif']},
+        {'name': 'sparkman2', 'ext': ['gif']},
     ],
 	'ecran': [
 		{'name': 'auberge'}
