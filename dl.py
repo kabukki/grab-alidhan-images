@@ -90,7 +90,7 @@ all = {
 		{'name': 'viande', 'iter': 7},
 	],
 	'competence': [
-		{'name': 'skill', 'iter': 100}
+		{'name': 'skill', 'iter': 100, 'ext': ['png', 'gif']}
 	],
 	'classe': [
 		{'name': 'manant', 'iter': ['m','f'], 'underscore': True},
@@ -191,18 +191,19 @@ all = {
 }
 
 # Data to fetch
-enabled = ['monstre/insecte']
+enabled = ['competence']
+#enabled = all.keys()
 
 new = 0
 skip = 0
 fail = 0
 
 # Download a given file
-def getFile (dir, name):
+def getFile (dir, name, ext='png'):
 	global new, skip, fail
-
-	fname = name + '.png'
+	fname = name + '.' + ext
 	path = dir + '/' + fname
+	
 	try:
 		if os.path.exists(path):
 			skip += 1
@@ -235,21 +236,23 @@ for key in set(enabled):
 	items = all[key]
 	print '--- ' + key + ' ---'
 	for item in items:
-		if 'iter' in item and item['iter']:
-			values = []
-			# Iterate over a list
-			if isinstance(item['iter'], list):
-				values = item['iter']
-			# Iterate over a range
-			elif isinstance(item['iter'], int):
-				values = range(1, item['iter'] + 1)
-			for n in values:
-				getFile(key, nthItem(
-					item['name'] if 'name' in item else '',
-					n,
-					item['underscore'] if 'underscore' in item else False,
-					item['pad'] if 'pad' in item else False)
-				)
-		else:
-			getFile(key, item['name'])
+		exts = item['ext'] if 'ext' in item and isinstance(item['ext'], list) else ['png']
+		for ext in exts:
+			if 'iter' in item and item['iter']:
+				values = []
+				# Iterate over a list
+				if isinstance(item['iter'], list):
+					values = item['iter']
+				# Iterate over a range
+				elif isinstance(item['iter'], int):
+					values = range(1, item['iter'] + 1)
+				for n in values:
+					getFile(key, nthItem(
+						item['name'] if 'name' in item else '',
+						n,
+						item['underscore'] if 'underscore' in item else False,
+						item['pad'] if 'pad' in item else False
+					), ext)
+			else:
+				getFile(key, item['name'])
 	print '--- ' + str(new) + ' files downloaded, ' + str(skip) + ' skipped, ' + str(fail) + ' failed ---'
