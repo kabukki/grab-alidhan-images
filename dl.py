@@ -149,6 +149,9 @@ all = {
         {'name': 'ogre'},
         {'name': 'metal'},
     ],
+	'ecran': [
+		{'name': 'auberge'}
+	],
     'arme': [
         {'name': 'amulette', 'iter': 13, 'pad': True},
         # la faute est volontaire
@@ -312,7 +315,6 @@ all = {
         {'name': 'sdfgxcxciopklmjkluyaz'},
         {'name': 'scxcvxcbhrturtujkolo'},
         {'name': 'ergsdfsdckxjbcvbor'},
-        {'name': ''},
         {'name': 'xcvxcvcbnvgjghjyikklpo'},
         {'name': 'ergsdfsdckxjbcvbor'},
         {'name': 'ghrimlong10yjzjb'},
