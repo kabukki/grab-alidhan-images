@@ -168,7 +168,6 @@ all = {
 		{'name': 'goblin', 'iter': 1},
 		{'name': 'demon', 'iter': 1},
 		{'name': 'ours', 'iter': 6},
-		{'name': 'ours', 'iter': 8},
 		{'name': 'chauve_souris', 'iter': 1},
 	],
 	'monstre/boss': [
