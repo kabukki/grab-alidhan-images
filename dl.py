@@ -26,6 +26,7 @@ all = {
         {'name': 'coquille', 'iter': 6},
         {'name': 'crane'},
         {'name': 'crane', 'iter': 4},
+        {'name': 'criniere_herisson'},
         {'name': 'cristal', 'iter': 9},
         {'name': 'dent', 'iter': 5},
         {'name': 'defaut', 'ext': ['gif']},
@@ -72,6 +73,7 @@ all = {
         {'name': 'new_garde', 'iter': ['r', 'e', 'c'], 'underscore': True},
     ],
     'pnjDetail': [
+        {'name': 'Bamou'},
         {'name': 'bougie'},
         {'name': 'competence'},
         {'name': 'defaut'},
@@ -344,6 +346,24 @@ all = {
         {'name': 'ghrimlong10yjzjb'},
         {'name': 'ghrimlong11btfeu'},
         {'name': 'cimetiere', 'iter': 2},
+        {'name': 'foret', 'iter': 19},
+        #Sous sol Mérulik
+        {'name': 'boutiquemilieusoussol'},
+        #Mérulik
+        {'name': 'boutiquemilieu'},
+        #Dernière map protégé roya avant Broquir
+        {'name': '2s4f6e1sdf51qaa'},
+        #Plaine verdoyante Rhogan
+        {'name': 'dghrdf3vb2sd26'},
+        #Rhogan
+        {'name': 'fsf51zefsqf1'},
+        #Auberge de Rhogan
+        {'name': 'dfh5rdf5sg4'},
+        #Faille est
+        {'name': 'vbxbcvbncvneiiii'},
+        #Map juste à côté Faille est
+        {'name': 'foret__14'},
+        {'name': 'fsf51zefsqf1'},
         {'name': 'douane'},
         {'name': 'maptuto'},
         {'name': 'sous_sol'},
