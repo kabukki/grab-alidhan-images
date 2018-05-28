@@ -363,7 +363,6 @@ all = {
         {'name': 'vbxbcvbncvneiiii'},
         #Map juste à côté Faille est
         {'name': 'foret__14'},
-        {'name': 'fsf51zefsqf1'},
         {'name': 'douane'},
         {'name': 'maptuto'},
         {'name': 'sous_sol'},
