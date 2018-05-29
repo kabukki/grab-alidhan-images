@@ -8,8 +8,7 @@ from colorama import init, Style, Fore
 DEFAULT_EXTENSION = 'png'
 
 # Data to fetch
-#enabled = ['classe']
-enabled = all.keys()
+enabled = ['classe']
 
 new = 0
 cache = 0
