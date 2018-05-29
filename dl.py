@@ -8,7 +8,7 @@ from colorama import init, Style, Fore
 DEFAULT_EXTENSION = 'png'
 
 # Data to fetch
-enabled = ['classe']
+enabled = []
 
 new = 0
 cache = 0
@@ -99,11 +99,19 @@ init(autoreset=True)
 
 with open('data.json') as file:
 	data = json.load(file)
-	for key in set(enabled):
-		if key not in data: continue
-		print('--- ' + key + ' ---')
-		items = data[key]
-		for item in items:
-			processItem(key, item)
+	if len(enabled) == 0:
+		for key in data:
+			print('---' +key + '---')
+			items = data[key]
+			for item in items:
+				processItem(key,item)
+	else:
+		for key in set(enabled):
+			if key not in data: continue
+			print('--- ' + key + ' ---')
+			items = data[key]
+			for item in items:
+				processItem(key, item)
+
 
 print('--- ' + str(new) + ' files downloaded, ' + str(cache) + ' cached, ' + str(fail) + ' failed ---')
