@@ -1,0 +1,1588 @@
+{
+  "coffre": [
+    {
+      "format": "%d",
+      "iter": [
+        4
+      ]
+    }
+  ],
+  "objet": [
+    {
+      "format": "aile%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "aile_%d",
+      "iter": [
+        [3, 4, 5]
+      ]
+    },
+    {
+      "format": "bec_%d",
+      "iter": [
+        [2]
+      ]
+    },
+    {
+      "format": "blood"
+    },
+    {
+      "format": "bolef5"
+    },
+    {
+      "format": "boue%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "bouteille_vide"
+    },
+    {
+      "format": "cadavre_chenille"
+    },
+    {
+      "format": "carapace%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "chapeau%d",
+      "iter": [
+        5
+      ]
+    },
+    {
+      "format": "chardon"
+    },
+    {
+      "format": "clochette06yx7"
+    },
+    {
+      "format": "coquille%d",
+      "iter": [
+        6
+      ]
+    },
+    {
+      "format": "crane"
+    },
+    {
+      "format": "crane%d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "cristal%d",
+      "iter": [
+        9
+      ]
+    },
+    {
+      "format": "dent%d",
+      "iter": [
+        5
+      ]
+    },
+    {
+      "format": "defaut",
+      "ext": ["gif"]
+    },
+    {
+      "format": "feuille%d",
+      "iter": [
+        3
+      ]
+    },
+    {
+      "format": "fiolevide"
+    },
+    {
+      "format": "fourrure"
+    },
+    {
+      "format": "fourrure%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "fragment"
+    },
+    {
+      "format": "griffe"
+    },
+    {
+      "format": "griffe%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "grimoire"
+    },
+    {
+      "format": "jevx7i5doqbh"
+    },
+    {
+      "format": "lame_depeceur"
+    },
+    {
+      "format": "manche_mineur"
+    },
+    {
+      "format": "minerai%d",
+      "iter": [
+        11
+      ]
+    },
+    {
+      "format": "minerai_cristal_rouge_%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "p9jp2wnq9bsa"
+    },
+    {
+      "format": "patte"
+    },
+    {
+      "format": "peau%d",
+      "iter": [
+        6
+      ]
+    },
+    {
+      "format": "piece%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "pierre%d",
+      "iter": [
+        12
+      ]
+    },
+    {
+      "format": "pierre_golem"
+    },
+    {
+      "format": "plume_coq"
+    },
+    {
+      "format": "queue%d",
+      "iter": [
+        6
+      ]
+    },
+    {
+      "format": "zj20ek71lkzk"
+    }
+  ],
+  "objetquete": [
+    {
+      "format": "bousolle"
+    },
+    {
+      "format": "branche%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "clef_%d",
+      "iter": [
+        [2, 3]
+      ]
+    },
+    {
+      "format": "gateau_noel_%02d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "parchemin%d",
+      "iter": [
+        5
+      ]
+    }
+  ],
+  "pnj": [
+    {
+      "format": "pnj%d",
+      "iter": [
+        200
+      ]
+    },
+    {
+      "format": "swirl%d",
+      "iter": [
+        20
+      ]
+    },
+    {
+      "format": "gardeTP%d",
+      "iter": [
+        20
+      ]
+    },
+    {
+      "format": "paladin_varox"
+    },
+    {
+      "format": "jeune_guerrier"
+    },
+    {
+      "format": "bougie"
+    },
+    {
+      "format": "lynus"
+    },
+    {
+      "format": "moine_copiste"
+    },
+    {
+      "format": "tynus"
+    },
+    {
+      "format": "new_garde_%c",
+      "iter": [
+        ["r", "e", "c"]
+      ]
+    }
+  ],
+  "pnjDetail": [
+    {
+      "format": "bougie"
+    },
+    {
+      "format": "competence"
+    },
+    {
+      "format": "defaut"
+    },
+    {
+      "format": "Eidola"
+    },
+    {
+      "format": "fille_couteau"
+    },
+    {
+      "format": "garde3_detail"
+    },
+    {
+      "format": "garde4_detail"
+    },
+    {
+      "format": "garde5_detail"
+    },
+    {
+      "format": "jeune_guerrier"
+    },
+    {
+      "format": "lynus"
+    },
+    {
+      "format": "moine_copiste"
+    },
+    {
+      "format": "paladin_varox"
+    },
+    {
+      "format": "pr_lactos"
+    },
+    {
+      "format": "soldat_arene"
+    },
+    {
+      "format": "Tynus"
+    },
+    {
+      "format": "pnj20detail"
+    },
+    {
+      "format": "pnj25_detail"
+    },
+    {
+      "format": "pnj28detail"
+    },
+    {
+      "format": "pnj29detail"
+    },
+    {
+      "format": "pnj75_detail"
+    },
+    {
+      "format": "pnj80_detail"
+    },
+    {
+      "format": "pnj86_detail"
+    }
+  ],
+  "potion": [
+    {
+      "format": "bonbec%d",
+      "iter": [
+        13
+      ]
+    },
+    {
+      "format": "buffpot%d",
+      "iter": [
+        8
+      ]
+    },
+    {
+      "format": "carotte"
+    },
+    {
+      "format": "cheese"
+    },
+    {
+      "format": "feuille%d",
+      "iter": [
+        11
+      ]
+    },
+    {
+      "format": "flacon"
+    },
+    {
+      "format": "gateau"
+    },
+    {
+      "format": "millefeuilleschamsrz6"
+    },
+    {
+      "format": "poisson%d",
+      "iter": [
+        5
+      ]
+    },
+    {
+      "format": "pomme%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "potion%d",
+      "iter": [
+        50
+      ]
+    },
+    {
+      "format": "potion_agile_majeure"
+    },
+    {
+      "format": "potion_constit_majeure"
+    },
+    {
+      "format": "potion_dext_majeure"
+    },
+    {
+      "format": "potion_force_majeure"
+    },
+    {
+      "format": "potiron"
+    },
+    {
+      "format": "tete_chenille",
+      "ext": [
+        "jpg"
+      ]
+    },
+    {
+      "format": "viande%d",
+      "iter": [
+        7
+      ]
+    }
+  ],
+  "competence": [
+    {
+      "format": "BSA"
+    },
+    {
+      "format": "chasseur_de_prime"
+    },
+    {
+      "format": "coup_precis",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "cueillette"
+    },
+    {
+      "format": "depecage"
+    },
+    {
+      "format": "esprit_voyageur",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "esprit_voyageur_majeur",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "justicier",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "lien_tellurique"
+    },
+    {
+      "format": "minage"
+    },
+    {
+      "format": "peche"
+    },
+    {
+      "format": "piege_meurtrier"
+    },
+    {
+      "format": "piege_mortel"
+    },
+    {
+      "format": "pousser"
+    },
+    {
+      "format": "regeneration_energie",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "regeneration_vie",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "skill%d",
+      "iter": [
+        100
+      ],
+      "ext": [
+        "png",
+        "gif"
+      ]
+    },
+    {
+      "format": "suractivite_mineure",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "tempete"
+    },
+    {
+      "format": "tirer"
+    }
+  ],
+  "classe": [
+    {
+      "format": "manant_%c",
+      "iter": [
+        ["m", "f"]
+      ]
+    },
+    {
+      "format": "magicien_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "moine_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "guerrier_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "archer_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "franctireur_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "druide_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "barbare_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "paladin_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "pretre_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "geomancien_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "aquamancien_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "heros_%s",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"]
+      ]
+    },
+    {
+      "format": "heros_%s_%c",
+      "iter": [
+        ["m", "mr", "me", "mc", "f", "fr", "fe", "fc"],
+        ["v", "f", "m", "c", "e"]
+      ]
+    },
+    {
+      "format": "bagnard%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "magicien_f",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "balrog"
+    },
+    {
+      "format": "felin"
+    },
+    {
+      "format": "grenouille"
+    },
+    {
+      "format": "ogre"
+    },
+    {
+      "format": "metal"
+    },
+    {
+      "format": "murdoc",
+      "ext": [
+        "gif"
+      ]
+    },
+    {
+      "format": "sparkman2",
+      "ext": [
+        "gif"
+      ]
+    }
+  ],
+  "ecran": [
+    {
+      "format": "auberge"
+    }
+  ],
+  "arme": [
+    {
+      "format": "amulette%02d",
+      "iter": [
+        13
+      ]
+    },
+    {
+      "format": "amuremort"
+    },
+    {
+      "format": "anneaufer"
+    },
+    {
+      "format": "anneauHallo"
+    },
+    {
+      "format": "arbalete%d",
+      "iter": [
+        7
+      ]
+    },
+    {
+      "format": "arc%d",
+      "iter": [
+        16
+      ]
+    },
+    {
+      "format": "arc9_s"
+    },
+    {
+      "format": "armemort"
+    },
+    {
+      "format": "armure%d",
+      "iter": [
+        16
+      ]
+    },
+    {
+      "format": "badgeduconscritrvk5"
+    },
+    {
+      "format": "bague%02d",
+      "iter": [
+        9
+      ]
+    },
+    {
+      "format": "bague%d",
+      "iter": [
+        17
+      ]
+    },
+    {
+      "format": "bague_bete_puissante"
+    },
+    {
+      "format": "bague_bete_sup"
+    },
+    {
+      "format": "bague_immortel"
+    },
+    {
+      "format": "baguerouge01lt5"
+    },
+    {
+      "format": "baguette%d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "bague%02d",
+      "iter": [
+        7
+      ]
+    },
+    {
+      "format": "bague%d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "bas%d",
+      "iter": [
+        45
+      ]
+    },
+    {
+      "format": "bas%d_l",
+      "iter": [
+        [2, 8]
+      ]
+    },
+    {
+      "format": "bas_tempete_%s",
+      "iter": [
+        ["scinti", "sup"]
+      ]
+    },
+    {
+      "format": "baton%d",
+      "iter": [
+        30
+      ]
+    },
+    {
+      "format": "baton_bete_puissant"
+    },
+    {
+      "format": "baton_volcanos"
+    },
+    {
+      "format": "baton_volcanos_scinti"
+    },
+    {
+      "format": "beret"
+    },
+    {
+      "format": "bonnet_noel%s",
+      "iter": [
+        ["", "2", "_new"]
+      ]
+    },
+    {
+      "format": "botte_justice_leg"
+    },
+    {
+      "format": "botte_justice_sup"
+    },
+    {
+      "format": "botte_noel%s",
+      "iter": [
+        ["", "2", "_new"]
+      ]
+    },
+    {
+      "format": "bottes%d",
+      "iter": [
+        26
+      ]
+    },
+    {
+      "format": "bottes%02d",
+      "iter": [
+        8
+      ]
+    },
+    {
+      "format": "bottes07_l"
+    },
+    {
+      "format": "bottes08_l"
+    },
+    {
+      "format": "botte_sauvage_puiss"
+    },
+    {
+      "format": "boucle%d",
+      "iter": [
+        10
+      ]
+    },
+    {
+      "format": "bouclier%d",
+      "iter": [
+        18
+      ]
+    },
+    {
+      "format": "bottes11_l"
+    },
+    {
+      "format": "bottes14_l"
+    },
+    {
+      "format": "cacheoreilles"
+    },
+    {
+      "format": "canne_a_peche"
+    },
+    {
+      "format": "cape%d",
+      "iter": [
+        8
+      ]
+    },
+    {
+      "format": "capenoel"
+    },
+    {
+      "format": "cape_noel%s",
+      "iter": [
+        ["2", "_new"]
+      ]
+    },
+    {
+      "format": "capuche_chasseur_puissant"
+    },
+    {
+      "format": "capuche_chasseur_sup"
+    },
+    {
+      "format": "capucheti9"
+    },
+    {
+      "format": "cas_consc"
+    },
+    {
+      "format": "cape%d",
+      "iter": [
+        28
+      ]
+    },
+    {
+      "format": "casque_de_justice_puissant"
+    },
+    {
+      "format": "champi"
+    },
+    {
+      "format": "chapeau%d",
+      "iter": [
+        28
+      ]
+    },
+    {
+      "format": "chapka%d",
+      "iter": [
+        10
+      ]
+    },
+    {
+      "format": "chaussons_volcano_scintillant"
+    },
+    {
+      "format": "chaussons_volcano_sup"
+    },
+    {
+      "format": "chaussure_chasseur_sup"
+    },
+    {
+      "format": "chaussures%d",
+      "iter": [
+        12
+      ]
+    },
+    {
+      "format": "bottes7_l"
+    },
+    {
+      "format": "chemise%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "citrouille"
+    },
+    {
+      "format": "cle%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "collier01_%s",
+      "iter": [
+        ["a", "g", "m", "p"]
+      ]
+    },
+    {
+      "format": "collier%02d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "collier_infini_scintillant"
+    },
+    {
+      "format": "collier_infini_sup"
+    },
+    {
+      "format": "colliermort"
+    },
+    {
+      "format": "collier_zephyr"
+    },
+    {
+      "format": "cor"
+    },
+    {
+      "format": "couronne%d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "coutea%d",
+      "iter": [
+        10
+      ]
+    },
+    {
+      "format": "couteau%02d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "crane%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "croix"
+    },
+    {
+      "format": "crosse%d",
+      "iter": [
+        5
+      ]
+    },
+    {
+      "format": "dague%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "defaut_torse"
+    },
+    {
+      "format": "echarpeduperenoeleg5"
+    },
+    {
+      "format": "epee%d",
+      "iter": [
+        22
+      ]
+    },
+    {
+      "format": "epee_justice_sup"
+    },
+    {
+      "format": "epee_justice_scin"
+    },
+    {
+      "format": "equip%d",
+      "iter": [
+        61
+      ]
+    },
+    {
+      "format": "escarpins01id3"
+    },
+    {
+      "format": "fronde%02d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "gant%02d",
+      "iter": [
+        9
+      ]
+    },
+    {
+      "format": "gant%d",
+      "iter": [
+        10
+      ]
+    },
+    {
+      "format": "cape_noel%s",
+      "iter": [
+        ["", "2"]
+      ]
+    },
+    {
+      "format": "gants01gf6"
+    },
+    {
+      "format": "griffe%d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "griffe"
+    },
+    {
+      "format": "grimoire%d",
+      "iter": [
+        6
+      ]
+    },
+    {
+      "format": "grimoiremort"
+    },
+    {
+      "format": "hache%d",
+      "iter": [
+        11
+      ]
+    },
+    {
+      "format": "hache_sauvage_pui"
+    },
+    {
+      "format": "hache_sauvage_sup"
+    },
+    {
+      "format": "hachette"
+    },
+    {
+      "format": "haut%d",
+      "iter": [
+        30
+      ]
+    },
+    {
+      "format": "haut8_l"
+    },
+    {
+      "format": "haut14_l"
+    },
+    {
+      "format": "madail%d",
+      "iter": [
+        10
+      ]
+    },
+    {
+      "format": "marteau%d",
+      "iter":  [
+        10
+      ]
+    },
+    {
+      "format": "masque%02d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "masque_nature_scintillant"
+    },
+    {
+      "format": "masque_nature_sup"
+    },
+    {
+      "format": "masse%d",
+      "iter": [
+        8
+      ]
+    },
+    {
+      "format": "mitain%d",
+      "iter": [
+        10
+      ]
+    },
+    {
+      "format": "ombrelle01tq1"
+    },
+    {
+      "format": "paire_pantoufle_puissante"
+    },
+    {
+      "format": "paire_pantoufle_sup"
+    },
+    {
+      "format": "pdtfnv1c2vk5"
+    },
+    {
+      "format": "pelle%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "pelle%02d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "pendentif"
+    },
+    {
+      "format": "pendentif%02d",
+      "iter": [
+        11
+      ]
+    },
+    {
+      "format": "pied%02d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "pierre%d",
+      "iter": [
+        8
+      ]
+    },
+    {
+      "format": "pioche"
+    },
+    {
+      "format": "pioche%02d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "robebal2jd4"
+    },
+    {
+      "format": "sabre%02d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "sandales%d",
+      "iter": [
+        5
+      ]
+    },
+    {
+      "format": "serpe"
+    },
+    {
+      "format": "teteabeillerouge"
+    },
+    {
+      "format": "tetechauvesouris"
+    },
+    {
+      "format": "tetereduite"
+    },
+    {
+      "format": "tetine"
+    },
+    {
+      "format": "tiare01qr5"
+    },
+    {
+      "format": "toge_pelerin_puissant"
+    },
+    {
+      "format": "toge_pelerin_sup"
+    },
+    {
+      "format": "tunique_aventurier"
+    },
+    {
+      "format": "20039517vg7",
+      "ext": [
+        "jpg"
+      ]
+    },
+    {
+      "format": "arf_consc",
+      "ext": [
+        "jpg"
+      ]
+    },
+    {
+      "format": "arm_consc",
+      "ext": [
+        "jpg"
+      ]
+    },
+    {
+      "format": "cons_pant",
+      "ext": [
+        "jpg"
+      ]
+    },
+    {
+      "format": "consc_bouc",
+      "ext": [
+        "jpg"
+      ]
+    }
+  ],
+  "map": [
+    {
+      "format": "1ioedfza"
+    },
+    {
+      "format": "2dffqsjy"
+    },
+    {
+      "format": "3xrpttdsa"
+    },
+    {
+      "format": "4sdzezoid"
+    },
+    {
+      "format": "cne8585sd"
+    },
+    {
+      "format": "ezrgpok52k2"
+    },
+    {
+      "format": "6re4hr54z"
+    },
+    {
+      "format": "dfsdf342354"
+    },
+    {
+      "format": "9llleze5"
+    },
+    {
+      "format": "5lllezesd4"
+    },
+    {
+      "format": "13zesdqs3"
+    },
+    {
+      "format": "xcvxc4422365"
+    },
+    {
+      "format": "vxcvxcvx14sfsf"
+    },
+    {
+      "format": "fzef8ezr6sdf3sdf1"
+    },
+    {
+      "format": "1alllezesdqs1"
+    },
+    {
+      "format": "1alllezesdqs2"
+    },
+    {
+      "format": "cvfghnjkloi865"
+    },
+    {
+      "format": "sdfgxcxciopklmjkluyaz2"
+    },
+    {
+      "format": "sdfgxcxciopklmjkluyaz"
+    },
+    {
+      "format": "scxcvxcbhrturtujkolo"
+    },
+    {
+      "format": "ergsdfsdckxjbcvbor"
+    },
+    {
+      "format": "xcvxcvcbnvgjghjyikklpo"
+    },
+    {
+      "format": "ergsdfsdckxjbcvbor"
+    },
+    {
+      "format": "ghrimlong10yjzjb"
+    },
+    {
+      "format": "ghrimlong11btfeu"
+    },
+    {
+      "name": "Cimetiere",
+      "format": "cimetiere%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "douane"
+    },
+    {
+      "format": "maptuto"
+    },
+    {
+      "format": "sous_sol"
+    },
+    {
+      "format": "villetuto"
+    }
+  ],
+  "monstre/insecte": [
+    {
+      "format": "lezard"
+    },
+    {
+      "format": "gecko%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "escargot%d",
+      "iter": [
+        3
+      ]
+    },
+    {
+      "format": "insecte%02d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "fourmi%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "chenille%d",
+      "iter": [
+        3
+      ]
+    },
+    {
+      "format": "mouche%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "lezard%d",
+      "iter": [
+        5
+      ]
+    },
+    {
+      "format": "scarabe%d",
+      "iter": [
+        9
+      ]
+    },
+    {
+      "format": "cloporte%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "grenouille%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "araignee%d",
+      "iter": [
+        5
+      ]
+    },
+    {
+      "format": "abeille%d",
+      "iter": [
+        3
+      ]
+    },
+    {
+      "format": "abeille%02d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "libellule%d",
+      "iter": [
+        4
+      ]
+    }
+  ],
+  "monstre/prison": [
+    {
+      "format": "poisson"
+    },
+    {
+      "format": "prisonnier"
+    }
+  ],
+  "monstre/bizarre": [
+    {
+      "format": "tortue"
+    },
+    {
+      "format": "galahaad"
+    },
+    {
+      "format": "epouvantail"
+    },
+    {
+      "format": "MudGolem"
+    },
+    {
+      "format": "fantome%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "elemental%d",
+      "iter": [
+        13
+      ]
+    },
+    {
+      "format": "ange%d",
+      "iter": [
+        2
+      ]
+    }
+  ],
+  "monstre/bestiaux": [
+    {
+      "format": "chat3nd2"
+    },
+    {
+      "format": "chat1do2"
+    },
+    {
+      "format": "renard"
+    },
+    {
+      "format": "hog"
+    },
+    {
+      "format": "wolf"
+    },
+    {
+      "format": "lizardman"
+    },
+    {
+      "format": "serpentmer"
+    },
+    {
+      "format": "coq%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "serpent%d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "poisson%d",
+      "iter": [
+        3
+      ]
+    },
+    {
+      "format": "goblin%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "demon%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "ours%d",
+      "iter": [
+        6
+      ]
+    },
+    {
+      "format": "chauve_souris%d",
+      "iter": [
+        1
+      ]
+    },
+    {
+      "format": "rat"
+    },
+    {
+      "format": "loup%d",
+      "iter": [
+        8
+      ]
+    }
+  ],
+  "monstre/boss": [
+    {
+      "format": "poisson"
+    },
+    {
+      "format": "herisson-lion"
+    },
+    {
+      "format": "bouquetin"
+    },
+    {
+      "format": "dragon"
+    },
+    {
+      "format": "ombre_ailee"
+    },
+    {
+      "format": "Gomina"
+    },
+    {
+      "format": "fv1006"
+    },
+    {
+      "format": "aigle"
+    },
+    {
+      "format": "yeti"
+    }
+  ],
+  "monstre/flore": [
+    {
+      "format": "tournesol%d",
+      "iter": [
+        2
+      ]
+    },
+    {
+      "format": "champignon%d",
+      "iter": [
+        4
+      ]
+    },
+    {
+      "format": "champignon%02d",
+      "iter": [
+        3
+      ]
+    },
+    {
+      "format": "plantecarnivore%d",
+      "iter": [
+        3
+      ]
+    },
+    {
+      "format": "arbre%d",
+      "iter": [
+        6
+      ]
+    }
+  ]
+}
