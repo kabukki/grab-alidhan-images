@@ -208,6 +208,7 @@ all = {
         {'name': 'baton_bete_puissant'},
         {'name': 'baton_volcanos'},
         {'name': 'baton_volcanos_scinti'},
+        {'name': 'batonmagique1cl0'},
         {'name': 'beret'},
         {'name': 'bonnet_noel', 'iter': ['', '2', '_new']},
         {'name': 'botte_justice_leg'},
