@@ -6,7 +6,7 @@ import json
 from colorama import init, Style, Fore
 
 DEFAULT_EXTENSION = 'png'
-VERBOSE = False
+VERBOSE = True
 
 # Data to fetch
 enabled = ['competence']
@@ -15,10 +15,23 @@ new = 0
 cache = 0
 fail = 0
 
+# Returns array of arrays representing each possible case when combining all the arrays in iter
+def allPossibleCases (iter):
+	if len(iter) == 1: return iter[0]
+	else:
+		result = []
+		allCasesOfRest = allPossibleCases(iter[1:]) # recur with rest of the iter
+		for i in iter[0]:
+			for j in allCasesOfRest:
+				if isinstance(j, list):
+					result.append([i] + j)
+				else:
+					result.append([i, j])
+		return result
+
 # Download a given file
-def getFile (dir, name, ext=DEFAULT_EXTENSION):
+def getFile (dir, fname):
 	global new, cache, fail
-	fname = name + '.' + ext
 	path = dir + '/' + fname
 
 	try:
@@ -38,28 +51,15 @@ def getFile (dir, name, ext=DEFAULT_EXTENSION):
 	except IOError:
 		return 1
 
-# Returns array of arrays representing each possible case when combining all the arrays in iter
-def allPossibleCases (iter):
-	if len(iter) == 1: return iter[0]
-	else:
-		result = []
-		allCasesOfRest = allPossibleCases(iter[1:]) # recur with rest of the iter
-		for i in iter[0]:
-			for j in allCasesOfRest:
-				if isinstance(j, list):
-					result.append([i] + j)
-				else:
-					result.append([i, j])
-		return result
-
 # Try to get a file, print the result
-def tryFile (dir, name):
+def tryFile (dir, name, ext):
 	# Return value of getFile (0=success, 1=failure, 2=cache)
 	ret = {0: Fore.GREEN, 1: Fore.RED, 2: Fore.MAGENTA}
-	disp = name + ' ' if VERBOSE else '+'
+	fname = name + '.' + ext
+	disp = fname + ' ' if VERBOSE else '+'
 
 	try:
-		x = getFile(dir, name)
+		x = getFile(dir, fname)
 		print(f'{ret[x]}{disp}', end='')
 	except TypeError as e:
 		print(f'{Fore.RED}{disp}', end='')
@@ -72,29 +72,32 @@ def processItem (dir, item):
 		return
 	
 	disp = item['name'] if 'name' in item else '<' + item['format'] + '>'
+	exts = item['ext'] if 'ext' in item and isinstance(item['ext'], list) else [DEFAULT_EXTENSION]
+	
 	print(f"{disp} : ", end='', flush=True)
 	
-	# Multiple files
-	if 'iter' in item and item['iter']:	
-		# Create arrays to iterate over
-		values = []
-		for iter in item['iter']:
-			# Iterate over a list
-			if isinstance(iter, list):
-				values.append(iter)
-			# Iterate over a range
-			elif isinstance(iter, int):
-				values.append(list(range(1, iter + 1)))
-		
-		# Get every possible file for this item
-		for args in allPossibleCases(values):
-			if isinstance(args, list):
-				args = tuple(args)
-			tryFile(dir, item['format'] % args)
-	# Single file
-	else:
-		tryFile(dir, item['format'])
-	print() # end
+	for ext in exts:
+		# Multiple files
+		if 'iter' in item and item['iter']:	
+			# Create arrays to iterate over
+			values = []
+			for iter in item['iter']:
+				# Iterate over a list
+				if isinstance(iter, list):
+					values.append(iter)
+				# Iterate over a range
+				elif isinstance(iter, int):
+					values.append(list(range(1, iter + 1)))
+			
+			# Get every possible file for this item
+			for args in allPossibleCases(values):
+				if isinstance(args, list):
+					args = tuple(args)
+				tryFile(dir, item['format'] % args, ext)
+		# Single file
+		else:
+			tryFile(dir, item['format'], ext)
+		print() # end
 
 # Main
 init(autoreset=True)
