@@ -6,9 +6,10 @@ import json
 from colorama import init, Style, Fore
 
 DEFAULT_EXTENSION = 'png'
+VERBOSE = False
 
 # Data to fetch
-enabled = []
+enabled = ['competence']
 
 new = 0
 cache = 0
@@ -55,12 +56,13 @@ def allPossibleCases (iter):
 def tryFile (dir, name):
 	# Return value of getFile (0=success, 1=failure, 2=cache)
 	ret = {0: Fore.GREEN, 1: Fore.RED, 2: Fore.MAGENTA}
+	disp = name + ' ' if VERBOSE else '+'
 
 	try:
 		x = getFile(dir, name)
-		print(f'{ret[x]}+', end='')
+		print(f'{ret[x]}{disp}', end='')
 	except TypeError as e:
-		print(f'{Fore.RED}+', end='')
+		print(f'{Fore.RED}{disp}', end='')
 		pass
 
 # Handle an item and print it
