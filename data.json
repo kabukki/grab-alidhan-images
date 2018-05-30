@@ -216,13 +216,36 @@
       ]
     }
   ],
+  "pancarte" : [
+    {
+      "format": "pillier_%s",
+      "iter": [ ["bleu", "rouge"] ]
+    },
+    {
+      "format": "charette%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "pancarte%d",
+      "iter": [ 3 ],
+      "ext": [ "png", "gif" ]
+    },
+    {
+      "format": "rocher%d",
+      "iter": [ 1 ]
+    }
+  ],
   "pnj": [
     {
-      "format": "pnj%d",
-      "iter": [
-        200
-      ]
+      "format": "ambulant%d",
+      "iter": [ 2 ]
     },
+      {
+        "format": "pnj%d",
+        "iter": [
+          200
+        ]
+      },
     {
       "format": "swirl%d",
       "iter": [
@@ -230,10 +253,12 @@
       ]
     },
     {
+      "format": "garde%d",
+      "iter": [ 5 ]
+    },
+    {
       "format": "gardeTP%d",
-      "iter": [
-        20
-      ]
+      "iter": [ 3 ]
     },
     {
       "format": "paladin_varox"
@@ -242,10 +267,19 @@
       "format": "jeune_guerrier"
     },
     {
+      "format": "Birduck"
+    },
+    {
       "format": "bougie"
     },
     {
+      "format": "Lhysern_Mc_Callum_Jr"
+    },
+    {
       "format": "lynus"
+    },
+    {
+      "format": "Manashama"
     },
     {
       "format": "moine_copiste"
@@ -265,7 +299,16 @@
   ],
   "pnjDetail": [
     {
+      "format": "ambulant2_detail"
+    },
+    {
       "format": "bougie"
+    },
+    {
+      "format": "Bamou"
+    },
+    {
+      "format": "Birduck"
     },
     {
       "format": "competence"
@@ -280,19 +323,24 @@
       "format": "fille_couteau"
     },
     {
-      "format": "garde3_detail"
+      "format": "garde%d_detail",
+      "iter": [ 5 ]
     },
     {
-      "format": "garde4_detail"
-    },
-    {
-      "format": "garde5_detail"
+      "format": "garde%ddetail",
+      "iter": [ 2 ]
     },
     {
       "format": "jeune_guerrier"
     },
     {
       "format": "lynus"
+    },
+    {
+      "format": "Lhysern_Mc_Callum_Jr"
+    },
+    {
+      "format": "Manashama"
     },
     {
       "format": "moine_copiste"
@@ -310,25 +358,12 @@
       "format": "Tynus"
     },
     {
-      "format": "pnj20detail"
+      "format": "pnj%ddetail",
+      "iter": [ 200 ]
     },
     {
-      "format": "pnj25_detail"
-    },
-    {
-      "format": "pnj28detail"
-    },
-    {
-      "format": "pnj29detail"
-    },
-    {
-      "format": "pnj75_detail"
-    },
-    {
-      "format": "pnj80_detail"
-    },
-    {
-      "format": "pnj86_detail"
+      "format": "pnj%d_detail",
+      "iter": [ 200 ]
     }
   ],
   "potion": [
@@ -481,7 +516,7 @@
     {
       "format": "skill%d",
       "iter": [
-        100
+        124
       ],
       "ext": [
         "png",
@@ -1299,7 +1334,10 @@
       "format": "xcvxcvcbnvgjghjyikklpo"
     },
     {
-      "format": "ergsdfsdckxjbcvbor"
+      "format": "vbxbcvbncvneiiii"
+    },
+    {
+      "format": "wwwxxdzssxnklmpouyg"
     },
     {
       "format": "ghrimlong10yjzjb"
