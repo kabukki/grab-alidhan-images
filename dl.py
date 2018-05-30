@@ -1,15 +1,13 @@
-from urllib.request import urlopen
-from urllib.error import HTTPError
 import os
 import json
+import argparse
 
+from urllib.request import urlopen
+from urllib.error import HTTPError
 from colorama import init, Style, Fore
 
 DEFAULT_EXTENSION = 'png'
 VERBOSE = True
-
-# Data to fetch
-enabled = ['competence']
 
 new = 0
 cache = 0
@@ -99,24 +97,49 @@ def processItem (dir, item):
 			tryFile(dir, item['format'], ext)
 		print() # end
 
-# Main
-init(autoreset=True)
-
-with open('data.json') as file:
-	data = json.load(file)
-	if len(enabled) == 0:
-		for key in data:
-			print('---' +key + '---')
-			items = data[key]
-			for item in items:
-				processItem(key,item)
-	else:
-		for key in set(enabled):
-			if key not in data: continue
+# Download files for given categories
+def download (categories):
+	with open('data.json') as file:
+		data = json.load(file)
+		if len(categories) == 0:
+			categories = data.keys()
+		for key in set(categories):
+			if key not in data:
+				print(f'{Fore.YELLOW}Skipping category {key} because it does not exist')
+				continue
 			print('--- ' + key + ' ---')
 			items = data[key]
 			for item in items:
 				processItem(key, item)
+	print('--- ' + str(new) + ' files downloaded, ' + str(cache) + ' cached, ' + str(fail) + ' failed ---')
 
+# List available categories
+def listCategories ():
+	with open('data.json') as file:
+		data = json.load(file)
+		for n, key in enumerate(data):
+			print(f'{str(n)} - {key}: {len(data[key])} items')
 
-print('--- ' + str(new) + ' files downloaded, ' + str(cache) + ' cached, ' + str(fail) + ' failed ---')
+########
+# Main #
+########
+
+# Set up argparse
+parser = argparse.ArgumentParser(description='Grab images from Alidhan')
+parser.add_argument('categories', metavar='category', type=str, nargs='*',
+					help='category to download')
+parser.add_argument('-d', '--download', action='count',
+					help='download files')
+parser.add_argument('-l', '--list', action='count',
+					help='list categories')
+parser.add_argument('-v', '--verbose', action='count',
+					help='display filenames when downloading')
+args = parser.parse_args()
+
+# Init colorama
+init(autoreset=True)
+if args.verbose: VERBOSE = True
+if args.list:
+	listCategories()
+else:
+	download(args.categories)
