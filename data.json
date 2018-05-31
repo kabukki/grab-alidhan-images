@@ -169,6 +169,10 @@
       "format": "plume_coq"
     },
     {
+      "format": "poudre%d",
+      "iter": [ 10 ]
+    },
+    {
       "format": "queue%d",
       "iter": [
         6
@@ -226,6 +230,10 @@
       "iter": [ 2 ]
     },
     {
+      "format": "moine%d",
+      "iter": [ 4 ]f
+    },
+    {
       "format": "pancarte%d",
       "iter": [ 3 ],
       "ext": [ "png", "gif" ]
@@ -271,6 +279,9 @@
     },
     {
       "format": "bougie"
+    },
+    {
+      "format": "herutis"
     },
     {
       "format": "Lhysern_Mc_Callum_Jr"
@@ -329,6 +340,9 @@
     {
       "format": "garde%ddetail",
       "iter": [ 2 ]
+    },
+    {
+      "format": "herutis"
     },
     {
       "format": "jeune_guerrier"
@@ -665,6 +679,12 @@
   "ecran": [
     {
       "format": "auberge"
+    }
+  ],
+  "primes": [
+    {
+      "format": "parchemin%d",
+      "iter": [ 5 ]
     }
   ],
   "arme": [
@@ -1274,6 +1294,9 @@
       "format": "2dffqsjy"
     },
     {
+      "format": "2s4f6e1sdf51qaa"
+    },
+    {
       "format": "3xrpttdsa"
     },
     {
@@ -1334,16 +1357,48 @@
       "format": "xcvxcvcbnvgjghjyikklpo"
     },
     {
+      "format": "xc9zfl23w515s9f"
+    },
+    {
+      "format": "zhhd7n43jqje8ce"
+    },
+    {
       "format": "vbxbcvbncvneiiii"
     },
     {
       "format": "wwwxxdzssxnklmpouyg"
     },
     {
+      "format": "oijeeck"
+    },
+    {
       "format": "ghrimlong10yjzjb"
     },
     {
       "format": "ghrimlong11btfeu"
+    },
+    {
+      "format": "couloirsombre%d",
+      "iter": [ 3 ]
+    },
+    {
+      "format": "villeN%02d",
+      "iter": [ 5 ]
+    },
+    {
+      "format": "villeM%02d",
+      "iter": [ 5 ]
+    },
+    {
+      "format": "villeB%02d",
+      "iter": [ 5 ]
+    },
+    {
+      "format": "foret%d",
+      "iter": [ 19 ]
+    },
+    {
+      "format": "foret__14",
     },
     {
       "name": "Cimetiere",
