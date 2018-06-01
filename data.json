@@ -394,6 +394,10 @@
   ],
   "potion": [
     {
+      "format": "boisson-gluante%d",
+      "iter": [ 3 ]
+    },
+    {
       "format": "bonbec%d",
       "iter": [
         13
@@ -1284,6 +1288,28 @@
     {
       "format": "1ioedfza"
     },
+	{
+	  "name": "La salle du passé",
+	  "format": "q7sktyzmq1mexqqy"
+	},
+	{
+	  "format": "nedmor_chateau"
+	},
+	{
+	  "format": "interieur"
+	},
+	{
+	  "name": "Salle du trone",
+	  "format": "rcflo9j7pd"
+	},
+	{
+	  "name": "Chateau de Nedmor",
+	  "format": "yj1qp2tousah6pow"
+	},
+	{
+	  "name": "Salle des partisans du roy",
+	  "format": "x731ut9mgy"
+	},
     {
       "format": "2dffqsjy"
     },
