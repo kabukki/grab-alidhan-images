@@ -45,6 +45,9 @@
       "format": "cadavre_chenille"
     },
     {
+      "format": "carapace"
+    }
+    {
       "format": "carapace%d",
       "iter": [
         2
@@ -74,6 +77,9 @@
         4
       ]
     },
+    {
+      "format": "criniere_herisson"
+    }
     {
       "format": "cristal%d",
       "iter": [
@@ -231,7 +237,7 @@
     },
     {
       "format": "moine%d",
-      "iter": [ 4 ]f
+      "iter": [ 4 ]
     },
     {
       "format": "pancarte%d",
@@ -341,7 +347,7 @@
       "iter": [ 5 ]
     },
     {
-      "format": "garde%ddetail",
+      "format": "garde%d",
       "iter": [ 2 ]
     },
     {
@@ -661,7 +667,8 @@
       "format": "balrog"
     },
     {
-      "format": "felin"
+      "format": "felin",
+      "ext": [ "gif" ]
     },
     {
       "format": "grenouille"
@@ -737,7 +744,8 @@
       ]
     },
     {
-      "format": "badgeduconscritrvk5"
+      "format": "badgeduconscrit%s",
+      "iter": [ [ "rvk5", "cph4" ] ]
     },
     {
       "format": "bague%02d",
@@ -752,10 +760,8 @@
       ]
     },
     {
-      "format": "bague_bete_puissante"
-    },
-    {
-      "format": "bague_bete_sup"
+      "format": "bague_bete_%s",
+      "iter" : [ [ "puissante", "sup" ] ]
     },
     {
       "format": "bague_immortel"
@@ -795,9 +801,7 @@
     },
     {
       "format": "bas_tempete_%s",
-      "iter": [
-        ["scinti", "sup"]
-      ]
+      "iter": [ ["scinti", "sup"] ]
     },
     {
       "format": "baton%d",
@@ -809,10 +813,8 @@
       "format": "baton_bete_puissant"
     },
     {
-      "format": "baton_volcanos"
-    },
-    {
-      "format": "baton_volcanos_scinti"
+      "format": "baton_volcanos%s",
+      "iter": [ [ "" , "_scinti"] ]
     },
     {
       "format": "beret"
@@ -824,10 +826,8 @@
       ]
     },
     {
-      "format": "botte_justice_leg"
-    },
-    {
-      "format": "botte_justice_sup"
+      "format": "botte_justice_%s",
+      "iter": [ ["leg", "sup"] ]
     },
     {
       "format": "botte_noel%s",
@@ -899,10 +899,8 @@
       ]
     },
     {
-      "format": "capuche_chasseur_puissant"
-    },
-    {
-      "format": "capuche_chasseur_sup"
+      "format": "capuche_chasseur_%s",
+      "iter": [["puissant","sup"]]
     },
     {
       "format": "capucheti9"
@@ -935,13 +933,12 @@
       ]
     },
     {
-      "format": "chaussons_volcano_scintillant"
+      "format": "chaussons_volcano_%s",
+      "iter": [["scintillant","sup"]]
     },
     {
-      "format": "chaussons_volcano_sup"
-    },
-    {
-      "format": "chaussure_chasseur_sup"
+      "format": "chaussure_chasseur_%s",
+      "iter": [["puissant","sup"]]
     },
     {
       "format": "chaussures%d",
@@ -980,10 +977,8 @@
       ]
     },
     {
-      "format": "collier_infini_scintillant"
-    },
-    {
-      "format": "collier_infini_sup"
+      "format": "collier_infini_%s",
+      "iter": [["sup", "scintillant"]]
     },
     {
       "format": "colliermort"
@@ -1046,10 +1041,8 @@
       ]
     },
     {
-      "format": "epee_justice_sup"
-    },
-    {
-      "format": "epee_justice_scin"
+      "format": "epee_justice_%s",
+      "iter": [["sup","scin"]]
     },
     {
       "format": "equip%d",
@@ -1112,10 +1105,8 @@
       ]
     },
     {
-      "format": "hache_sauvage_pui"
-    },
-    {
-      "format": "hache_sauvage_sup"
+      "format": "hache_sauvage_%s",
+      "iter": [["pui","sup"]]
     },
     {
       "format": "hachette"
@@ -1151,10 +1142,8 @@
       ]
     },
     {
-      "format": "masque_nature_scintillant"
-    },
-    {
-      "format": "masque_nature_sup"
+      "format": "masque_nature_%s",
+      "iter": [["sup","scintillant"]]
     },
     {
       "format": "masse%d",
@@ -1172,10 +1161,8 @@
       "format": "ombrelle01tq1"
     },
     {
-      "format": "paire_pantoufle_puissante"
-    },
-    {
-      "format": "paire_pantoufle_sup"
+      "format": "paire_pantoufle_%s",
+      "iter": [["puissante", "sup"]]
     },
     {
       "format": "pdtfnv1c2vk5"
@@ -1256,10 +1243,8 @@
       "format": "tiare01qr5"
     },
     {
-      "format": "toge_pelerin_puissant"
-    },
-    {
-      "format": "toge_pelerin_sup"
+      "format": "toge_pelerin_%spuissant",
+      "iter": [["puissant","sup"]]
     },
     {
       "format": "tunique_aventurier"
@@ -1413,7 +1398,7 @@
       "iter": [ 19 ]
     },
     {
-      "format": "foret__14",
+      "format": "foret__14"
     },
     {
       "name": "Cimetiere",
