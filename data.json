@@ -45,6 +45,9 @@
       "format": "cadavre_chenille"
     },
     {
+      "format": "carapace"
+    },
+    {
       "format": "carapace%d",
       "iter": [
         2
@@ -73,6 +76,9 @@
       "iter": [
         4
       ]
+    },
+    {
+      "format": "criniere_herisson"
     },
     {
       "format": "cristal%d",
@@ -169,6 +175,10 @@
       "format": "plume_coq"
     },
     {
+      "format": "poudre%d",
+      "iter": [ 10 ]
+    },
+    {
       "format": "queue%d",
       "iter": [
         6
@@ -226,6 +236,10 @@
       "iter": [ 2 ]
     },
     {
+      "format": "moine%d",
+      "iter": [ 4 ]
+    },
+    {
       "format": "pancarte%d",
       "iter": [ 3 ],
       "ext": [ "png", "gif" ]
@@ -273,6 +287,9 @@
       "format": "bougie"
     },
     {
+      "format": "herutis"
+    },
+    {
       "format": "Lhysern_Mc_Callum_Jr"
     },
     {
@@ -286,6 +303,9 @@
     },
     {
       "format": "tynus"
+    },
+    {
+      "format": "pnj_tavernier"
     },
     {
       "format": "Bamou"
@@ -327,8 +347,11 @@
       "iter": [ 5 ]
     },
     {
-      "format": "garde%ddetail",
+      "format": "garde%d",
       "iter": [ 2 ]
+    },
+    {
+      "format": "herutis"
     },
     {
       "format": "jeune_guerrier"
@@ -353,6 +376,9 @@
     },
     {
       "format": "soldat_arene"
+    },
+    {
+      "format": "tavernier"
     },
     {
       "format": "Tynus"
@@ -476,6 +502,9 @@
       "ext": [
         "gif"
       ]
+    },
+    {
+      "format": "frappe_sacree"
     },
     {
       "format": "justicier",
@@ -638,7 +667,8 @@
       "format": "balrog"
     },
     {
-      "format": "felin"
+      "format": "felin",
+      "ext": [ "gif" ]
     },
     {
       "format": "grenouille"
@@ -665,6 +695,12 @@
   "ecran": [
     {
       "format": "auberge"
+    }
+  ],
+  "primes": [
+    {
+      "format": "parchemin%d",
+      "iter": [ 5 ]
     }
   ],
   "arme": [
@@ -708,7 +744,8 @@
       ]
     },
     {
-      "format": "badgeduconscritrvk5"
+      "format": "badgeduconscrit%s",
+      "iter": [ [ "rvk5", "cph4" ] ]
     },
     {
       "format": "bague%02d",
@@ -723,10 +760,8 @@
       ]
     },
     {
-      "format": "bague_bete_puissante"
-    },
-    {
-      "format": "bague_bete_sup"
+      "format": "bague_bete_%s",
+      "iter" : [ [ "puissante", "sup" ] ]
     },
     {
       "format": "bague_immortel"
@@ -766,9 +801,7 @@
     },
     {
       "format": "bas_tempete_%s",
-      "iter": [
-        ["scinti", "sup"]
-      ]
+      "iter": [ ["scinti", "sup"] ]
     },
     {
       "format": "baton%d",
@@ -780,10 +813,8 @@
       "format": "baton_bete_puissant"
     },
     {
-      "format": "baton_volcanos"
-    },
-    {
-      "format": "baton_volcanos_scinti"
+      "format": "baton_volcanos%s",
+      "iter": [ [ "" , "_scinti"] ]
     },
     {
       "format": "beret"
@@ -795,10 +826,8 @@
       ]
     },
     {
-      "format": "botte_justice_leg"
-    },
-    {
-      "format": "botte_justice_sup"
+      "format": "botte_justice_%s",
+      "iter": [ ["leg", "sup"] ]
     },
     {
       "format": "botte_noel%s",
@@ -870,10 +899,8 @@
       ]
     },
     {
-      "format": "capuche_chasseur_puissant"
-    },
-    {
-      "format": "capuche_chasseur_sup"
+      "format": "capuche_chasseur_%s",
+      "iter": [["puissant","sup"]]
     },
     {
       "format": "capucheti9"
@@ -906,13 +933,12 @@
       ]
     },
     {
-      "format": "chaussons_volcano_scintillant"
+      "format": "chaussons_volcano_%s",
+      "iter": [["scintillant","sup"]]
     },
     {
-      "format": "chaussons_volcano_sup"
-    },
-    {
-      "format": "chaussure_chasseur_sup"
+      "format": "chaussure_chasseur_%s",
+      "iter": [["puissant","sup"]]
     },
     {
       "format": "chaussures%d",
@@ -951,10 +977,8 @@
       ]
     },
     {
-      "format": "collier_infini_scintillant"
-    },
-    {
-      "format": "collier_infini_sup"
+      "format": "collier_infini_%s",
+      "iter": [["sup", "scintillant"]]
     },
     {
       "format": "colliermort"
@@ -1017,10 +1041,8 @@
       ]
     },
     {
-      "format": "epee_justice_sup"
-    },
-    {
-      "format": "epee_justice_scin"
+      "format": "epee_justice_%s",
+      "iter": [["sup","scin"]]
     },
     {
       "format": "equip%d",
@@ -1083,10 +1105,8 @@
       ]
     },
     {
-      "format": "hache_sauvage_pui"
-    },
-    {
-      "format": "hache_sauvage_sup"
+      "format": "hache_sauvage_%s",
+      "iter": [["pui","sup"]]
     },
     {
       "format": "hachette"
@@ -1122,10 +1142,8 @@
       ]
     },
     {
-      "format": "masque_nature_scintillant"
-    },
-    {
-      "format": "masque_nature_sup"
+      "format": "masque_nature_%s",
+      "iter": [["sup","scintillant"]]
     },
     {
       "format": "masse%d",
@@ -1143,10 +1161,8 @@
       "format": "ombrelle01tq1"
     },
     {
-      "format": "paire_pantoufle_puissante"
-    },
-    {
-      "format": "paire_pantoufle_sup"
+      "format": "paire_pantoufle_%s",
+      "iter": [["puissante", "sup"]]
     },
     {
       "format": "pdtfnv1c2vk5"
@@ -1227,10 +1243,8 @@
       "format": "tiare01qr5"
     },
     {
-      "format": "toge_pelerin_puissant"
-    },
-    {
-      "format": "toge_pelerin_sup"
+      "format": "toge_pelerin_%spuissant",
+      "iter": [["puissant","sup"]]
     },
     {
       "format": "tunique_aventurier"
@@ -1272,6 +1286,9 @@
     },
     {
       "format": "2dffqsjy"
+    },
+    {
+      "format": "2s4f6e1sdf51qaa"
     },
     {
       "format": "3xrpttdsa"
@@ -1334,16 +1351,54 @@
       "format": "xcvxcvcbnvgjghjyikklpo"
     },
     {
+      "format": "xc9zfl23w515s9f"
+    },
+    {
+      "format": "sdgvnbkiuluoiuerte"
+    },
+    {
+      "format": "zhhd7n43jqje8ce"
+    },
+    {
       "format": "vbxbcvbncvneiiii"
     },
     {
       "format": "wwwxxdzssxnklmpouyg"
     },
     {
+      "format": "pekge8754zeaf"
+    },
+    {
+      "format": "oijeeck"
+    },
+    {
       "format": "ghrimlong10yjzjb"
     },
     {
       "format": "ghrimlong11btfeu"
+    },
+    {
+      "format": "couloirsombre%d",
+      "iter": [ 3 ]
+    },
+    {
+      "format": "villeN%02d",
+      "iter": [ 5 ]
+    },
+    {
+      "format": "villeM%02d",
+      "iter": [ 5 ]
+    },
+    {
+      "format": "villeB%02d",
+      "iter": [ 5 ]
+    },
+    {
+      "format": "foret%d",
+      "iter": [ 19 ]
+    },
+    {
+      "format": "foret__14"
     },
     {
       "name": "Cimetiere",
