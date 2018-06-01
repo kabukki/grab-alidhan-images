@@ -46,7 +46,7 @@
     },
     {
       "format": "carapace"
-    }
+    },
     {
       "format": "carapace%d",
       "iter": [
@@ -79,7 +79,7 @@
     },
     {
       "format": "criniere_herisson"
-    }
+    },
     {
       "format": "cristal%d",
       "iter": [
