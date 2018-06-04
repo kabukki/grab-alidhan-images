@@ -20,6 +20,9 @@
         [3, 4, 5]
       ]
     },
+	{
+	  "format": "barre_fer"
+	},
     {
       "format": "bec_%d",
       "iter": [
@@ -33,10 +36,12 @@
       "format": "bolef5"
     },
     {
+      "format": "bol_%02d",
+      "iter": [ 2 ]
+    },
+    {
       "format": "boue%d",
-      "iter": [
-        1
-      ]
+      "iter": [ 1 ]
     },
     {
       "format": "bouteille_vide"
@@ -86,6 +91,9 @@
         9
       ]
     },
+	{
+	  "format": "cuir_depeceur"
+	},
     {
       "format": "dent%d",
       "iter": [
@@ -117,6 +125,9 @@
     {
       "format": "fragment"
     },
+	{
+	  "format": "grenat_poli"
+	},
     {
       "format": "griffe"
     },
@@ -142,14 +153,24 @@
       ]
     },
     {
+      "format": "minerai_%s",
+	  "iter": [ ["fer", "argent"] ]
+    },
+    {
       "format": "minerai_cristal_rouge_%d",
       "iter": [
         1
       ]
     },
+	{
+	  "format": "oeil"
+	},
     {
       "format": "patte"
     },
+	{
+	  "format": "peau_depeceur"
+	},
     {
       "format": "peau%d",
       "iter": [
@@ -170,6 +191,9 @@
     },
     {
       "format": "pierre_golem"
+    },
+    {
+      "format": "pierre_mineur"
     },
     {
       "format": "plume_coq"
@@ -213,6 +237,9 @@
         [2, 3]
       ]
     },
+	{
+	  "format": "cles_tresor"
+	},
     {
       "format": "gateau_noel_%02d",
       "iter": [
@@ -254,12 +281,20 @@
       "format": "ambulant%d",
       "iter": [ 2 ]
     },
-      {
-        "format": "pnj%d",
-        "iter": [
-          200
-        ]
-      },
+    {
+      "format": "archalan"
+    },
+	{
+	  "format": "pnj%d",
+	  "iter": [ 1000 ]
+	},
+	{
+	  "format": "pirate%d",
+	  "iter": [ 3 ]
+	},
+	{
+	  "format": "pilier",
+	},
     {
       "format": "swirl%d",
       "iter": [
@@ -275,7 +310,15 @@
       "iter": [ 3 ]
     },
     {
+      "format": "statue",
+      "iter": [ 1 ]
+    },
+    {
       "format": "paladin_varox"
+    },
+    {
+      "format": "invisible",
+	  "ext": [ "gif" ]
     },
     {
       "format": "jeune_guerrier"
@@ -322,6 +365,9 @@
       "format": "ambulant2_detail"
     },
     {
+      "format": "archalan_detail"
+    },
+    {
       "format": "bougie"
     },
     {
@@ -329,6 +375,10 @@
     },
     {
       "format": "Birduck"
+    },
+    {
+      "format": "Combattant%02d",
+	  "iter": [ 1 ]
     },
     {
       "format": "competence"
@@ -385,11 +435,14 @@
     },
     {
       "format": "pnj%ddetail",
-      "iter": [ 200 ]
+      "iter": [ 1000 ]
     },
     {
       "format": "pnj%d_detail",
-      "iter": [ 200 ]
+      "iter": [ 1000 ]
+    },
+    {
+      "format": "pilier"
     }
   ],
   "potion": [
@@ -399,15 +452,11 @@
     },
     {
       "format": "bonbec%d",
-      "iter": [
-        13
-      ]
+      "iter": [ 13 ]
     },
     {
       "format": "buffpot%d",
-      "iter": [
-        8
-      ]
+      "iter": [ 8 ]
     },
     {
       "format": "carotte"
@@ -417,9 +466,7 @@
     },
     {
       "format": "feuille%d",
-      "iter": [
-        11
-      ]
+      "iter": [ 11 ]
     },
     {
       "format": "flacon"
@@ -428,25 +475,29 @@
       "format": "gateau"
     },
     {
+      "format": "gateauchamjaunekw8"
+    },
+    {
       "format": "millefeuilleschamsrz6"
     },
     {
       "format": "poisson%d",
-      "iter": [
-        5
-      ]
+      "iter": [ 5 ]
     },
     {
       "format": "pomme%d",
-      "iter": [
-        2
-      ]
+      "iter": [ 2 ]
     },
     {
       "format": "potion%d",
-      "iter": [
-        50
-      ]
+      "iter": [ 50 ]
+    },
+    {
+      "format": "potion_mana%d",
+      "iter": [ 3 ]
+    },
+    {
+      "format": "potionrouge3D"
     },
     {
       "format": "potion_agile_majeure"
@@ -464,19 +515,31 @@
       "format": "potiron"
     },
     {
+      "format": "potmiel1uo7uc6"
+    },
+    {
+      "format": "soupepoissonvapeuril7"
+    },
+    {
+      "format": "soupepotironvapeurnu9"
+    },
+    {
+      "format": "teteabeillemielrw5"
+    },
+    {
       "format": "tete_chenille",
-      "ext": [
-        "jpg"
-      ]
+      "ext": [ "jpg" ]
     },
     {
       "format": "viande%d",
-      "iter": [
-        7
-      ]
+      "iter": [ 7 ]
     }
   ],
   "competence": [
+    {
+      "format": "armurier_%d",
+	  "iter": [ 2 ]
+    },
     {
       "format": "BSA"
     },
@@ -506,6 +569,10 @@
       "ext": [
         "gif"
       ]
+    },
+    {
+      "format": "forgeron_%d",
+	  "iter": [ 2 ]
     },
     {
       "format": "frappe_sacree"
@@ -561,6 +628,10 @@
       "ext": [
         "gif"
       ]
+    },
+    {
+      "format": "tanneur_%d",
+	  "iter": [ 2 ]
     },
     {
       "format": "tempete"
@@ -1344,6 +1415,110 @@
 	{
 	  "name": "Sous-bois de Rhogan",
 	  "format" : "rgerg541e5g4"
+	},
+	{
+	  "name": "Forêt des bras cassés",
+	  "format" : "rqhysxvwuvcu"
+	},
+	{
+	  "name": "Forêt des bras cassés",
+	  "format" : "jht73vax9y"
+	},
+	{
+	  "name": "Forêt des bras cassés",
+	  "format" : "u1mz4qju75"
+	},
+	{
+	  "name": "Forêt des bras cassés",
+	  "format" : "pxc0qegg"
+	},
+	{
+	  "name": "Couloir sombre",
+	  "format" : "4m11v0qagoiceu"
+	},
+	{
+	  "name": "Corridor de Far",
+	  "format" : "dfgdbgsregqlmp112"
+	},
+	{
+	  "name": "Corniche déboisée",
+	  "format" : "sqdfxcvty2312fgr"
+	},
+	{
+	  "name": "Forêt sombre",
+	  "format" : "6re4hr54z"
+	},
+	{
+	  "name": "Brosems",
+	  "format" : "scxcvxcbhrturtujkolo"
+	},
+	{
+	  "name": "Brosems",
+	  "format" : "xcvxcvcbnvgjghjyikklpo"
+	},
+	{
+	  "name": "Forêt dévastée",
+	  "format" : "azrluioifggdbcdff"
+	},
+	{
+	  "name": "Forêt dévastée",
+	  "format" : "sdxccvfgrtftyezeznjh"
+	},
+	{
+	  "name": "Avant poste des justiciers",
+	  "format" : "cvfghnjkloi865"
+	},
+	{
+	  "name": "Poste de garde",
+	  "format" : "1alllezesdqs1"
+	},
+	{
+	  "name": "Guet de Khemor",
+	  "format" : "1alllezesdqs2"
+	},
+	{
+	  "name": "Auberge de Brosems",
+	  "format" : "ergsdfsdckxjbcvbor"
+	},
+	{
+	  "name": "Abords de Tuléa",
+	  "format" : "13zesdqs3"
+	},
+	{
+	  "name": "Port de Tuléa",
+	  "format" : "5lllezesd4"
+	},
+	{
+	  "name": "Centre de Tuléa",
+	  "format" : "9llleze5"
+	},
+	{
+	  "name": "Maison délabrée",
+	  "format" : "xcvxc4422365"
+	},
+	{
+	  "name": "Auberge de Tuléa",
+	  "format" : "dfsdf342354"
+	},
+	{
+	  "name": "Sous-sol",
+	  "format" : "vxcvxcvx14sfsf"
+	},
+	{
+	  "name": "Sous-sol",
+	  "format" : "fzef8ezr6sdf3sdf1"
+	},
+	{
+	  "name": "Forêt de Brosems",
+	  "format" : "sdfgxcxciopklmjkluyaz"
+	},
+	{
+	  "name": "Forêt de Brosems",
+	  "format" : "sdfgxcxciopklmjkluyaz2"
+	},
+	{
+	  "name": "Cimetière",
+	  "format" : "djildfcbjjdrzexcv"
 	},
     {
       "format": "3xrpttdsa"
