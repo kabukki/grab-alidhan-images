@@ -7,6 +7,12 @@
       ]
     }
   ],
+  "grade": [
+    {
+      "format": "grade_%d",
+      "iter": [ 15 ]
+    }
+  ],
   "objet": [
     {
       "format": "aile%d",
@@ -333,6 +339,12 @@
       "format": "bougie"
     },
     {
+      "format": "elfe"
+    },
+    {
+      "format": "epee"
+    },
+    {
       "format": "herutis"
     },
     {
@@ -351,14 +363,21 @@
       "format": "tynus"
     },
     {
+      "format": "pere_noel"
+    },
+    {
       "format": "pnj_tavernier"
+    },
+    {
+      "format": "poulpe"
     },
     {
       "format": "Bamou"
     },
     {
-      "format": "new_garde_%c",
+      "format": "%s_%c",
       "iter": [
+        [ "mort", "new_garde" ],
         ["r", "e", "c"]
       ]
     },
@@ -398,6 +417,9 @@
       "format": "Eidola"
     },
     {
+      "format": "elfe_detail"
+    },
+    {
       "format": "fille_couteau"
     },
     {
@@ -428,6 +450,12 @@
     },
     {
       "format": "paladin_varox"
+    },
+    {
+      "format": "pere_noel"
+    },
+    {
+      "format": "poulpe"
     },
     {
       "format": "pr_lactos"
@@ -610,6 +638,9 @@
       "format": "depecage"
     },
     {
+      "format": "dephasage"
+    },
+    {
       "format": "esprit_voyageur",
       "ext": [
         "gif"
@@ -620,6 +651,9 @@
       "ext": [
         "gif"
       ]
+    },
+    {
+      "format": "exorcisme"
     },
     {
       "format": "felinite"
@@ -717,6 +751,13 @@
         "png",
         "gif"
       ]
+    },
+    {
+      "format": "skill_RB"
+    },
+    {
+      "format": "soin%d",
+      "iter": [ 4 ]
     },
     {
       "format": "stalactite"
@@ -854,6 +895,9 @@
       "format": "ogre"
     },
     {
+      "format": "druide_ours"
+    },
+    {
       "format": "metal"
     },
     {
@@ -867,6 +911,52 @@
       "ext": [
         "gif"
       ]
+    },
+    {
+      "format": "diablo"
+    },
+    {
+      "format": "muse"
+    },
+    {
+      "format": "mort"
+    },
+    {
+      "format": "fantome"
+    },
+    {
+      "format": "fantome2"
+    },
+    {
+      "format": "chauvesouris"
+    },
+    {
+      "format": "chauve_souris2"
+    },
+    {
+      "format": "vampire"
+    },
+    {
+      "format": "golem"
+    },
+    {
+      "format": "fillette"
+    },
+    {
+      "format": "abeille"
+    },
+    {
+      "format": "citrouille"
+    },
+    {
+      "format": "blob"
+    },
+    {
+      "format": "catapulte"
+    },
+    {
+      "format": "pere_noel",
+      "ext": [ "gif" ]
     }
   ],
   "ecran": [
