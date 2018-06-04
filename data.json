@@ -1329,6 +1329,22 @@
 	  "name": "Forêt dangereuse de Broquir",
       "format": "ss84231vd68eta84"
     },
+	{
+	  "name": "Plaine verdoyante de Rhogan",
+	  "format" : "dghrdf3vb2sd26"
+	},
+	{
+	  "name": "Rhogan",
+	  "format" : "fsf51zefsqf1"
+	},
+	{
+	  "name": "Sous-bois de Rhogan",
+	  "format" : "dtg6rt2g6er2g"
+	},
+	{
+	  "name": "Sous-bois de Rhogan",
+	  "format" : "rgerg541e5g4"
+	},
     {
       "format": "3xrpttdsa"
     },
@@ -1399,6 +1415,7 @@
       "format": "zhhd7n43jqje8ce"
     },
     {
+	  "name": "Corridor de Far",
       "format": "vbxbcvbncvneiiii"
     },
     {
@@ -1437,6 +1454,7 @@
       "iter": [ 19 ]
     },
     {
+	  "name": "Vallon de Far",
       "format": "foret__14"
     },
     {
