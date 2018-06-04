@@ -20,9 +20,9 @@
         [3, 4, 5]
       ]
     },
-	{
-	  "format": "barre_fer"
-	},
+    {
+      "format": "barre_fer"
+    },
     {
       "format": "bec_%d",
       "iter": [
@@ -91,9 +91,9 @@
         9
       ]
     },
-	{
-	  "format": "cuir_depeceur"
-	},
+    {
+      "format": "cuir_depeceur"
+    },
     {
       "format": "dent%d",
       "iter": [
@@ -125,9 +125,9 @@
     {
       "format": "fragment"
     },
-	{
-	  "format": "grenat_poli"
-	},
+    {
+      "format": "grenat_poli"
+    },
     {
       "format": "griffe"
     },
@@ -154,7 +154,7 @@
     },
     {
       "format": "minerai_%s",
-	  "iter": [ ["fer", "argent"] ]
+      "iter": [ ["fer", "argent"] ]
     },
     {
       "format": "minerai_cristal_rouge_%d",
@@ -162,15 +162,15 @@
         1
       ]
     },
-	{
-	  "format": "oeil"
-	},
+    {
+      "format": "oeil"
+    },
     {
       "format": "patte"
     },
-	{
-	  "format": "peau_depeceur"
-	},
+    {
+      "format": "peau_depeceur"
+    },
     {
       "format": "peau%d",
       "iter": [
@@ -237,9 +237,9 @@
         [2, 3]
       ]
     },
-	{
-	  "format": "cles_tresor"
-	},
+    {
+      "format": "cles_tresor"
+    },
     {
       "format": "gateau_noel_%02d",
       "iter": [
@@ -269,7 +269,7 @@
     {
       "format": "pancarte%d",
       "iter": [ 3 ],
-      "ext": [ "png", "gif" ]
+      "ext": [ "gif" ]
     },
     {
       "format": "rocher%d",
@@ -284,17 +284,17 @@
     {
       "format": "archalan"
     },
-	{
-	  "format": "pnj%d",
-	  "iter": [ 1000 ]
-	},
-	{
-	  "format": "pirate%d",
-	  "iter": [ 3 ]
-	},
-	{
-	  "format": "pilier",
-	},
+    {
+      "format": "pnj%d",
+      "iter": [ 1000 ]
+    },
+    {
+      "format": "pirate%d",
+      "iter": [ 3 ]
+    },
+    {
+      "format": "pilier"
+    },
     {
       "format": "swirl%d",
       "iter": [
@@ -310,7 +310,7 @@
       "iter": [ 3 ]
     },
     {
-      "format": "statue",
+      "format": "statue%d",
       "iter": [ 1 ]
     },
     {
@@ -318,7 +318,7 @@
     },
     {
       "format": "invisible",
-	  "ext": [ "gif" ]
+      "ext": [ "gif" ]
     },
     {
       "format": "jeune_guerrier"
@@ -378,7 +378,7 @@
     },
     {
       "format": "Combattant%02d",
-	  "iter": [ 1 ]
+      "iter": [ 1 ]
     },
     {
       "format": "competence"
@@ -538,7 +538,7 @@
   "competence": [
     {
       "format": "armurier_%d",
-	  "iter": [ 2 ]
+      "iter": [ 2 ]
     },
     {
       "format": "BSA"
@@ -572,7 +572,7 @@
     },
     {
       "format": "forgeron_%d",
-	  "iter": [ 2 ]
+      "iter": [ 2 ]
     },
     {
       "format": "frappe_sacree"
@@ -631,7 +631,7 @@
     },
     {
       "format": "tanneur_%d",
-	  "iter": [ 2 ]
+      "iter": [ 2 ]
     },
     {
       "format": "tempete"
@@ -851,18 +851,6 @@
       ]
     },
     {
-      "format": "bague%02d",
-      "iter": [
-        7
-      ]
-    },
-    {
-      "format": "bague%d",
-      "iter": [
-        4
-      ]
-    },
-    {
       "format": "bas%d",
       "iter": [
         45
@@ -982,12 +970,6 @@
     },
     {
       "format": "cas_consc"
-    },
-    {
-      "format": "cape%d",
-      "iter": [
-        28
-      ]
     },
     {
       "format": "casque_de_justice_puissant"
@@ -1144,12 +1126,6 @@
       "format": "gant%d",
       "iter": [
         10
-      ]
-    },
-    {
-      "format": "cape_noel%s",
-      "iter": [
-        ["", "2"]
       ]
     },
     {
@@ -1359,167 +1335,167 @@
     {
       "format": "1ioedfza"
     },
-	{
-	  "name": "La salle du passé",
-	  "format": "q7sktyzmq1mexqqy"
-	},
-	{
-	  "format": "nedmor_chateau"
-	},
-	{
-	  "format": "interieur"
-	},
-	{
-	  "name": "Salle du trone",
-	  "format": "rcflo9j7pd"
-	},
-	{
-	  "name": "Chateau de Nedmor",
-	  "format": "yj1qp2tousah6pow"
-	},
-	{
-	  "name": "Salle des partisans du roy",
-	  "format": "x731ut9mgy"
-	},
+    {
+      "name": "La salle du passé",
+      "format": "q7sktyzmq1mexqqy"
+    },
+    {
+      "format": "nedmor_chateau"
+    },
+    {
+      "format": "interieur"
+    },
+    {
+      "name": "Salle du trone",
+      "format": "rcflo9j7pd"
+    },
+    {
+      "name": "Chateau de Nedmor",
+      "format": "yj1qp2tousah6pow"
+    },
+    {
+      "name": "Salle des partisans du roy",
+      "format": "x731ut9mgy"
+    },
     {
       "format": "2dffqsjy"
     },
     {
-	  "name": "Forêt silencieuse de Broquir",
+      "name": "Forêt silencieuse de Broquir",
       "format": "2s4f6e1sdf51qaa"
     },
     {
-	  "name": "Forêt de Broquir (sud)",
+      "name": "Forêt de Broquir (sud)",
       "format": "z87df4cd56z6641"
     },
     {
-	  "name": "Forêt profonde de Broquir",
+      "name": "Forêt profonde de Broquir",
       "format": "dg51v6q65f1e6ghjkl"
     },
     {
-	  "name": "Forêt dangereuse de Broquir",
+      "name": "Forêt dangereuse de Broquir",
       "format": "ss84231vd68eta84"
     },
-	{
-	  "name": "Plaine verdoyante de Rhogan",
-	  "format" : "dghrdf3vb2sd26"
-	},
-	{
-	  "name": "Rhogan",
-	  "format" : "fsf51zefsqf1"
-	},
-	{
-	  "name": "Sous-bois de Rhogan",
-	  "format" : "dtg6rt2g6er2g"
-	},
-	{
-	  "name": "Sous-bois de Rhogan",
-	  "format" : "rgerg541e5g4"
-	},
-	{
-	  "name": "Forêt des bras cassés",
-	  "format" : "rqhysxvwuvcu"
-	},
-	{
-	  "name": "Forêt des bras cassés",
-	  "format" : "jht73vax9y"
-	},
-	{
-	  "name": "Forêt des bras cassés",
-	  "format" : "u1mz4qju75"
-	},
-	{
-	  "name": "Forêt des bras cassés",
-	  "format" : "pxc0qegg"
-	},
-	{
-	  "name": "Couloir sombre",
-	  "format" : "4m11v0qagoiceu"
-	},
-	{
-	  "name": "Corridor de Far",
-	  "format" : "dfgdbgsregqlmp112"
-	},
-	{
-	  "name": "Corniche déboisée",
-	  "format" : "sqdfxcvty2312fgr"
-	},
-	{
-	  "name": "Forêt sombre",
-	  "format" : "6re4hr54z"
-	},
-	{
-	  "name": "Brosems",
-	  "format" : "scxcvxcbhrturtujkolo"
-	},
-	{
-	  "name": "Brosems",
-	  "format" : "xcvxcvcbnvgjghjyikklpo"
-	},
-	{
-	  "name": "Forêt dévastée",
-	  "format" : "azrluioifggdbcdff"
-	},
-	{
-	  "name": "Forêt dévastée",
-	  "format" : "sdxccvfgrtftyezeznjh"
-	},
-	{
-	  "name": "Avant poste des justiciers",
-	  "format" : "cvfghnjkloi865"
-	},
-	{
-	  "name": "Poste de garde",
-	  "format" : "1alllezesdqs1"
-	},
-	{
-	  "name": "Guet de Khemor",
-	  "format" : "1alllezesdqs2"
-	},
-	{
-	  "name": "Auberge de Brosems",
-	  "format" : "ergsdfsdckxjbcvbor"
-	},
-	{
-	  "name": "Abords de Tuléa",
-	  "format" : "13zesdqs3"
-	},
-	{
-	  "name": "Port de Tuléa",
-	  "format" : "5lllezesd4"
-	},
-	{
-	  "name": "Centre de Tuléa",
-	  "format" : "9llleze5"
-	},
-	{
-	  "name": "Maison délabrée",
-	  "format" : "xcvxc4422365"
-	},
-	{
-	  "name": "Auberge de Tuléa",
-	  "format" : "dfsdf342354"
-	},
-	{
-	  "name": "Sous-sol",
-	  "format" : "vxcvxcvx14sfsf"
-	},
-	{
-	  "name": "Sous-sol",
-	  "format" : "fzef8ezr6sdf3sdf1"
-	},
-	{
-	  "name": "Forêt de Brosems",
-	  "format" : "sdfgxcxciopklmjkluyaz"
-	},
-	{
-	  "name": "Forêt de Brosems",
-	  "format" : "sdfgxcxciopklmjkluyaz2"
-	},
-	{
-	  "name": "Cimetière",
-	  "format" : "djildfcbjjdrzexcv"
-	},
+    {
+      "name": "Plaine verdoyante de Rhogan",
+      "format" : "dghrdf3vb2sd26"
+    },
+    {
+      "name": "Rhogan",
+      "format" : "fsf51zefsqf1"
+    },
+    {
+      "name": "Sous-bois de Rhogan",
+      "format" : "dtg6rt2g6er2g"
+    },
+    {
+      "name": "Sous-bois de Rhogan",
+      "format" : "rgerg541e5g4"
+    },
+    {
+      "name": "Forêt des bras cassés",
+      "format" : "rqhysxvwuvcu"
+    },
+    {
+      "name": "Forêt des bras cassés",
+      "format" : "jht73vax9y"
+    },
+    {
+      "name": "Forêt des bras cassés",
+      "format" : "u1mz4qju75"
+    },
+    {
+      "name": "Forêt des bras cassés",
+      "format" : "pxc0qegg"
+    },
+    {
+      "name": "Couloir sombre",
+      "format" : "4m11v0qagoiceu"
+    },
+    {
+      "name": "Corridor de Far",
+      "format" : "dfgdbgsregqlmp112"
+    },
+    {
+      "name": "Corniche déboisée",
+      "format" : "sqdfxcvty2312fgr"
+    },
+    {
+      "name": "Forêt sombre",
+      "format" : "6re4hr54z"
+    },
+    {
+      "name": "Brosems",
+      "format" : "scxcvxcbhrturtujkolo"
+    },
+    {
+      "name": "Brosems",
+      "format" : "xcvxcvcbnvgjghjyikklpo"
+    },
+    {
+      "name": "Forêt dévastée",
+      "format" : "azrluioifggdbcdff"
+    },
+    {
+      "name": "Forêt dévastée",
+      "format" : "sdxccvfgrtftyezeznjh"
+    },
+    {
+      "name": "Avant poste des justiciers",
+      "format" : "cvfghnjkloi865"
+    },
+    {
+      "name": "Poste de garde",
+      "format" : "1alllezesdqs1"
+    },
+    {
+      "name": "Guet de Khemor",
+      "format" : "1alllezesdqs2"
+    },
+    {
+      "name": "Auberge de Brosems",
+      "format" : "ergsdfsdckxjbcvbor"
+    },
+    {
+      "name": "Abords de Tuléa",
+      "format" : "13zesdqs3"
+    },
+    {
+      "name": "Port de Tuléa",
+      "format" : "5lllezesd4"
+    },
+    {
+      "name": "Centre de Tuléa",
+      "format" : "9llleze5"
+    },
+    {
+      "name": "Maison délabrée",
+      "format" : "xcvxc4422365"
+    },
+    {
+      "name": "Auberge de Tuléa",
+      "format" : "dfsdf342354"
+    },
+    {
+      "name": "Sous-sol",
+      "format" : "vxcvxcvx14sfsf"
+    },
+    {
+      "name": "Sous-sol",
+      "format" : "fzef8ezr6sdf3sdf1"
+    },
+    {
+      "name": "Forêt de Brosems",
+      "format" : "sdfgxcxciopklmjkluyaz"
+    },
+    {
+      "name": "Forêt de Brosems",
+      "format" : "sdfgxcxciopklmjkluyaz2"
+    },
+    {
+      "name": "Cimetière",
+      "format" : "djildfcbjjdrzexcv"
+    },
     {
       "format": "3xrpttdsa"
     },
@@ -1533,54 +1509,6 @@
       "format": "ezrgpok52k2"
     },
     {
-      "format": "6re4hr54z"
-    },
-    {
-      "format": "dfsdf342354"
-    },
-    {
-      "format": "9llleze5"
-    },
-    {
-      "format": "5lllezesd4"
-    },
-    {
-      "format": "13zesdqs3"
-    },
-    {
-      "format": "xcvxc4422365"
-    },
-    {
-      "format": "vxcvxcvx14sfsf"
-    },
-    {
-      "format": "fzef8ezr6sdf3sdf1"
-    },
-    {
-      "format": "1alllezesdqs1"
-    },
-    {
-      "format": "1alllezesdqs2"
-    },
-    {
-      "format": "cvfghnjkloi865"
-    },
-    {
-      "format": "sdfgxcxciopklmjkluyaz2"
-    },
-    {
-      "format": "sdfgxcxciopklmjkluyaz"
-    },
-    {
-      "format": "scxcvxcbhrturtujkolo"
-    },
-    {
-      "format": "ergsdfsdckxjbcvbor"
-    },
-    {
-      "format": "xcvxcvcbnvgjghjyikklpo"
-    },
-    {
       "format": "xc9zfl23w515s9f"
     },
     {
@@ -1590,7 +1518,7 @@
       "format": "zhhd7n43jqje8ce"
     },
     {
-	  "name": "Corridor de Far",
+      "name": "Corridor de Far",
       "format": "vbxbcvbncvneiiii"
     },
     {
@@ -1629,7 +1557,7 @@
       "iter": [ 19 ]
     },
     {
-	  "name": "Vallon de Far",
+      "name": "Vallon de Far",
       "format": "foret__14"
     },
     {
@@ -1853,12 +1781,6 @@
     },
     {
       "format": "rat"
-    },
-    {
-      "format": "loup%d",
-      "iter": [
-        8
-      ]
     }
   ],
   "monstre/boss": [
