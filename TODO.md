@@ -7,6 +7,8 @@
 
 ### Classes
 
+- Ours (transformatin druide)
+- Skin Ofeva (compétence 140)
 - Skin de potiron
 - Skin de papa noël
 - Ulrath
