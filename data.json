@@ -558,6 +558,10 @@
   ],
   "competence": [
     {
+      "format": "alchimiste_%d",
+      "iter": [ 2 ]
+    },
+    {
       "format": "armurier_%d",
       "iter": [ 2 ]
     },
@@ -574,7 +578,15 @@
       ]
     },
     {
+      "format": "couturier_%d",
+      "iter": [ 2 ]
+    },
+    {
       "format": "cueillette"
+    },
+    {
+      "format": "cuisinier_%d",
+      "iter": [ 2 ]
     },
     {
       "format": "depecage"
@@ -596,7 +608,15 @@
       "iter": [ 2 ]
     },
     {
+      "format": "frappe_divine",
+      "ext": [ "gif" ]
+    },
+    {
       "format": "frappe_sacree"
+    },
+    {
+      "format": "joaillier_%d",
+      "iter": [ 2 ]
     },
     {
       "format": "justicier",
