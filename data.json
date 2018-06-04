@@ -286,7 +286,11 @@
     },
     {
       "format": "pnj%d",
-      "iter": [ 1000 ]
+      "iter": [ 96 ]
+    },
+    {
+      "format": "pnj%d",
+      "iter": [ [ 191, 192, 193, 549, 551, 666, 882, 883, 884, 885 ] ]
     },
     {
       "format": "pirate%d",
@@ -310,8 +314,7 @@
       "iter": [ 3 ]
     },
     {
-      "format": "statue%d",
-      "iter": [ 1 ]
+      "format": "statue1"
     },
     {
       "format": "paladin_varox"
@@ -435,11 +438,19 @@
     },
     {
       "format": "pnj%ddetail",
-      "iter": [ 1000 ]
+      "iter": [ 95 ]
     },
     {
       "format": "pnj%d_detail",
-      "iter": [ 1000 ]
+      "iter": [ 94 ]
+    },
+    {
+      "format": "pnj%ddetail",
+      "iter": [ [191, 192, 193, 549, 551 ] ]
+    },
+    {
+      "format": "pnj%d_detail",
+      "iter": [ [666, 882, 883, 884, 885 ] ]
     },
     {
       "format": "pilier"
@@ -1807,6 +1818,9 @@
     },
     {
       "format": "aigle"
+    },
+    {
+      "format": "soldat"
     },
     {
       "format": "yeti"
