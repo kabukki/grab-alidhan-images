@@ -7,6 +7,12 @@
       ]
     }
   ],
+  "grade": [
+    {
+      "format": "grade_%d",
+      "iter": [ 15 ]
+    }
+  ],
   "objet": [
     {
       "format": "aile%d",
@@ -333,6 +339,12 @@
       "format": "bougie"
     },
     {
+      "format": "elfe"
+    },
+    {
+      "format": "epee"
+    },
+    {
       "format": "herutis"
     },
     {
@@ -351,14 +363,21 @@
       "format": "tynus"
     },
     {
+      "format": "pere_noel"
+    },
+    {
       "format": "pnj_tavernier"
+    },
+    {
+      "format": "poulpe"
     },
     {
       "format": "Bamou"
     },
     {
-      "format": "new_garde_%c",
+      "format": "%s_%c",
       "iter": [
+        [ "mort", "new_garde" ],
         ["r", "e", "c"]
       ]
     },
@@ -398,6 +417,9 @@
       "format": "Eidola"
     },
     {
+      "format": "elfe_detail"
+    },
+    {
       "format": "fille_couteau"
     },
     {
@@ -428,6 +450,12 @@
     },
     {
       "format": "paladin_varox"
+    },
+    {
+      "format": "pere_noel"
+    },
+    {
+      "format": "poulpe"
     },
     {
       "format": "pr_lactos"
@@ -558,14 +586,33 @@
   ],
   "competence": [
     {
+      "format": "alchimiste_%d",
+      "iter": [ 2 ]
+    },
+    {
       "format": "armurier_%d",
       "iter": [ 2 ]
+    },
+    {
+      "format": "appel_sacre"
+    },
+    {
+      "format": "blizzard"
+    },
+    {
+      "format": "bouclier_divin"
     },
     {
       "format": "BSA"
     },
     {
+      "format": "cassage_de_jambe"
+    },
+    {
       "format": "chasseur_de_prime"
+    },
+    {
+      "format": "chatiment"
     },
     {
       "format": "coup_precis",
@@ -574,10 +621,24 @@
       ]
     },
     {
+      "format": "couturier_%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "cogitation"
+    },
+    {
       "format": "cueillette"
     },
     {
+      "format": "cuisinier_%d",
+      "iter": [ 2 ]
+    },
+    {
       "format": "depecage"
+    },
+    {
+      "format": "dephasage"
     },
     {
       "format": "esprit_voyageur",
@@ -592,11 +653,46 @@
       ]
     },
     {
+      "format": "exorcisme"
+    },
+    {
+      "format": "felinite"
+    },
+    {
+      "format": "filouterie"
+    },
+    {
+      "format": "flute"
+    },
+    {
       "format": "forgeron_%d",
       "iter": [ 2 ]
     },
     {
+      "format": "fracasse_crane"
+    },
+    {
+      "format": "frappe_divine",
+      "ext": [ "gif" ]
+    },
+    {
       "format": "frappe_sacree"
+    },
+    {
+      "format": "frappe_supreme"
+    },
+    {
+      "format": "furie"
+    },
+    {
+      "format": "harpon_glace"
+    },
+    {
+      "format": "intervention_divine"
+    },
+    {
+      "format": "joaillier_%d",
+      "iter": [ 2 ]
     },
     {
       "format": "justicier",
@@ -611,6 +707,9 @@
       "format": "minage"
     },
     {
+      "format": "miroir_glace"
+    },
+    {
       "format": "peche"
     },
     {
@@ -621,6 +720,12 @@
     },
     {
       "format": "pousser"
+    },
+    {
+      "format": "projectile_magique"
+    },
+    {
+      "format": "reflexes_accrus"
     },
     {
       "format": "regeneration_energie",
@@ -635,6 +740,9 @@
       ]
     },
     {
+      "format": "secret_heros"
+    },
+    {
       "format": "skill%d",
       "iter": [
         124
@@ -643,6 +751,16 @@
         "png",
         "gif"
       ]
+    },
+    {
+      "format": "skill_RB"
+    },
+    {
+      "format": "soin%d",
+      "iter": [ 4 ]
+    },
+    {
+      "format": "stalactite"
     },
     {
       "format": "suractivite_mineure",
@@ -659,6 +777,10 @@
     },
     {
       "format": "tirer"
+    },
+    {
+      "format": "tir_precis",
+      "ext": [ "gif" ]
     }
   ],
   "classe": [
@@ -773,6 +895,9 @@
       "format": "ogre"
     },
     {
+      "format": "druide_ours"
+    },
+    {
       "format": "metal"
     },
     {
@@ -786,6 +911,52 @@
       "ext": [
         "gif"
       ]
+    },
+    {
+      "format": "diablo"
+    },
+    {
+      "format": "muse"
+    },
+    {
+      "format": "mort"
+    },
+    {
+      "format": "fantome"
+    },
+    {
+      "format": "fantome2"
+    },
+    {
+      "format": "chauvesouris"
+    },
+    {
+      "format": "chauve_souris2"
+    },
+    {
+      "format": "vampire"
+    },
+    {
+      "format": "golem"
+    },
+    {
+      "format": "fillette"
+    },
+    {
+      "format": "abeille"
+    },
+    {
+      "format": "citrouille"
+    },
+    {
+      "format": "blob"
+    },
+    {
+      "format": "catapulte"
+    },
+    {
+      "format": "pere_noel",
+      "ext": [ "gif" ]
     }
   ],
   "ecran": [

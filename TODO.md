@@ -7,8 +7,8 @@
 
 ### Classes
 
-- Skin de potiron
-- Skin de papa noël
+- Skin Ofeva (compétence 140)
+- Faucheuse
 - Ulrath
 - Erenan
 - Colombe
@@ -17,7 +17,29 @@
 
 ### Compétences
 
-- La quasi-totalité des compétences
+- Vent Toline
+- Vivacité d'esprit
+- Piège magique
+- Dissipation magique
+- 3 Boules givrées
+- Piège anti-soin
+- Fureur de l'ours
+- Hurlement bestial
+- Lacération
+- Contre-attaque
+- Golem de boue
+- Flèche explosive
+- Lierres sauvages puissantes
+- Siphon d'énergie
+- Soin de zone
+- Ferveur du prêtre
+- Dévotion du prêtre
+- Toucher guérisseur
+- Sceau d'invisibilité
+- Nova de feu
+- Apposition des mains
+- Bénédiction du moine
+- Sort de vigueur
 
 ### Maps
 
@@ -41,7 +63,7 @@
 
 ### Pnj & Detail
 
-- Pas de pnj manquant connu
+- Pnj d'event
 
 ### Potions
 
