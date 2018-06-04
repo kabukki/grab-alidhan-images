@@ -566,10 +566,25 @@
       "iter": [ 2 ]
     },
     {
+      "format": "appel_sacre"
+    },
+    {
+      "format": "blizzard"
+    },
+    {
+      "format": "bouclier_divin"
+    },
+    {
       "format": "BSA"
     },
     {
+      "format": "cassage_de_jambe"
+    },
+    {
       "format": "chasseur_de_prime"
+    },
+    {
+      "format": "chatiment"
     },
     {
       "format": "coup_precis",
@@ -580,6 +595,9 @@
     {
       "format": "couturier_%d",
       "iter": [ 2 ]
+    },
+    {
+      "format": "cogitation"
     },
     {
       "format": "cueillette"
@@ -604,8 +622,20 @@
       ]
     },
     {
+      "format": "felinite"
+    },
+    {
+      "format": "filouterie"
+    },
+    {
+      "format": "flute"
+    },
+    {
       "format": "forgeron_%d",
       "iter": [ 2 ]
+    },
+    {
+      "format": "fracasse_crane"
     },
     {
       "format": "frappe_divine",
@@ -613,6 +643,18 @@
     },
     {
       "format": "frappe_sacree"
+    },
+    {
+      "format": "frappe_supreme"
+    },
+    {
+      "format": "furie"
+    },
+    {
+      "format": "harpon_glace"
+    },
+    {
+      "format": "intervention_divine"
     },
     {
       "format": "joaillier_%d",
@@ -631,6 +673,9 @@
       "format": "minage"
     },
     {
+      "format": "miroir_glace"
+    },
+    {
       "format": "peche"
     },
     {
@@ -641,6 +686,12 @@
     },
     {
       "format": "pousser"
+    },
+    {
+      "format": "projectile_magique"
+    },
+    {
+      "format": "reflexes_accrus"
     },
     {
       "format": "regeneration_energie",
@@ -655,6 +706,9 @@
       ]
     },
     {
+      "format": "secret_heros"
+    },
+    {
       "format": "skill%d",
       "iter": [
         124
@@ -663,6 +717,9 @@
         "png",
         "gif"
       ]
+    },
+    {
+      "format": "stalactite"
     },
     {
       "format": "suractivite_mineure",
@@ -679,6 +736,10 @@
     },
     {
       "format": "tirer"
+    },
+    {
+      "format": "tir_precis",
+      "ext": [ "gif" ]
     }
   ],
   "classe": [
