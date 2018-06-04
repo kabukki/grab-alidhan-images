@@ -361,6 +361,11 @@
       "iter": [
         ["r", "e", "c"]
       ]
+    },
+    {
+      "name": "Divinités",
+      "format": "%s",
+      "iter": [["keirana", "randr", "joevina", "hardelbor", "burung", "heffquen", "maelic", "judbjorn" ]]
     }
   ],
   "pnjDetail": [
@@ -454,6 +459,11 @@
     },
     {
       "format": "pilier"
+    },
+    {
+      "name": "Divinités",
+      "format": "%s",
+      "iter": [["keirana", "randr", "joevina", "hardelbor", "burung", "heffquen", "maelic", "judbjorn" ]]
     }
   ],
   "potion": [
