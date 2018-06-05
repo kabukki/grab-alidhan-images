@@ -972,97 +972,80 @@
   ],
   "arme": [
     {
+      "format": "%s",
+	  "name": "Standalone items",
+      "iter": [
+	    [ "amuremort", "anneaufer", "anneauHallo", "armemort", "bague_immortel", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille" ]
+	  ]
+    },
+    {
       "format": "amulette%02d",
+	  "name": "Amulette",
       "iter": [
         13
       ]
     },
     {
-      "format": "amuremort"
-    },
-    {
-      "format": "anneaufer"
-    },
-    {
-      "format": "anneauHallo"
-    },
-    {
       "format": "arbalete%d",
+	  "name": "Arbalete",
       "iter": [
         7
       ]
     },
     {
       "format": "arc%d",
-      "iter": [
-        16
-      ]
+	  "name": "Arc",
+      "iter": [ 16 ]
     },
     {
-      "format": "arc9_s"
-    },
-    {
-      "format": "armemort"
+      "format": "arc%d_s",
+	  "name": "Arc scintillant",
+	  "iter": [ [ 9 ] ]
     },
     {
       "format": "armure%d",
-      "iter": [
-        16
-      ]
+	  "name": "Armure",
+      "iter": [ 16 ]
     },
     {
       "format": "badgeduconscrit%s",
+	  "name": "Badge du conscrit",
       "iter": [ [ "rvk5", "cph4" ] ]
     },
     {
       "format": "bague%02d",
-      "iter": [
-        9
-      ]
+	  "name": "Bague",
+      "iter": [ 9 ]
     },
     {
       "format": "bague%d",
-      "iter": [
-        17
-      ]
+	  "name": "Bague",
+      "iter": [ 17 ]
     },
     {
       "format": "bague_bete_%s",
+	  "name": "Bague bete",
       "iter" : [ [ "puissante", "sup" ] ]
     },
     {
-      "format": "bague_immortel"
-    },
-    {
-      "format": "baguerouge01lt5"
-    },
-    {
       "format": "baguette%d",
-      "iter": [
-        4
-      ]
+      "iter": [ 4 ]
     },
     {
       "format": "bas%d",
-      "iter": [
-        45
-      ]
+      "iter": [ 45 ]
     },
     {
       "format": "bas%d_l",
-      "iter": [
-        [2, 8]
-      ]
+      "iter": [ [ 2, 8 ] ]
     },
     {
       "format": "bas_tempete_%s",
-      "iter": [ ["scinti", "sup"] ]
+      "iter": [ [ "scinti", "sup" ] ]
     },
     {
       "format": "baton%d",
-      "iter": [
-        30
-      ]
+      "iter": [ 30 ]
     },
     {
       "format": "baton_bete_puissant"
@@ -1070,9 +1053,6 @@
     {
       "format": "baton_volcanos%s",
       "iter": [ [ "" , "_scinti"] ]
-    },
-    {
-      "format": "beret"
     },
     {
       "format": "bonnet_noel%s",
@@ -1092,60 +1072,40 @@
     },
     {
       "format": "bottes%d",
-      "iter": [
-        26
-      ]
+	  "name": "Bottes",
+      "iter": [ 26 ]
     },
     {
       "format": "bottes%02d",
-      "iter": [
-        8
-      ]
+	  "name": "Bottes",
+      "iter": [ 8 ]
     },
     {
-      "format": "bottes07_l"
-    },
-    {
-      "format": "bottes08_l"
+      "format": "bottes%02d_l",
+	  "name": "Bottes legendaires",
+	  "iter": [ 20 ]
     },
     {
       "format": "botte_sauvage_puiss"
     },
     {
       "format": "boucle%d",
-      "iter": [
-        10
-      ]
+	  "name": "Bouclier",
+      "iter": [ 10 ]
     },
     {
       "format": "bouclier%d",
-      "iter": [
-        18
-      ]
+	  "name": "Bouclier",
+      "iter": [ 18 ]
     },
     {
-      "format": "bouclier14_l"
-    },
-    {
-      "format": "bottes11_l"
-    },
-    {
-      "format": "bottes14_l"
-    },
-    {
-      "format": "cacheoreilles"
-    },
-    {
-      "format": "canne_a_peche"
+      "format": "bouclier%d_l",
+	  "name": "Bouclier legendaire",
+	  "iter": [ [ 14 ] ]
     },
     {
       "format": "cape%d",
-      "iter": [
-        8
-      ]
-    },
-    {
-      "format": "capenoel"
+      "iter": [ 8 ]
     },
     {
       "format": "cape_noel%s",
@@ -1171,15 +1131,11 @@
     },
     {
       "format": "chapeau%d",
-      "iter": [
-        28
-      ]
+      "iter": [ 28 ]
     },
     {
       "format": "chapka%d",
-      "iter": [
-        10
-      ]
+      "iter": [ 10 ]
     },
     {
       "format": "chaussons_volcano_%s",
@@ -1191,21 +1147,14 @@
     },
     {
       "format": "chaussures%d",
-      "iter": [
-        12
-      ]
+      "iter": [ 12 ]
     },
     {
       "format": "chaussures7_l"
     },
     {
       "format": "chemise%d",
-      "iter": [
-        2
-      ]
-    },
-    {
-      "format": "citrouille"
+      "iter": [ 2 ]
     },
     {
       "format": "cle%d",
@@ -1486,7 +1435,7 @@
       "format": "tiare01qr5"
     },
     {
-      "format": "toge_pelerin_%spuissant",
+      "format": "toge_pelerin_%s",
       "iter": [["puissant","sup"]]
     },
     {
