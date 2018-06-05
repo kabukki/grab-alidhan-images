@@ -1549,6 +1549,10 @@
     },
     {
       "format": "rat_alpha"
+    },
+    {
+      "name": "Inphlowe terrible Alpha",
+      "format": "fv1006_alpha"
     }
   ],
   "monstre/insecte": [
