@@ -1,143 +1,143 @@
 {
   "coffre": [
     {
-	  "name": "Coffre",
+      "name": "Coffre",
       "format": "%d",
       "iter": [ 4 ]
     }
   ],
   "grade": [
     {
-	  "name": "Grade",
+      "name": "Grade",
       "format": "grade_%d",
       "iter": [ 15 ]
     }
   ],
   "objet": [
     {
-	  "name": "Standalone items",
+      "name": "Standalone items",
       "format": "%s",
       "iter": [
         [ "barre_fer", "blood", "bolef5", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "peau_depeceur", "plume_coq" ]
       ]
     },
     {
-	  "name": "Aile",
+      "name": "Aile",
       "format": "aile%d",
       "iter": [ 1 ]
     },
     {
-	  "name": "Aile",
+      "name": "Aile",
       "format": "aile_%d",
       "iter": [ [ 3, 4, 5 ] ]
     },
     {
-	  "name": "Bec",
+      "name": "Bec",
       "format": "bec_%d",
       "iter": [ [ 2 ] ]
     },
     {
-	  "name": "Bol",
+      "name": "Bol",
       "format": "bol_%02d",
       "iter": [ 2 ]
     },
     {
-	  "name": "Boue",
+      "name": "Boue",
       "format": "boue%d",
       "iter": [ 1 ]
     },
     {
-	  "name": "Carapace",
+      "name": "Carapace",
       "format": "carapace%d",
       "iter": [ 2 ]
     },
     {
-	  "name": "Chapeau",
+      "name": "Chapeau",
       "format": "chapeau%d",
       "iter": [ 5 ]
     },
     {
-	  "name": "Coquille",
+      "name": "Coquille",
       "format": "coquille%d",
       "iter": [ [ 4, 5, 6 ] ]
     },
     {
-	  "name": "Crane",
+      "name": "Crane",
       "format": "crane%d",
       "iter": [ 4 ]
     },
     {
-	  "name": "Cristal",
+      "name": "Cristal",
       "format": "cristal%d",
       "iter": [ [ 1, 8, 9 ] ]
     },
     {
-	  "name": "Dent",
+      "name": "Dent",
       "format": "dent%d",
       "iter": [ [ 4, 5 ] ]
     },
     {
-	  "name": "Placeholder",
+      "name": "Placeholder",
       "format": "defaut",
       "ext": [ "gif" ]
     },
     {
-	  "name": "Feuille",
+      "name": "Feuille",
       "format": "feuille%d",
       "iter": [ 3 ]
     },
     {
-	  "name": "Fourrure",
+      "name": "Fourrure",
       "format": "fourrure%d",
       "iter": [ [ 2 ] ]
     },
     {
-	  "name": "Griffe",
+      "name": "Griffe",
       "format": "griffe%d",
       "iter": [ [ 2 ] ]
     },
     {
-	  "name": "Minerai",
+      "name": "Minerai",
       "format": "minerai%d",
       "iter": [ [ 1, 8, 9, 11 ] ]
     },
     {
-	  "name": "Minerai",
+      "name": "Minerai",
       "format": "minerai_%s",
       "iter": [ ["fer", "argent"] ]
     },
     {
-	  "name": "Minerai cristal rouge",
+      "name": "Minerai cristal rouge",
       "format": "minerai_cristal_rouge_%d",
       "iter": [ 1 ]
     },
     {
-	  "name": "Peau",
+      "name": "Peau",
       "format": "peau%d",
       "iter": [ 6 ]
     },
     {
-	  "name": "Piece",
+      "name": "Piece",
       "format": "piece%d",
       "iter": [ 1 ]
     },
     {
-	  "name": "Pierre",
+      "name": "Pierre",
       "format": "pierre%d",
       "iter": [ 12 ]
     },
     {
-	  "name": "Pierre",
+      "name": "Pierre",
       "format": "pierre_%s",
-	  "iter": [ [ "golem", "mineur" ] ]
+      "iter": [ [ "golem", "mineur" ] ]
     },
     {
-	  "name": "Poudre",
+      "name": "Poudre",
       "format": "poudre%d",
       "iter": [ 1 ]
     },
     {
-	  "name": "Queue",
+      "name": "Queue",
       "format": "queue%d",
       "iter": [ 5 ]
     }
@@ -900,58 +900,58 @@
   "arme": [
     {
       "format": "%s",
-	  "name": "Standalone items",
+      "name": "Standalone items",
       "iter": [
-	    [ "amuremort", "anneaufer", "anneauHallo", "armemort", "bague_immortel", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille" ]
-	  ]
+        [ "amuremort", "anneaufer", "anneauHallo", "armemort", "bague_immortel", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille" ]
+      ]
     },
     {
       "format": "amulette%02d",
-	  "name": "Amulette",
+      "name": "Amulette",
       "iter": [
         13
       ]
     },
     {
       "format": "arbalete%d",
-	  "name": "Arbalete",
+      "name": "Arbalete",
       "iter": [
         7
       ]
     },
     {
       "format": "arc%d",
-	  "name": "Arc",
+      "name": "Arc",
       "iter": [ 16 ]
     },
     {
       "format": "arc%d_s",
-	  "name": "Arc scintillant",
-	  "iter": [ [ 9 ] ]
+      "name": "Arc scintillant",
+      "iter": [ [ 9 ] ]
     },
     {
       "format": "armure%d",
-	  "name": "Armure",
+      "name": "Armure",
       "iter": [ 16 ]
     },
     {
       "format": "badgeduconscrit%s",
-	  "name": "Badge du conscrit",
+      "name": "Badge du conscrit",
       "iter": [ [ "rvk5", "cph4" ] ]
     },
     {
       "format": "bague%02d",
-	  "name": "Bague",
+      "name": "Bague",
       "iter": [ 9 ]
     },
     {
       "format": "bague%d",
-	  "name": "Bague",
+      "name": "Bague",
       "iter": [ 17 ]
     },
     {
       "format": "bague_bete_%s",
-	  "name": "Bague bete",
+      "name": "Bague bete",
       "iter" : [ [ "puissante", "sup" ] ]
     },
     {
@@ -999,36 +999,36 @@
     },
     {
       "format": "bottes%d",
-	  "name": "Bottes",
+      "name": "Bottes",
       "iter": [ 26 ]
     },
     {
       "format": "bottes%02d",
-	  "name": "Bottes",
+      "name": "Bottes",
       "iter": [ 8 ]
     },
     {
       "format": "bottes%02d_l",
-	  "name": "Bottes legendaires",
-	  "iter": [ 20 ]
+      "name": "Bottes legendaires",
+      "iter": [ 20 ]
     },
     {
       "format": "botte_sauvage_puiss"
     },
     {
       "format": "boucle%d",
-	  "name": "Bouclier",
+      "name": "Bouclier",
       "iter": [ 10 ]
     },
     {
       "format": "bouclier%d",
-	  "name": "Bouclier",
+      "name": "Bouclier",
       "iter": [ 18 ]
     },
     {
       "format": "bouclier%d_l",
-	  "name": "Bouclier legendaire",
-	  "iter": [ [ 14 ] ]
+      "name": "Bouclier legendaire",
+      "iter": [ [ 14 ] ]
     },
     {
       "format": "cape%d",
@@ -1403,37 +1403,37 @@
     {
       "name": "Forteresse",
       "format": "%s",
-	  "iter": [
-	    [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ]
-	  ]
+      "iter": [
+        [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ]
+      ]
     },
     {
-	  "name": "Nedmor",
+      "name": "Nedmor",
       "format": "%s",
-	  "iter": [
-	    [ "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "x731ut9mgy" ]
-	  ]
+      "iter": [
+        [ "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "x731ut9mgy" ]
+      ]
     },
     {
       "name": "Broquir",
       "format": "%s",
-	  "iter": [
-	    [ "2s4f6e1sdf51qaa", "z87df4cd56z6641", "dg51v6q65f1e6ghjkl", "ss84231vd68eta84" ]
-	  ]
+      "iter": [
+        [ "2s4f6e1sdf51qaa", "z87df4cd56z6641", "dg51v6q65f1e6ghjkl", "ss84231vd68eta84" ]
+      ]
     },
     {
       "name": "Rhogan",
       "format": "%s",
-	  "iter": [
-	    [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4" ]
-	  ]
+      "iter": [
+        [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4" ]
+      ]
     },
     {
       "name": "Forêt des bras cassés",
       "format": "%s",
-	  "iter": [
-	    [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg" ]
-	  ]
+      "iter": [
+        [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg" ]
+      ]
     },
     {
       "name": "Couloir sombre",
@@ -1454,16 +1454,16 @@
     {
       "name": "Brosems",
       "format": "%s",
-	  "iter": [
-	    [ "scxcvxcbhrturtujkolo", "xcvxcvcbnvgjghjyikklpo", "ergsdfsdckxjbcvbor", "sdfgxcxciopklmjkluyaz", "sdfgxcxciopklmjkluyaz2" ]
-	  ]
+      "iter": [
+        [ "scxcvxcbhrturtujkolo", "xcvxcvcbnvgjghjyikklpo", "ergsdfsdckxjbcvbor", "sdfgxcxciopklmjkluyaz", "sdfgxcxciopklmjkluyaz2" ]
+      ]
     },
     {
       "name": "Forêt dévastée",
       "format": "%s",
-	  "iter": [
-	    [ "azrluioifggdbcdff", "sdxccvfgrtftyezeznjh" ]
-	  ]
+      "iter": [
+        [ "azrluioifggdbcdff", "sdxccvfgrtftyezeznjh" ]
+      ]
     },
     {
       "name": "Avant poste des justiciers",
@@ -1480,9 +1480,9 @@
     {
       "name": "Tuléa",
       "format": "%s",
-	  "iter": [
-	    [ "13zesdqs3", "5lllezesd4", "9llleze5", "xcvxc4422365", "dfsdf342354", "vxcvxcvx14sfsf", "fzef8ezr6sdf3sdf1" ]
-	  ]
+      "iter": [
+        [ "13zesdqs3", "5lllezesd4", "9llleze5", "xcvxc4422365", "dfsdf342354", "vxcvxcvx14sfsf", "fzef8ezr6sdf3sdf1" ]
+      ]
     },
     {
       "name": "Cimetière",
@@ -1554,9 +1554,9 @@
     {
       "name": "Begharan",
       "format" : "%s",
-	  "iter": [
-	    [ "douane", "maptuto", "sous_sol", "villetuto" ]
-	  ]
+      "iter": [
+        [ "douane", "maptuto", "sous_sol", "villetuto" ]
+      ]
     }
   ],
   "monstre/insecte": [
