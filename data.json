@@ -1401,174 +1401,92 @@
   ],
   "map": [
     {
-      "format": "1ioedfza"
+      "name": "Forteresse"
+      "format": "%s",
+	  "iter": [
+	    [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ]
+	  ]
     },
     {
-      "name": "La salle du passé",
-      "format": "q7sktyzmq1mexqqy"
+	  "name": "Nedmor",
+      "format": "%s",
+	  "iter": [
+	    [ "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "x731ut9mgy" ]
+	  ]
     },
     {
-      "format": "nedmor_chateau"
-    },
-    {
-      "format": "interieur"
-    },
-    {
-      "name": "Salle du trone",
-      "format": "rcflo9j7pd"
-    },
-    {
-      "name": "Chateau de Nedmor",
-      "format": "yj1qp2tousah6pow"
-    },
-    {
-      "name": "Salle des partisans du roy",
-      "format": "x731ut9mgy"
-    },
-    {
-      "format": "2dffqsjy"
-    },
-    {
-      "name": "Forêt silencieuse de Broquir",
-      "format": "2s4f6e1sdf51qaa"
-    },
-    {
-      "name": "Forêt de Broquir (sud)",
-      "format": "z87df4cd56z6641"
-    },
-    {
-      "name": "Forêt profonde de Broquir",
-      "format": "dg51v6q65f1e6ghjkl"
-    },
-    {
-      "name": "Forêt dangereuse de Broquir",
-      "format": "ss84231vd68eta84"
-    },
-    {
-      "name": "Plaine verdoyante de Rhogan",
-      "format" : "dghrdf3vb2sd26"
+      "name": "Broquir",
+      "format": "%s",
+	  "iter": [
+	    [ "2s4f6e1sdf51qaa", "z87df4cd56z6641", "dg51v6q65f1e6ghjkl", "ss84231vd68eta84" ]
+	  ]
     },
     {
       "name": "Rhogan",
-      "format" : "fsf51zefsqf1"
-    },
-    {
-      "name": "Sous-bois de Rhogan",
-      "format" : "dtg6rt2g6er2g"
-    },
-    {
-      "name": "Sous-bois de Rhogan",
-      "format" : "rgerg541e5g4"
+      "format": "%s",
+	  "iter": [
+	    [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4" ]
+	  ]
     },
     {
       "name": "Forêt des bras cassés",
-      "format" : "rqhysxvwuvcu"
-    },
-    {
-      "name": "Forêt des bras cassés",
-      "format" : "jht73vax9y"
-    },
-    {
-      "name": "Forêt des bras cassés",
-      "format" : "u1mz4qju75"
-    },
-    {
-      "name": "Forêt des bras cassés",
-      "format" : "pxc0qegg"
+      "format": "%s",
+	  "iter": [
+	    [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg" ]
+	  ]
     },
     {
       "name": "Couloir sombre",
-      "format" : "4m11v0qagoiceu"
+      "format": "4m11v0qagoiceu"
     },
     {
       "name": "Corridor de Far",
-      "format" : "dfgdbgsregqlmp112"
+      "format": "dfgdbgsregqlmp112"
     },
     {
       "name": "Corniche déboisée",
-      "format" : "sqdfxcvty2312fgr"
+      "format": "sqdfxcvty2312fgr"
     },
     {
       "name": "Forêt sombre",
-      "format" : "6re4hr54z"
+      "format": "6re4hr54z"
     },
     {
       "name": "Brosems",
-      "format" : "scxcvxcbhrturtujkolo"
-    },
-    {
-      "name": "Brosems",
-      "format" : "xcvxcvcbnvgjghjyikklpo"
-    },
-    {
-      "name": "Forêt dévastée",
-      "format" : "azrluioifggdbcdff"
+      "format": "%s",
+	  "iter": [
+	    [ "scxcvxcbhrturtujkolo", "xcvxcvcbnvgjghjyikklpo", "ergsdfsdckxjbcvbor", "sdfgxcxciopklmjkluyaz", "sdfgxcxciopklmjkluyaz2" ]
+	  ]
     },
     {
       "name": "Forêt dévastée",
-      "format" : "sdxccvfgrtftyezeznjh"
+      "format": "%s",
+	  "iter": [
+	    [ "azrluioifggdbcdff", "sdxccvfgrtftyezeznjh" ]
+	  ]
     },
     {
       "name": "Avant poste des justiciers",
-      "format" : "cvfghnjkloi865"
+      "format": "cvfghnjkloi865"
     },
     {
       "name": "Poste de garde",
-      "format" : "1alllezesdqs1"
+      "format": "1alllezesdqs1"
     },
     {
       "name": "Guet de Khemor",
-      "format" : "1alllezesdqs2"
+      "format": "1alllezesdqs2"
     },
     {
-      "name": "Auberge de Brosems",
-      "format" : "ergsdfsdckxjbcvbor"
-    },
-    {
-      "name": "Abords de Tuléa",
-      "format" : "13zesdqs3"
-    },
-    {
-      "name": "Port de Tuléa",
-      "format" : "5lllezesd4"
-    },
-    {
-      "name": "Centre de Tuléa",
-      "format" : "9llleze5"
-    },
-    {
-      "name": "Maison délabrée",
-      "format" : "xcvxc4422365"
-    },
-    {
-      "name": "Auberge de Tuléa",
-      "format" : "dfsdf342354"
-    },
-    {
-      "name": "Sous-sol",
-      "format" : "vxcvxcvx14sfsf"
-    },
-    {
-      "name": "Sous-sol",
-      "format" : "fzef8ezr6sdf3sdf1"
-    },
-    {
-      "name": "Forêt de Brosems",
-      "format" : "sdfgxcxciopklmjkluyaz"
-    },
-    {
-      "name": "Forêt de Brosems",
-      "format" : "sdfgxcxciopklmjkluyaz2"
+      "name": "Tuléa",
+      "format": "%s",
+	  "iter": [
+	    [ "13zesdqs3", "5lllezesd4", "9llleze5", "xcvxc4422365", "dfsdf342354", "vxcvxcvx14sfsf", "fzef8ezr6sdf3sdf1" ]
+	  ]
     },
     {
       "name": "Cimetière",
-      "format" : "djildfcbjjdrzexcv"
-    },
-    {
-      "format": "3xrpttdsa"
-    },
-    {
-      "format": "4sdzezoid"
+      "format": "djildfcbjjdrzexcv"
     },
     {
       "format": "cne8585sd"
@@ -1631,21 +1549,14 @@
     {
       "name": "Cimetiere",
       "format": "cimetiere%d",
-      "iter": [
-        2
-      ]
+      "iter": [ 2 ]
     },
     {
-      "format": "douane"
-    },
-    {
-      "format": "maptuto"
-    },
-    {
-      "format": "sous_sol"
-    },
-    {
-      "format": "villetuto"
+      "name": "Begharan",
+      "format" : "%s",
+	  "iter": [
+	    [ "douane", "maptuto", "sous_sol", "villetuto" ]
+	  ]
     }
   ],
   "monstre/insecte": [
