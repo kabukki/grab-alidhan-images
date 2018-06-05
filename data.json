@@ -1763,12 +1763,15 @@
       "format": "douane"
     },
     {
+	  "name": "Begharan",
       "format": "maptuto"
     },
     {
+	  "name": "Cave de la Distillerie",
       "format": "sous_sol"
     },
     {
+	  "name": "Distillerie de Gertrude",
       "format": "villetuto"
     }
   ],
