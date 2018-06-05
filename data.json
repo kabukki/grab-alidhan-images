@@ -1449,7 +1449,8 @@
     },
     {
       "name": "Forêt sombre",
-      "format": "6re4hr54z"
+      "format": "%s",
+      "iter": [ "6re4hr54z", "cne8585sd", "ezrgpok52k2" ]
     },
     {
       "name": "Brosems",
@@ -1491,14 +1492,6 @@
     {
       "name": "Clairière de Nch",
       "format": "7a2ckjq5"
-    },
-    {
-      "name": "Forêt sombre",
-      "format": "cne8585sd"
-    },
-    {
-      "name": "Forêt sombre",
-      "format": "ezrgpok52k2"
     },
     {
       "format": "xc9zfl23w515s9f"
