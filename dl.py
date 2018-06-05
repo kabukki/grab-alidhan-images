@@ -99,7 +99,7 @@ def processItem (dir, item):
 
 # Download files for given categories
 def download (categories):
-	with open('data.json') as file:
+	with open('data.json', encoding='utf-8') as file:
 		data = json.load(file)
 		if len(categories) == 0:
 			categories = data.keys()
