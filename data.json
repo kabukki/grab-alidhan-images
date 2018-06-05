@@ -234,9 +234,7 @@
     },
     {
       "format": "swirl%d",
-      "iter": [
-        20
-      ]
+      "iter": [ 9 ]
     },
     {
       "format": "garde%d",
@@ -671,13 +669,12 @@
     },
     {
       "format": "skill%d",
-      "iter": [
-        124
-      ],
-      "ext": [
-        "png",
-        "gif"
-      ]
+      "iter": [ [1,2,3,16,17,19,23,40,41,44,46,48,50,51,55,56,120,121,123,124] ]
+    },
+    {
+      "format": "skill%d",
+      "iter": [ [4,5,7,8,9,10,11,14] ],
+      "ext": [ "gif" ]
     },
     {
       "format": "skill_RB"
@@ -1169,9 +1166,7 @@
     },
     {
       "format": "equip%d",
-      "iter": [
-        61
-      ]
+      "iter": [ [ 2, 14, 28, 35, 46, 61 ] ]
     },
     {
       "format": "escarpins01id3"
@@ -1436,7 +1431,7 @@
     {
       "name": "Forêt sombre",
       "format": "%s",
-      "iter": [ "6re4hr54z", "cne8585sd", "ezrgpok52k2" ]
+      "iter": [ [ "6re4hr54z", "cne8585sd", "ezrgpok52k2" ] ]
     },
     {
       "name": "Brosems",
@@ -1512,20 +1507,15 @@
       "iter": [ 3 ]
     },
     {
-      "format": "villeN%02d",
-      "iter": [ 5 ]
-    },
-    {
-      "format": "villeM%02d",
-      "iter": [ 5 ]
-    },
-    {
-      "format": "villeB%02d",
-      "iter": [ 5 ]
+      "format": "ville%s%02d",
+      "iter": [
+        [ "N", "M", "B"],
+        4
+      ]
     },
     {
       "format": "foret%d",
-      "iter": [ 19 ]
+      "iter": [ 18 ]
     },
     {
       "name": "Vallon de Far",
