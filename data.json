@@ -1650,6 +1650,12 @@
     },
     {
       "format": "prisonnier"
+    },
+    {
+      "format": "prisonnier2"
+    },
+    {
+      "format": "tortue"
     }
   ],
   "monstre/bizarre": [
@@ -1702,6 +1708,9 @@
     },
     {
       "format": "lizardman"
+    },
+    {
+      "format": "salamandre"
     },
     {
       "format": "serpentmer"
@@ -1785,6 +1794,9 @@
     },
     {
       "format": "soldat"
+    },
+    {
+      "format": "vouivre"
     },
     {
       "format": "yeti"
