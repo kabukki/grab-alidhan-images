@@ -1401,7 +1401,7 @@
   ],
   "map": [
     {
-      "name": "Forteresse"
+      "name": "Forteresse",
       "format": "%s",
 	  "iter": [
 	    [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ]
