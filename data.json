@@ -1435,7 +1435,8 @@
     },
     {
       "name": "Forêt sombre",
-      "format": "6re4hr54z"
+      "format": "%s",
+      "iter": [ "6re4hr54z", "cne8585sd", "ezrgpok52k2" ]
     },
     {
       "name": "Brosems",
@@ -1475,10 +1476,8 @@
       "format": "djildfcbjjdrzexcv"
     },
     {
-      "format": "cne8585sd"
-    },
-    {
-      "format": "ezrgpok52k2"
+      "name": "Clairière de Nch",
+      "format": "7a2ckjq5"
     },
     {
       "format": "xc9zfl23w515s9f"
@@ -1543,6 +1542,23 @@
       "iter": [
         [ "douane", "maptuto", "sous_sol", "villetuto" ]
       ]
+    }
+  ],
+  "monstre/alpha": [
+    {
+      "format": "ours3_alpha"
+    },
+    {
+      "format": "renard_alpha"
+    },
+    {
+      "format": "bouquetin_alpha"
+    },
+    {
+      "format": "herisson_lion_alpha"
+    },
+    {
+      "format": "rat_alpha"
     }
   ],
   "monstre/insecte": [
