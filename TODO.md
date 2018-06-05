@@ -48,6 +48,7 @@
 ### Monstres
 
 - Luxihnor
+- Inphlowe terrible Alpha
 - Griffus
 - Autres ?
   - Ofeva

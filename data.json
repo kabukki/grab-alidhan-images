@@ -1694,16 +1694,16 @@
     {
       "format": "4sdzezoid"
     },
-	{
-	"name": "Clairière de Nch",
-	"format": "7a2ckjq5"
-	},
     {
-	"name": "Forêt sombre",
+      "name": "Clairière de Nch",
+      "format": "7a2ckjq5"
+    },
+    {
+      "name": "Forêt sombre",
       "format": "cne8585sd"
     },
     {
-	"name": "Forêt sombre",
+      "name": "Forêt sombre",
       "format": "ezrgpok52k2"
     },
     {
@@ -1769,34 +1769,34 @@
       "format": "douane"
     },
     {
-	  "name": "Begharan",
+      "name": "Begharan",
       "format": "maptuto"
     },
     {
-	  "name": "Cave de la Distillerie",
+      "name": "Cave de la Distillerie",
       "format": "sous_sol"
     },
     {
-	  "name": "Distillerie de Gertrude",
+      "name": "Distillerie de Gertrude",
       "format": "villetuto"
     }
   ],
   "monstre/alpha": [
-	{
-	"format": "ours3_alpha"
-	},
-	{
-	"format": "renard_alpha"
-	},
-	{
-	"format": "bouquetin_alpha"
-	},
-	{
-	"format": "herisson_lion_alpha"
-	},
-	{
-	"format": "rat_alpha"
-	}
+    {
+      "format": "ours3_alpha"
+    },
+    {
+      "format": "renard_alpha"
+    },
+    {
+      "format": "bouquetin_alpha"
+    },
+    {
+      "format": "herisson_lion_alpha"
+    },
+    {
+      "format": "rat_alpha"
+    }
   ],
   "monstre/insecte": [
     {
