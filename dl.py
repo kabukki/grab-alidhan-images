@@ -7,7 +7,7 @@ from urllib.error import HTTPError
 from colorama import init, Style, Fore
 
 DEFAULT_EXTENSION = 'png'
-VERBOSE = True
+VERBOSE = False
 
 new = 0
 cache = 0
