@@ -380,14 +380,14 @@
     {
       "format": "moine_copiste"
     },
-	{
-	"format": "mort_%s_detail",
-	"iter": [ [ "r", "e" ] ]
-	},
-	{
-	"format": "new_garde_%s_detail",
-	"iter": [ [ "c", "e", "r" ] ]
-	},
+    {
+      "format": "mort%s_detail",
+      "iter": [ [ "_r", "_e", "-c" ] ]
+    },
+    {
+      "format": "new_garde_%s_detail",
+      "iter": [ [ "c", "e", "r" ] ]
+    },
     {
       "format": "paladin_varox"
     },
@@ -1427,11 +1427,11 @@
         [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4" ]
       ]
     },
-	{
-	"name": "Phyléas",
-	"format": "%s",
-	"iter": [ [ "sdf6219ezr2fs", "vb1srq6d51fv", "sdg45dv6w", "sd6v59xcv9s5er", "ss5754fsd5c4e56f" ] ]
-	},
+    {
+      "name": "Phyléas",
+      "format": "%s",
+      "iter": [ [ "sdf6219ezr2fs", "vb1srq6d51fv", "sdg45dv6w", "sd6v59xcv9s5er", "ss5754fsd5c4e56f" ] ]
+    },
     {
       "name": "Forêt des bras cassés",
       "format": "%s",
