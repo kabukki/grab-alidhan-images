@@ -352,8 +352,15 @@
       "iter": [ 5 ]
     },
     {
+      "format": "gardeTP%d_detail",
+      "iter": [ 3 ]
+    },
+    {
       "format": "garde%d",
       "iter": [ 2 ]
+    },
+    {
+      "format": "gardien_chateau"
     },
     {
       "format": "herutis"
@@ -373,6 +380,14 @@
     {
       "format": "moine_copiste"
     },
+	{
+	"format": "mort_%s_detail",
+	"iter": [ [ "r", "e" ] ]
+	},
+	{
+	"format": "new_garde_%s_detail",
+	"iter": [ [ "c", "e", "r" ] ]
+	},
     {
       "format": "paladin_varox"
     },
@@ -669,11 +684,11 @@
     },
     {
       "format": "skill%d",
-      "iter": [ [1,2,3,16,17,19,23,40,41,44,46,48,50,51,55,56,120,121,123,124] ]
+      "iter": [ [ 1,2,3,16,17,19,23,40,41,44,46,48,50,51,55,56,120,121,123,124 ] ]
     },
     {
       "format": "skill%d",
-      "iter": [ [4,5,7,8,9,10,11,14] ],
+      "iter": [ [ 4,5,7,8,9,10,11,14 ] ],
       "ext": [ "gif" ]
     },
     {
@@ -685,6 +700,9 @@
     },
     {
       "format": "stalactite"
+    },
+    {
+      "format": "syphon_energie"
     },
     {
       "format": "suractivite_mineure",
@@ -1409,6 +1427,11 @@
         [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4" ]
       ]
     },
+	{
+	"name": "Phyléas",
+	"format": "%s",
+	"iter": [ [ "sdf6219ezr2fs", "vb1srq6d51fv", "sdg45dv6w", "sd6v59xcv9s5er", "ss5754fsd5c4e56f" ] ]
+	},
     {
       "name": "Forêt des bras cassés",
       "format": "%s",
