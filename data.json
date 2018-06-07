@@ -18,7 +18,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "barre_fer", "blood", "bolef5", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "peau_depeceur", "plume_coq" ]
+        [ "barre_fer", "blood", "bolef5", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "peau_depeceur", "pince2", "plume_coq" ]
       ]
     },
     {
@@ -990,7 +990,8 @@
       "iter": [ 30 ]
     },
     {
-      "format": "baton_bete_puissant"
+      "format": "baton_bete%s",
+	  "iter": [ [ "", "_puissant"] ]
     },
     {
       "format": "baton_volcanos%s",
@@ -1424,7 +1425,7 @@
       "name": "Rhogan",
       "format": "%s",
       "iter": [
-        [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4" ]
+        [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4", "jioeg7eger5g4z" ]
       ]
     },
     {
