@@ -18,7 +18,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "barre_fer", "blood", "bolef5", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "peau_depeceur", "pince2", "plume_coq" ]
+        [ "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "peau_depeceur", "pince2", "plume_coq" ]
       ]
     },
     {
@@ -300,6 +300,9 @@
       "format": "poulpe"
     },
     {
+      "format": "rumas"
+    },
+    {
       "format": "Bamou"
     },
     {
@@ -316,6 +319,9 @@
     }
   ],
   "pnjDetail": [
+    {
+      "format": "ange"
+    },
     {
       "format": "ambulant2_detail"
     },
@@ -402,6 +408,9 @@
     },
     {
       "format": "pr_lactos"
+    },
+    {
+      "format": "rumas"
     },
     {
       "format": "soldat_arene"
@@ -1493,6 +1502,16 @@
         [ "13zesdqs3", "5lllezesd4", "9llleze5", "xcvxc4422365", "dfsdf342354", "vxcvxcvx14sfsf", "fzef8ezr6sdf3sdf1" ]
       ]
     },
+	{
+	"name": "Mérulik",
+	"format" : "%s",
+	"iter" : [ [ "ville2", "ville2bis", "plaine12", "87adedqaze" ]]
+	},
+	{
+	"name": "Comptoir de la Hanse",
+	"format" : "%s",
+	"iter": [ [ "145fsqf9", "98985devdfgs" ] ]
+	},
     {
       "name": "Cimetière",
       "format": "djildfcbjjdrzexcv"

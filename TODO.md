@@ -30,7 +30,6 @@
 - Golem de boue
 - Flèche explosive
 - Lierres sauvages puissantes
-- Siphon d'énergie
 - Soin de zone
 - Ferveur du prêtre
 - Dévotion du prêtre
