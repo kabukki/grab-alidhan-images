@@ -31,6 +31,11 @@
       "format": "aile_%d",
       "iter": [ [ 3, 4, 5 ] ]
     },
+	{
+	"name": "Artefact",
+	"format" : "artefact_%s",
+	"iter" : [ [ "glace", "eau" ] ]
+	}
     {
       "name": "Bec",
       "format": "bec_%d",
