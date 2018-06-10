@@ -31,11 +31,11 @@
       "format": "aile_%d",
       "iter": [ [ 3, 4, 5 ] ]
     },
-	{
-	"name": "Artefact",
-	"format" : "artefact_%s",
-	"iter" : [ [ "glace", "eau" ] ]
-	}
+    {
+      "name": "Artefact",
+      "format" : "artefact_%s",
+      "iter" : [ [ "glace", "eau" ] ]
+    },
     {
       "name": "Bec",
       "format": "bec_%d",
@@ -184,9 +184,9 @@
         1
       ]
     },
-	{
-	  "format": "machin"
-	},
+    {
+      "format": "machin"
+    },
     {
       "format": "parchemin%d",
       "iter": [
@@ -928,9 +928,9 @@
     {
       "format": "auberge"
     },
-	{
-	"format": "artisanat"
-	}
+    {
+      "format": "artisanat"
+    }
   ],
   "primes": [
     {
@@ -1017,7 +1017,7 @@
     },
     {
       "format": "baton_bete%s",
-	  "iter": [ [ "", "_puissant"] ]
+      "iter": [ [ "", "_puissant"] ]
     },
     {
       "format": "baton_volcanos%s",
@@ -1516,16 +1516,16 @@
         [ "13zesdqs3", "5lllezesd4", "9llleze5", "xcvxc4422365", "dfsdf342354", "vxcvxcvx14sfsf", "fzef8ezr6sdf3sdf1" ]
       ]
     },
-	{
-	"name": "Mérulik",
-	"format" : "%s",
-	"iter" : [ [ "ville2", "ville2bis", "plaine12", "87adedqaze" ]]
-	},
-	{
-	"name": "Comptoir de la Hanse",
-	"format" : "%s",
-	"iter": [ [ "145fsqf9", "98985devdfgs" ] ]
-	},
+    {
+      "name": "Mérulik",
+      "format" : "%s",
+      "iter" : [ [ "ville2", "ville2bis", "plaine12", "87adedqaze" ]]
+    },
+    {
+      "name": "Comptoir de la Hanse",
+      "format" : "%s",
+      "iter": [ [ "145fsqf9", "98985devdfgs" ] ]
+    },
     {
       "name": "Cimetière",
       "format": "djildfcbjjdrzexcv"
