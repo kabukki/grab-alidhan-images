@@ -22,11 +22,6 @@
 - Dissipation magique
 - 3 Boules givrées
 - Piège anti-soin
-- Fureur de l'ours
-- Hurlement bestial
-- Lacération
-- Contre-attaque
-- Golem de boue
 - Flèche explosive
 - Lierres sauvages puissantes
 - Soin de zone
@@ -34,10 +29,7 @@
 - Dévotion du prêtre
 - Toucher guérisseur
 - Sceau d'invisibilité
-- Nova de feu
 - Apposition des mains
-- Bénédiction du moine
-- Sort de vigueur
 
 ### Ecran
 
@@ -60,7 +52,7 @@
 ### Objets
 
 - Mass
-- Diamants (V1)
+- Diamants (v1)
 - Pièce de beta-testeur (v1 & v2)
 
 ### Objets de quêtes

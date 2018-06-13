@@ -560,6 +560,9 @@
       "format": "appel_sacre"
     },
     {
+      "format": "benediction_moine"
+    },
+    {
       "format": "blizzard"
     },
     {
@@ -576,6 +579,9 @@
     },
     {
       "format": "chatiment"
+    },
+    {
+      "format": "contre_attaque"
     },
     {
       "format": "coup_precis",
@@ -602,6 +608,9 @@
     },
     {
       "format": "dephasage"
+    },
+    {
+      "format": "elementaire_boue"
     },
     {
       "format": "esprit_voyageur",
@@ -639,6 +648,10 @@
       "ext": [ "gif" ]
     },
     {
+      "format": "frappe_feline",
+	  "ext": [ "gif" ]
+    },
+    {
       "format": "frappe_sacree"
     },
     {
@@ -648,7 +661,14 @@
       "format": "furie"
     },
     {
+      "format": "fureur_de_lours",
+	  "ext": [ "gif" ]
+    },
+    {
       "format": "harpon_glace"
+    },
+    {
+      "format": "hurlement_de_lours"
     },
     {
       "format": "intervention_divine"
@@ -715,7 +735,8 @@
       "ext": [ "gif" ]
     },
     {
-      "format": "skill_RB"
+      "format": "skill_%s",
+	  "iter": [ [ "RB", "vigueur" ] ]
     },
     {
       "format": "soin%d",
@@ -978,7 +999,7 @@
     {
       "format": "badgeduconscrit%s",
       "name": "Badge du conscrit",
-      "iter": [ [ "rvk5", "cph4" ] ]
+      "iter": [ [ "rvk5", "cph4", "ejc9" ] ]
     },
     {
       "format": "bague%02d",
