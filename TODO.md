@@ -1,7 +1,6 @@
 ## Armes
 
 - Bracelets Serpents
-- Insigne du conscrit exilé
 - Chaussettes haut en couleur
 - Certaines images d'artisanats ?
 
@@ -39,6 +38,12 @@
 - Apposition des mains
 - Bénédiction du moine
 - Sort de vigueur
+
+### Ecran
+
+- Vol
+- Assassinat ?
+- Autres ?
 
 ### Maps
 
