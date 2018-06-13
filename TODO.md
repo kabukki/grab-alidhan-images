@@ -60,6 +60,8 @@
 ### Objets
 
 - Mass
+- Diamants (V1)
+- Pièce de beta-testeur (v1 & v2)
 
 ### Objets de quêtes
 
