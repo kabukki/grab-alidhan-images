@@ -18,7 +18,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "plante_herboriste", "peau_depeceur", "pince2", "plume_coq" ]
+        [ "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "dent_dragon", "diamoir5", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "plante_herboriste", "peau_depeceur", "pince2", "plume_coq", "poisson_pecheur" ]
       ]
     },
     {
@@ -148,17 +148,16 @@
     }
   ],
   "objetquete": [
-    {
-      "format": "jevx7i5doqbh"
-    },
-    {
-      "format": "p9jp2wnq9bsa"
-    },
-    {
-      "format": "zj20ek71lkzk"
-    },
+  {
+  "name": "Perles",
+  "format": "%s",
+  "iter": [ [ "jevx7i5doqbh","p9jp2wnq9bsa","zj20ek71lkzk","oj7xs31n2mak" ] ]
+  },
     {
       "format": "bousolle"
+    },
+    {
+      "format": "bonbec10"
     },
     {
       "format": "branche%d",
@@ -167,7 +166,17 @@
       ]
     },
     {
+      "format": "carte"
+    },
+    {
       "format": "chardon"
+    },
+    {
+      "format": "coeur%s",
+	  "iter": [ [ "Bien", "Mal", "Neutre" ] ]
+    },
+    {
+      "format": "coffre_fer"
     },
     {
       "format": "clef_%d",
@@ -177,6 +186,10 @@
     },
     {
       "format": "cles_tresor"
+    },
+    {
+      "format": "fragment%d",
+	  "iter": [ 4 ]
     },
     {
       "format": "gateau_noel_%02d",
@@ -293,6 +306,9 @@
       "format": "Manashama"
     },
     {
+      "format": "miroir"
+    },
+    {
       "format": "moine_copiste"
     },
     {
@@ -300,6 +316,9 @@
     },
     {
       "format": "pere_noel"
+    },
+    {
+      "format": "petit_raymond"
     },
     {
       "format": "pnj_tavernier"
@@ -381,6 +400,9 @@
     },
     {
       "format": "gardien_chateau"
+    },
+    {
+      "format": "grand_raymond"
     },
     {
       "format": "herutis"
@@ -947,10 +969,13 @@
   ],
   "ecran": [
     {
-      "format": "auberge"
+      "format": "artisanat"
     },
     {
-      "format": "artisanat"
+      "format": "auberge"
+    }
+    {
+      "format": "vol"
     }
   ],
   "primes": [
@@ -1497,7 +1522,8 @@
     },
     {
       "name": "Corniche déboisée",
-      "format": "sqdfxcvty2312fgr"
+      "format": "%s",
+	  "iter": [ [ "sqdfxcvty2312fgr", "dg9ergse6g978" ] ]
     },
     {
       "name": "Forêt sombre",
@@ -1522,6 +1548,10 @@
       "name": "Avant poste des justiciers",
       "format": "cvfghnjkloi865"
     },
+	{
+	"name": "Divenia",
+	"format": "wfxspigq1"
+	},
     {
       "name": "Poste de garde",
       "format": "1alllezesdqs1"
@@ -1588,6 +1618,10 @@
       "iter": [ 3 ]
     },
     {
+      "format": "arene%d",
+      "iter": [ 9 ]
+    },
+    {
       "format": "ville%s%02d",
       "iter": [
         [ "N", "M", "B"],
@@ -1606,6 +1640,10 @@
       "name": "Cimetiere",
       "format": "cimetiere%d",
       "iter": [ 2 ]
+    },
+    {
+      "name": "Cimetiere",
+      "format": "sdfgsd68svc4"
     },
     {
       "name": "Begharan",
