@@ -148,11 +148,11 @@
     }
   ],
   "objetquete": [
-  {
-  "name": "Perles",
-  "format": "%s",
-  "iter": [ [ "jevx7i5doqbh","p9jp2wnq9bsa","zj20ek71lkzk","oj7xs31n2mak" ] ]
-  },
+    {
+      "name": "Perles",
+      "format": "%s",
+      "iter": [ [ "jevx7i5doqbh","p9jp2wnq9bsa","zj20ek71lkzk","oj7xs31n2mak" ] ]
+    },
     {
       "format": "bousolle"
     },
@@ -173,7 +173,7 @@
     },
     {
       "format": "coeur%s",
-	  "iter": [ [ "Bien", "Mal", "Neutre" ] ]
+      "iter": [ [ "Bien", "Mal", "Neutre" ] ]
     },
     {
       "format": "coffre_fer"
@@ -189,7 +189,7 @@
     },
     {
       "format": "fragment%d",
-	  "iter": [ 4 ]
+      "iter": [ 4 ]
     },
     {
       "format": "gateau_noel_%02d",
@@ -671,7 +671,7 @@
     },
     {
       "format": "frappe_feline",
-	  "ext": [ "gif" ]
+      "ext": [ "gif" ]
     },
     {
       "format": "frappe_sacree"
@@ -684,7 +684,7 @@
     },
     {
       "format": "fureur_de_lours",
-	  "ext": [ "gif" ]
+      "ext": [ "gif" ]
     },
     {
       "format": "harpon_glace"
@@ -758,7 +758,7 @@
     },
     {
       "format": "skill_%s",
-	  "iter": [ [ "RB", "vigueur" ] ]
+      "iter": [ [ "RB", "vigueur" ] ]
     },
     {
       "format": "soin%d",
@@ -973,7 +973,7 @@
     },
     {
       "format": "auberge"
-    }
+    },
     {
       "format": "vol"
     }
@@ -1523,7 +1523,7 @@
     {
       "name": "Corniche déboisée",
       "format": "%s",
-	  "iter": [ [ "sqdfxcvty2312fgr", "dg9ergse6g978" ] ]
+      "iter": [ [ "sqdfxcvty2312fgr", "dg9ergse6g978" ] ]
     },
     {
       "name": "Forêt sombre",
@@ -1548,10 +1548,10 @@
       "name": "Avant poste des justiciers",
       "format": "cvfghnjkloi865"
     },
-	{
-	"name": "Divenia",
-	"format": "wfxspigq1"
-	},
+    {
+      "name": "Divenia",
+      "format": "wfxspigq1"
+    },
     {
       "name": "Poste de garde",
       "format": "1alllezesdqs1"
@@ -1616,6 +1616,9 @@
     {
       "format": "couloirsombre%d",
       "iter": [ 3 ]
+    },
+    {
+      "format": "arene"
     },
     {
       "format": "arene%d",
