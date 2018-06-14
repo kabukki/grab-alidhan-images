@@ -2,6 +2,7 @@
 
 - Bracelets Serpents
 - Chaussettes haut en couleur
+- Bague du dragon noir
 - Certaines images d'artisanats ?
 
 ### Classes
@@ -45,19 +46,39 @@
 
 - Luxihnor
 - Griffus
+- Chef Gobelin
+- Crapaud méchant
+- Crane infernal
+- Gobelin des cavernes
+- Harpie
+- Loup du glacier
+- Mort-vivant
+- Orc enchainé
+- Pirate
+- Poulpe
+- Triton
+- Zombie gourmand
+- Monstres d'Ofeva
+- Monstres de Volcanos
 - Autres ?
-  - Ofeva
-  - Volcanos
 
 ### Objets
 
-- Mass
 - Diamants (v1)
+- Ailes de chauves-souris
+- Crinière de manticore
+- Griffe de loup du glacier
+- Plume de harpie
+- Tete d'hydre
+- Malédiction de l'équipage
 - Pièce de beta-testeur (v1 & v2)
+- Autres ?
 
 ### Objets de quêtes
 
-- Mass
+- Clé
+- Clé de la grotte
+- Autres ?
 
 ### Pnj & Detail
 
