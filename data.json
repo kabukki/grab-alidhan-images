@@ -1955,5 +1955,100 @@
         6
       ]
     }
+  ],
+  "banniere": [
+    {
+      "format": "bouton_88x31px_fr"
+    },
+    {
+      "format": "banniere_468x60px_fr"
+    }
+  ],
+  "style":  [
+    {
+      "format": "message"
+    },
+    {
+      "format": "message1"
+    },
+    {
+      "format": "parchemin_carte"
+    },
+    {
+      "format": "separation_menu"
+    }
+  ],
+  "jeu": [
+    {
+      "format": "profil"
+    },
+    {
+      "format": "inventaire"
+    },
+    {
+      "format": "guilde"
+    },
+    {
+      "format": "historique"
+    },
+    {
+      "format": "calendrier"
+    },
+    {
+      "format": "bonus"
+    },
+    {
+      "name": "Faction",
+      "format": "%s",
+      "iter": [ [ "mal", "neutre", "bien"] ]
+    },
+    {
+      "name": "Status",
+      "format": "%s",
+      "iter": [ [ "offline", "online" ] ]
+    },
+    {
+      "format": "%s",
+      "iter": [ [ "masculin", "feminin" ] ]
+    },
+    {
+      "format": "1star%s",
+      "iter": [ [ "", "_gold" ] ],
+      "ext": [ "gif" ]
+    }
+  ],
+  "smiley":[
+    {
+      "format": "%s",
+      "iter": [
+        [
+          "huh",
+          "happy",
+          "ohmy",
+          "mellow",
+          "wink",
+          "tongue",
+          "biggrin",
+          "laugh",
+          "cool",
+          "rolleyes",
+          "sleep",
+          "dry",
+          "smile",
+          "wub",
+          "mad",
+          "sad",
+          "unsure",
+          "wacko",
+          "blink",
+          "ph34r",
+          "whistling"
+        ]
+      ],
+      "ext": [ "gif" ]
+    },
+    {
+      "format": "cry"
+    }
   ]
 }
