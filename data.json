@@ -18,7 +18,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "dent_dragon", "diamoir5", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "plante_herboriste", "peau_depeceur", "pince2", "plume_coq", "poisson_pecheur" ]
+        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "dent_dragon", "diamclair7", "diamoir5", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "plante_herboriste", "peau_depeceur", "pince2", "plume_coq", "poisson_pecheur" ]
       ]
     },
     {
@@ -585,6 +585,9 @@
     {
       "format": "alchimiste_%d",
       "iter": [ 2 ]
+    },,
+    {
+      "format": "anti_soin"
     },
     {
       "format": "armurier_%d",
@@ -594,6 +597,9 @@
       "format": "appel_sacre"
     },
     {
+      "format": "apposition"
+    },
+    {
       "format": "benediction_moine"
     },
     {
@@ -601,6 +607,9 @@
     },
     {
       "format": "bouclier_divin"
+    },
+    {
+      "format": "boule_givree"
     },
     {
       "format": "BSA"
@@ -642,6 +651,9 @@
     },
     {
       "format": "dephasage"
+    },
+    {
+      "format": "devotion_pretre"
     },
     {
       "format": "elementaire_boue"
@@ -721,6 +733,12 @@
       "format": "lien_tellurique"
     },
     {
+      "format": "lierre_puissante"
+    },
+    {
+      "format": "malediction_int"
+    },
+    {
       "format": "minage"
     },
     {
@@ -755,6 +773,9 @@
       "ext": [
         "gif"
       ]
+    },
+    {
+      "format": "sceau_invisibilite"
     },
     {
       "format": "secret_heros"
@@ -801,6 +822,12 @@
     {
       "format": "tir_precis",
       "ext": [ "gif" ]
+    },
+    {
+      "format": "toucher_guerisseur"
+    },
+    {
+      "format": "zone_soin"
     }
   ],
   "classe": [
@@ -1004,7 +1031,7 @@
       "format": "%s",
       "name": "Standalone items",
       "iter": [
-        [ "amuremort", "anneaufer", "anneauHallo", "armemort", "bague_immortel", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille" ]
+        [ "amuremort", "anneaufer", "anneauHallo", "armemort", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille" ]
       ]
     },
     {
@@ -1050,6 +1077,11 @@
       "format": "bague%d",
       "name": "Bague",
       "iter": [ 17 ]
+    },
+    {
+      "format": "bague_%s",
+      "name": "Bague",
+      "iter": [ [ "immortel", "dragon" ] ]
     },
     {
       "format": "bague_bete_%s",

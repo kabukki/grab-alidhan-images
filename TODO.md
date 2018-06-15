@@ -21,16 +21,6 @@
 - Vivacité d'esprit
 - Piège magique
 - Dissipation magique
-- 3 Boules givrées
-- Piège anti-soin
-- Flèche explosive
-- Lierres sauvages puissantes
-- Soin de zone
-- Ferveur du prêtre
-- Dévotion du prêtre
-- Toucher guérisseur
-- Sceau d'invisibilité
-- Apposition des mains
 
 ### Ecran
 
@@ -64,14 +54,13 @@
 
 ### Objets
 
-- Diamants (v1)
 - Ailes de chauves-souris
 - Crinière de manticore
 - Griffe de loup du glacier
 - Plume de harpie
 - Tete d'hydre
 - Malédiction de l'équipage
-- Pièce de beta-testeur (v1 & v2)
+- Pièce de beta-testeur (v1)
 - Autres ?
 
 ### Objets de quêtes
