@@ -321,6 +321,12 @@
       "format": "petit_raymond"
     },
     {
+      "format": "pnj1smallfh0"
+    },
+    {
+      "format": "pnj2smallzu4"
+    },
+    {
       "format": "pnj_tavernier"
     },
     {
@@ -435,6 +441,12 @@
     },
     {
       "format": "pere_noel"
+    },
+    {
+      "format": "pnj1tf9"
+    },
+    {
+      "format": "pnj2bh1_detail"
     },
     {
       "format": "poulpe"
@@ -973,6 +985,9 @@
     },
     {
       "format": "auberge"
+    },
+    {
+      "format": "mort"
     },
     {
       "format": "vol"
@@ -1576,6 +1591,11 @@
       "name": "Comptoir de la Hanse",
       "format" : "%s",
       "iter": [ [ "145fsqf9", "98985devdfgs" ] ]
+    },
+    {
+      "name": "Bois antique de Far",
+      "format" : "%s",
+      "iter": [ [ "okke12zb1", "hjbbe2ok0", "coihe3tg8" ] ]
     },
     {
       "name": "Cimetière",
