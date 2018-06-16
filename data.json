@@ -1534,6 +1534,13 @@
       ]
     },
     {
+      "name": "Fuisserage",
+      "format": "%s",
+      "iter": [
+        [ "armurebien", "aubergebien", "banquebien", "villebien5", "villebien6"  ]
+      ]
+    },
+    {
       "name": "Broquir",
       "format": "%s",
       "iter": [
@@ -1582,6 +1589,20 @@
       "format": "%s",
       "iter": [
         [ "scxcvxcbhrturtujkolo", "xcvxcvcbnvgjghjyikklpo", "ergsdfsdckxjbcvbor", "sdfgxcxciopklmjkluyaz", "sdfgxcxciopklmjkluyaz2" ]
+      ]
+    },
+    {
+      "name": "Lyberthas",
+      "format": "%s",
+      "iter": [
+        [ "h54dfger51vsd", "erg4vqsdfh48t5961", "51yjfs5g1eqfsd", "dpfogdsg512dg" ]
+      ]
+    },
+    {
+      "name": "Lumos",
+      "format": "%s",
+      "iter": [
+        [ "98g14sqfea", "plfev84520eq", "87rtg987sd4etf", "h5dg45324ert" ]
       ]
     },
     {
@@ -2023,6 +2044,9 @@
     }
   ],
   "style":  [
+    {
+      "format": "cadre_carte"
+    },
     {
       "format": "message"
     },
