@@ -65,7 +65,6 @@
 ### Objets de quêtes
 
 - Clé
-- Clé de la grotte
 - Autres ?
 
 ### Pnj & Detail
