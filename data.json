@@ -176,6 +176,9 @@
       "iter": [ [ "Bien", "Mal", "Neutre" ] ]
     },
     {
+      "format": "coeur"
+    },
+    {
       "format": "coffre_fer"
     },
     {
@@ -185,7 +188,8 @@
       ]
     },
     {
-      "format": "cles_tresor"
+      "format": "cles%s",
+	  "iter" : [ [ "", "_tresor" ] ]
     },
     {
       "format": "fragment%d",
