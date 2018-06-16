@@ -1530,7 +1530,7 @@
       "name": "Nedmor",
       "format": "%s",
       "iter": [
-        [ "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "x731ut9mgy", "sdg3vnbki4uluoiuerte2", "depotvente1", "banque1", "forgeauberge1" ]
+        [ "oijeeck", "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "x731ut9mgy", "sdg3vnbki4uluoiuerte2", "depotvente1", "banque1", "forgeauberge1", "sdgvnbkiuluoiuerte" ]
       ]
     },
     {
@@ -1659,13 +1659,9 @@
       "format": "7a2ckjq5"
     },
     {
-      "format": "xc9zfl23w515s9f"
-    },
-    {
-      "format": "sdgvnbkiuluoiuerte"
-    },
-    {
-      "format": "zhhd7n43jqje8ce"
+	  "name": "Nowenuld",
+      "format": "%s",
+	  "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce" ] ]
     },
     {
       "name": "Corridor de Far",
@@ -1673,12 +1669,6 @@
     },
     {
       "format": "wwwxxdzssxnklmpouyg"
-    },
-    {
-      "format": "pekge8754zeaf"
-    },
-    {
-      "format": "oijeeck"
     },
     {
       "format": "ghrimlong10yjzjb"
@@ -1725,7 +1715,7 @@
       "name": "Begharan",
       "format" : "%s",
       "iter": [
-        [ "douane", "maptuto", "sous_sol", "villetuto" ]
+        [ "pekge8754zeaf", "douane", "maptuto", "sous_sol", "villetuto" ]
       ]
     }
   ],
