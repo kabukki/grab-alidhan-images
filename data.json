@@ -1862,6 +1862,12 @@
       "iter": [
         2
       ]
+    },
+    {
+      "format": "mort_vivant_2"
+    },
+    {
+      "format": "zombie_02"
     }
   ],
   "monstre/bestiaux": [

@@ -47,7 +47,6 @@
 - Pirate
 - Poulpe
 - Triton
-- Zombie gourmand
 - Monstres d'Ofeva
 - Monstres de Volcanos
 - Autres ?
