@@ -2,7 +2,6 @@
 
 - Bracelets Serpents
 - Chaussettes haut en couleur
-- Bague du dragon noir
 - Certaines images d'artisanats ?
 
 ### Classes
