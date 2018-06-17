@@ -18,7 +18,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "clochette06yx7", "crane", "criniere_herisson", "cuir_depeceur", "dent_dragon", "diamclair7", "diamoir5", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "lame_depeceur", "manche_mineur", "oeil", "patte", "plante_herboriste", "peau_depeceur", "pince2", "plume_coq", "poisson_pecheur" ]
+        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "chope_bois2", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "manche_mineur", "oeil", "patte", "plante_herboriste", "pince2", "plume_coq", "poisson_pecheur" ]
       ]
     },
     {
@@ -45,6 +45,11 @@
       "name": "Bol",
       "format": "bol_%02d",
       "iter": [ 2 ]
+    },
+    {
+      "name": "Bouteille",
+      "format": "bouteille_%02d",
+      "iter": [ 8 ]
     },
     {
       "name": "Boue",
@@ -80,6 +85,11 @@
       "name": "Dent",
       "format": "dent%d",
       "iter": [ [ 4, 5 ] ]
+    },
+    {
+      "name": "Depeceur",
+      "format": "%s_depeceur",
+      "iter": [ [ "lame", "ecaille", "carapace", "cuir", "peau"  ] ]
     },
     {
       "name": "Placeholder",
@@ -496,6 +506,9 @@
     }
   ],
   "potion": [
+    {
+      "format": "biere3"
+    },
     {
       "format": "boisson-gluante%d",
       "iter": [ 3 ]
