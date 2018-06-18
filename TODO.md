@@ -33,12 +33,8 @@
 
 ### Monstres
 
-- Luxihnor
-- Griffus
 - Chef Gobelin
-- Crapaud méchant
 - Crane infernal
-- Gobelin des cavernes
 - Harpie
 - Loup du glacier
 - Mort-vivant

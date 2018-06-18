@@ -1558,6 +1558,13 @@
       ]
     },
     {
+      "name": "Grimlo",
+      "format": "%s",
+      "iter": [
+        [ "ghrimlong1lgvpg", "ghrimlong2htset", "ghrimlong3hatcn", "ghrimlong4emrqe", "ghrimlong5twcqw", "ghrimlong9tmokn", "ghrimlong11btfeu", "ghrimlong12hunkl", "ghrimlong13ymsbn", "ghrimlong14lfikn", "ghrimlong10yjzjb"  ]
+      ]
+    },
+    {
       "name": "Broquir",
       "format": "%s",
       "iter": [
@@ -1896,6 +1903,9 @@
     },
     {
       "format": "zombie_02"
+    },
+    {
+      "format": "zombieao6"
     }
   ],
   "monstre/bestiaux": [
@@ -1924,10 +1934,17 @@
       "format": "serpentmer"
     },
     {
+      "format": "grenouille"
+    },
+    {
       "format": "coq%d",
       "iter": [
         2
       ]
+    },
+    {
+      "format": "diablotin%d",
+      "iter": [ 2 ]
     },
     {
       "format": "serpent%d",
@@ -1946,6 +1963,10 @@
       "iter": [
         1
       ]
+    },
+    {
+      "format": "gobelin%d",
+      "iter": [ 1 ]
     },
     {
       "format": "demon%d",
@@ -1999,6 +2020,9 @@
     },
     {
       "format": "aigle"
+    },
+    {
+      "format": "kuo_toa"
     },
     {
       "format": "soldat"
