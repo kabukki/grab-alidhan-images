@@ -280,6 +280,10 @@
       "iter": [ 3 ]
     },
     {
+      "format": "coffre%d",
+      "iter": [ 5 ]
+    },
+    {
       "format": "statue1"
     },
     {
@@ -1561,7 +1565,7 @@
       "name": "Grimlo",
       "format": "%s",
       "iter": [
-        [ "ghrimlong1lgvpg", "ghrimlong2htset", "ghrimlong3hatcn", "ghrimlong4emrqe", "ghrimlong5twcqw", "ghrimlong9tmokn", "ghrimlong11btfeu", "ghrimlong12hunkl", "ghrimlong13ymsbn", "ghrimlong14lfikn", "ghrimlong10yjzjb"  ]
+        [ "ghrimlong1lgvpg", "ghrimlong2htset", "ghrimlong3hatcn", "ghrimlong4emrqe", "ghrimlong5twcqw", "ghrimlong9tmokn", "ghrimlong11btfeu", "ghrimlong12hunkl", "ghrimlong13ymsbn", "ghrimlong14lfikn", "ghrimlong10yjzjb", "ghrimlong7tfgwd", "ghrimlong6qugth"  ]
       ]
     },
     {
