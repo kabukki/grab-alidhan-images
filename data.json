@@ -303,6 +303,9 @@
       "format": "bougie"
     },
     {
+      "format": "fee8"
+    },
+    {
       "format": "elfe"
     },
     {
@@ -406,6 +409,9 @@
     },
     {
       "format": "elfe_detail"
+    },
+    {
+      "format": "fee8_detail"
     },
     {
       "format": "fille_couteau"
@@ -1676,7 +1682,7 @@
     {
       "name": "Bois antique de Far",
       "format" : "%s",
-      "iter": [ [ "okke12zb1", "hjbbe2ok0", "coihe3tg8" ] ]
+      "iter": [ [ "okke12zb1", "hjbbe2ok0", "coihe3tg8", "24fz8998c9e8" ] ]
     },
     {
       "name": "Cimetière",
