@@ -199,7 +199,7 @@
     },
     {
       "format": "cles%s",
-	  "iter" : [ [ "", "_tresor" ] ]
+      "iter" : [ [ "", "_tresor" ] ]
     },
     {
       "format": "fragment%d",
@@ -573,8 +573,8 @@
       "format": "potionrouge3D"
     },
     {
-      "format": "potion_agile_majeure",
-	  "iter": [ [ "agile", "constit", "dext", "force", "intel", "sagesse" ] ]
+      "format": "potion_%s_majeure",
+      "iter": [ [ "agile", "constit", "dext", "force", "intel", "sagesse" ] ]
     },
     {
       "format": "potiron"
@@ -604,7 +604,7 @@
     {
       "format": "alchimiste_%d",
       "iter": [ 2 ]
-    },,
+    },
     {
       "format": "anti_soin"
     },
@@ -771,7 +771,7 @@
     },
     {
       "format": "piege_mortel",
-	  "ext" : [ "png", "gif" ]
+      "ext" : [ "png", "gif" ]
     },
     {
       "format": "pousser"
@@ -1037,7 +1037,8 @@
       "format": "mort"
     },
     {
-      "format": "vol"
+      "format": "vol%s",
+      "iter": [[ "", "_new" ]]
     }
   ],
   "primes": [
@@ -1686,9 +1687,9 @@
       "format": "7a2ckjq5"
     },
     {
-	  "name": "Nowenuld",
+      "name": "Nowenuld",
       "format": "%s",
-	  "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce" ] ]
+      "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce" ] ]
     },
     {
       "name": "Corridor de Far",
@@ -1884,6 +1885,9 @@
       "format": "MudGolem"
     },
     {
+      "format": "poulpe"
+    },
+    {
       "format": "fantome%d",
       "iter": [
         1
@@ -1902,8 +1906,8 @@
       ]
     },
     {
-      "format": "mort_vivant%s"
-	  "iter" : [ [ "", "_2" ] ]
+      "format": "mort_vivant%s",
+      "iter" : [ [ "", "_2" ] ]
     },
     {
       "format": "zombie_02"
