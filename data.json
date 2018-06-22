@@ -18,7 +18,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "chope_bois2", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "manche_mineur", "oeil", "patte", "plante_herboriste", "pince2", "plume_coq", "poisson_pecheur" ]
+        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "chope_bois2", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "manche_mineur", "oeil", "patte", "plante_herboriste", "pince2", "plume_coq", "poisson_pecheur" ]
       ]
     },
     {
@@ -573,16 +573,8 @@
       "format": "potionrouge3D"
     },
     {
-      "format": "potion_agile_majeure"
-    },
-    {
-      "format": "potion_constit_majeure"
-    },
-    {
-      "format": "potion_dext_majeure"
-    },
-    {
-      "format": "potion_force_majeure"
+      "format": "potion_agile_majeure",
+	  "iter": [ [ "agile", "constit", "dext", "force", "intel", "sagesse" ] ]
     },
     {
       "format": "potiron"
@@ -778,7 +770,8 @@
       "format": "piege_meurtrier"
     },
     {
-      "format": "piege_mortel"
+      "format": "piege_mortel",
+	  "ext" : [ "png", "gif" ]
     },
     {
       "format": "pousser"
@@ -1909,7 +1902,8 @@
       ]
     },
     {
-      "format": "mort_vivant_2"
+      "format": "mort_vivant%s"
+	  "iter" : [ [ "", "_2" ] ]
     },
     {
       "format": "zombie_02"
@@ -2004,6 +1998,9 @@
     },
     {
       "format": "rat"
+    },
+    {
+      "format": "versable"
     }
   ],
   "monstre/boss": [
@@ -2123,7 +2120,7 @@
     {
       "name": "Faction",
       "format": "%s",
-      "iter": [ [ "mal", "neutre", "bien"] ]
+      "iter": [ [ "mal", "neutre", "bien", "brigand", "ermite" ] ]
     },
     {
       "name": "Status",

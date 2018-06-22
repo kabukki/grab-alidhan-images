@@ -48,7 +48,6 @@
 
 ### Objets
 
-- Ailes de chauves-souris
 - Crinière de manticore
 - Griffe de loup du glacier
 - Plume de harpie
