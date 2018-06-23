@@ -23,7 +23,6 @@
 
 ### Ecran
 
-- Vol
 - Assassinat ?
 - Autres ?
 
@@ -40,7 +39,6 @@
 - Mort-vivant
 - Orc enchainé
 - Pirate
-- Poulpe
 - Triton
 - Monstres d'Ofeva
 - Monstres de Volcanos
