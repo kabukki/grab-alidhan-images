@@ -164,6 +164,9 @@
       "iter": [ [ "jevx7i5doqbh","p9jp2wnq9bsa","zj20ek71lkzk","oj7xs31n2mak" ] ]
     },
     {
+      "format": "alchimie"
+    },
+    {
       "format": "bousolle"
     },
     {
@@ -1542,44 +1545,37 @@
     {
       "name": "Forteresse",
       "format": "%s",
-      "iter": [
-        [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ]
-      ]
+      "iter": [ [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ] ]
+    },
+    {
+      "name": "Cyrosh",
+      "format": "%s",
+      "iter": [ [ "ew8gpe5lhu1z", "boutiqueneutreetage", "aubergeneutre", "boutiqueneutre", "villeneutre", "villeneutre5", "ezofijv9654654s", "cd864ev654v6d54", "v987sd864cx64zeq" ] ]
     },
     {
       "name": "Nedmor",
       "format": "%s",
-      "iter": [
-        [ "oijeeck", "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "x731ut9mgy", "sdg3vnbki4uluoiuerte2", "depotvente1", "banque1", "forgeauberge1", "sdgvnbkiuluoiuerte" ]
-      ]
+      "iter": [ [ "oijeeck", "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "x731ut9mgy", "sdg3vnbki4uluoiuerte2", "depotvente1", "banque1", "forgeauberge1", "sdgvnbkiuluoiuerte" ] ]
     },
     {
       "name": "Fuisserage",
       "format": "%s",
-      "iter": [
-        [ "armurebien", "aubergebien", "banquebien", "villebien5", "villebien6"  ]
-      ]
+      "iter": [ [ "armurebien", "aubergebien", "banquebien", "villebien5", "villebien6"  ] ]
     },
     {
       "name": "Grimlo",
       "format": "%s",
-      "iter": [
-        [ "ghrimlong1lgvpg", "ghrimlong2htset", "ghrimlong3hatcn", "ghrimlong4emrqe", "ghrimlong5twcqw", "ghrimlong9tmokn", "ghrimlong11btfeu", "ghrimlong12hunkl", "ghrimlong13ymsbn", "ghrimlong14lfikn", "ghrimlong10yjzjb", "ghrimlong7tfgwd", "ghrimlong6qugth"  ]
-      ]
+      "iter": [ [ "ghrimlong1lgvpg", "ghrimlong2htset", "ghrimlong3hatcn", "ghrimlong4emrqe", "ghrimlong5twcqw", "ghrimlong9tmokn", "ghrimlong11btfeu", "ghrimlong12hunkl", "ghrimlong13ymsbn", "ghrimlong14lfikn", "ghrimlong10yjzjb", "ghrimlong7tfgwd", "ghrimlong6qugth"  ] ]
     },
     {
       "name": "Broquir",
       "format": "%s",
-      "iter": [
-        [ "2s4f6e1sdf51qaa", "z87df4cd56z6641", "dg51v6q65f1e6ghjkl", "ss84231vd68eta84" ]
-      ]
+      "iter": [ [ "2s4f6e1sdf51qaa", "z87df4cd56z6641", "dg51v6q65f1e6ghjkl", "ss84231vd68eta84" ] ]
     },
     {
       "name": "Rhogan",
       "format": "%s",
-      "iter": [
-        [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4", "jioeg7eger5g4z" ]
-      ]
+      "iter": [ [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4", "jioeg7eger5g4z" ] ]
     },
     {
       "name": "Phyléas",
@@ -1589,9 +1585,7 @@
     {
       "name": "Forêt des bras cassés",
       "format": "%s",
-      "iter": [
-        [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg" ]
-      ]
+      "iter": [ [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg" ] ]
     },
     {
       "name": "Couloir sombre",
@@ -1605,6 +1599,16 @@
       "name": "Corniche déboisée",
       "format": "%s",
       "iter": [ [ "sqdfxcvty2312fgr", "dg9ergse6g978" ] ]
+    },
+    {
+      "name": "Marécage de Far",
+      "format": "%s",
+      "iter": [ [ "marec1", "marec2", "dfgbhyjghjvnvbrgrez342", "dfsdesdgcvbukllopo" ] ]
+    },
+    {
+      "name": "Hutte de Gonk",
+      "format": "%s",
+      "iter": [ [ "couloircave", "hutteinterieur" ] ]
     },
     {
       "name": "Forêt sombre",
@@ -1696,12 +1700,6 @@
     },
     {
       "format": "wwwxxdzssxnklmpouyg"
-    },
-    {
-      "format": "ghrimlong10yjzjb"
-    },
-    {
-      "format": "ghrimlong11btfeu"
     },
     {
       "format": "couloirsombre%d",
