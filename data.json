@@ -1599,10 +1599,6 @@
       "format": "4m11v0qagoiceu"
     },
     {
-      "name": "Corridor de Far",
-      "format": "dfgdbgsregqlmp112"
-    },
-    {
       "name": "Corniche déboisée",
       "format": "%s",
       "iter": [ [ "sqdfxcvty2312fgr", "dg9ergse6g978" ] ]
@@ -1615,7 +1611,7 @@
     {
       "name": "Hutte de Gonk",
       "format": "%s",
-      "iter": [ [ "couloircave", "hutteinterieur" ] ]
+      "iter": [ [ "couloircave", "hutteinterieur", "haltehutte" ] ]
     },
     {
       "name": "Forêt sombre",
@@ -1703,10 +1699,13 @@
     },
     {
       "name": "Corridor de Far",
-      "format": "vbxbcvbncvneiiii"
+      "format": "%s",
+	  "iter": [ [ "wwwxxdzssxnklmpouyg", "dfgdbgsregqlmp112", "vbxbcvbncvneiiii" ] ]
     },
     {
-      "format": "wwwxxdzssxnklmpouyg"
+      "name": "Corridor de Far",
+      "format": "corridor%d",
+	  "iter": [ 3 ]
     },
     {
       "format": "couloirsombre%d",
