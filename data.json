@@ -1212,6 +1212,10 @@
       "iter": [ 8 ]
     },
     {
+      "format": "casque%d",
+      "iter": [ 28 ]
+    },
+    {
       "format": "cape_noel%s",
       "iter": [
         ["2", "_new"]
@@ -1222,10 +1226,8 @@
       "iter": [["puissant","sup"]]
     },
     {
-      "format": "capucheti9"
-    },
-    {
-      "format": "capuche01"
+      "format": "capuche%sti9",
+      "iter": [ [ "ti9","01" ] ]
     },
     {
       "format": "cas_consc"
