@@ -1065,7 +1065,7 @@
       "format": "%s",
       "name": "Standalone items",
       "iter": [
-        [ "amuremort", "anneaufer", "anneauHallo", "armemort", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille", "eclipse" ]
+        [ "amuremort", "armemort", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille", "eclipse", "fleau1" ]
       ]
     },
     {
@@ -1074,6 +1074,10 @@
       "iter": [
         13
       ]
+    },
+    {
+      "format": "anneau%s",
+      "iter": [ ["fer", "Hallo", "1"] ]
     },
     {
       "format": "arbalete%d",
