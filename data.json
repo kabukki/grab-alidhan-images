@@ -1599,6 +1599,11 @@
       "iter": [ [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg" ] ]
     },
     {
+      "name": "Vallon du chasseur de temps",
+      "format": "%s",
+      "iter": [ [ "ftgyz7y930", "fptni8evvh", "scmicg95rs", "ldkce73gm5", "1goztv8cc4" ] ]
+    },
+    {
       "name": "Couloir sombre",
       "format": "4m11v0qagoiceu"
     },
@@ -1709,7 +1714,7 @@
     {
       "name": "Northrend",
       "format": "%s",
-      "iter": [ [ "eqsfsdfeirerz", "bhytresxcfgyuiklo", "ezrdfvblmiuouio", "vxcvxcvxcvxv" ] ]
+      "iter": [ [ "eqsfsdfeirerz", "bhytresxcfgyuiklo", "ezrdfvblmiuouio", "vxcvxcvxcvxv", "iopfghxcqaze", "iojkjkhgcbvcbc" ] ]
     },
     {
       "name": "Corridor de Far",
