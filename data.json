@@ -1127,6 +1127,14 @@
       "iter": [ 4 ]
     },
     {
+      "format": "bandeau%d",
+      "iter": [ 4 ]
+    },
+    {
+      "format": "bandeau%02d",
+      "iter": [ 7 ]
+    },
+    {
       "format": "bas%d",
       "iter": [ 45 ]
     },
@@ -1215,6 +1223,9 @@
     },
     {
       "format": "capucheti9"
+    },
+    {
+      "format": "capuche01"
     },
     {
       "format": "cas_consc"
@@ -1322,6 +1333,13 @@
     },
     {
       "format": "defaut_torse"
+    },
+    {
+      "format": "diademe"
+    },
+    {
+      "format": "diademe%d",
+      "iter": [ 7 ]
     },
     {
       "format": "echarpeduperenoeleg5"
