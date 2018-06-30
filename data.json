@@ -291,17 +291,7 @@
       "iter": [ 5 ]
     },
     {
-      "format": "statue1"
-    },
-    {
-      "format": "paladin_varox"
-    },
-    {
-      "format": "invisible",
-      "ext": [ "gif" ]
-    },
-    {
-      "format": "jeune_guerrier"
+      "format": "Bamou"
     },
     {
       "format": "Birduck"
@@ -322,10 +312,20 @@
       "format": "filleBleu"
     },
     {
-      "format": "herutis"
+      "format": "gardien_chateau"
     },
     {
       "format": "glator"
+    },
+    {
+      "format": "herutis"
+    },
+    {
+      "format": "invisible",
+      "ext": [ "gif" ]
+    },
+    {
+      "format": "jeune_guerrier"
     },
     {
       "format": "Lhysern_Mc_Callum_Jr"
@@ -343,7 +343,7 @@
       "format": "moine_copiste"
     },
     {
-      "format": "tynus"
+      "format": "paladin_varox"
     },
     {
       "format": "pere_noel"
@@ -364,13 +364,19 @@
       "format": "poulpe"
     },
     {
+      "format": "solas"
+    },
+    {
+      "format": "statue1"
+    },
+    {
       "format": "recompense"
     },
     {
       "format": "rumas"
     },
     {
-      "format": "Bamou"
+      "format": "tynus"
     },
     {
       "format": "%s_%c",
@@ -493,6 +499,9 @@
     },
     {
       "format": "rumas"
+    },
+    {
+      "format": "Solas"
     },
     {
       "format": "soldat_arene"
@@ -1065,7 +1074,7 @@
       "format": "%s",
       "name": "Standalone items",
       "iter": [
-        [ "amuremort", "armemort", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille", "eclipse", "fleau1" ]
+        [ "amuremort", "armemort", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille", "bague_enrage", "eclipse", "fleau1" ]
       ]
     },
     {
@@ -1729,6 +1738,11 @@
       "name": "Nowenuld",
       "format": "%s",
       "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce" ] ]
+    },
+    {
+      "name": "Mine de Terrestrine",
+      "format": "%s",
+      "iter": [ [ "fvx65874dfvxcvs" ] ]
     },
     {
       "name": "Corridor de Far",
