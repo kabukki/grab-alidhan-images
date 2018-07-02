@@ -201,6 +201,10 @@
       ]
     },
     {
+      "format": "cristal%d",
+      "iter": [ [ 1, 9] ]
+    },
+    {
       "format": "cles%s",
       "iter" : [ [ "", "_tresor" ] ]
     },
