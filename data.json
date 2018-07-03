@@ -161,7 +161,7 @@
     {
       "name": "Perles",
       "format": "%s",
-      "iter": [ [ "jevx7i5doqbh","p9jp2wnq9bsa","zj20ek71lkzk","oj7xs31n2mak" ] ]
+      "iter": [ [ "jevx7i5doqbh","p9jp2wnq9bsa","zj20ek71lkzk","oj7xs31n2mak", "s8o3w3rclupk" ] ]
     },
     {
       "format": "alchimie"
@@ -1078,7 +1078,7 @@
       "format": "%s",
       "name": "Standalone items",
       "iter": [
-        [ "amuremort", "armemort", "baguerouge01lt5", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "citrouille", "bague_enrage", "eclipse", "fleau1" ]
+        [ "amuremort", "armemort", "baguerouge01lt5", "batonmagique1cl0", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "cape_chaos_puissant", "chausse_chaos_puissante", "citrouille", "bague_enrage", "eclipse", "fleau1", "pantalon_pelerin_puissant", "pe03mo5" ]
       ]
     },
     {
@@ -1239,8 +1239,8 @@
       ]
     },
     {
-      "format": "capuche_chasseur_%s",
-      "iter": [["puissant","sup"]]
+      "format": "capuche_chasseur%s",
+      "iter": [[ "", "_puissant", "_sup"]]
     },
     {
       "format": "capuche%sti9",
@@ -1268,8 +1268,8 @@
       "iter": [["scintillant","sup"]]
     },
     {
-      "format": "chaussure_chasseur_%s",
-      "iter": [["puissant","sup"]]
+      "format": "chaussure_chasseur%s",
+      "iter": [[ "", "_puissant","_sup"]]
     },
     {
       "format": "chaussures%d",
@@ -1537,7 +1537,8 @@
       "format": "serpe"
     },
     {
-      "format": "teteabeillerouge"
+      "format": "%sabeillerouge"
+	  "iter": [[ "ailes", "tete" ]]
     },
     {
       "format": "tetechauvesouris"
@@ -1694,7 +1695,8 @@
     },
     {
       "name": "Avant poste des justiciers",
-      "format": "cvfghnjkloi865"
+	  "format": "%s",
+	  "iter": [[ "cvfghnjkloi865", "bg49zer9sdf63xcv" ]]
     },
     {
       "name": "Divenia",
