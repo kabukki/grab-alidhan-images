@@ -1537,7 +1537,7 @@
       "format": "serpe"
     },
     {
-      "format": "%sabeillerouge"
+      "format": "%sabeillerouge",
 	  "iter": [[ "ailes", "tete" ]]
     },
     {
