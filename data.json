@@ -365,6 +365,9 @@
       "format": "pnj_tavernier"
     },
     {
+      "format": "porte"
+    },
+    {
       "format": "poulpe"
     },
     {
@@ -1753,7 +1756,7 @@
     {
       "name": "Corridor de Far",
       "format": "%s",
-      "iter": [ [ "wwwxxdzssxnklmpouyg", "dfgdbgsregqlmp112", "vbxbcvbncvneiiii" ] ]
+      "iter": [ [ "wwwxxdzssxnklmpouyg", "dfgdbgsregqlmp112", "vbxbcvbncvneiiii", "vbxbcvbncvneiiii1", "vbxbcvbncvneiiii2" ] ]
     },
     {
       "name": "Northrend",
