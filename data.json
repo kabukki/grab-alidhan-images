@@ -151,6 +151,11 @@
 	"format": "plume%s",
 	"iter": [[ "", "1", "_coq" ]]
 	},
+	{
+	"name": "Poil",
+	"format": "poil%s",
+	"iter": [[ "", "1" ]]
+	},
     {
       "name": "Poudre",
       "format": "poudre%d",
@@ -411,6 +416,9 @@
       "format": "ange"
     },
     {
+      "format": "archer"
+    },
+    {
       "format": "ambulant2_detail"
     },
     {
@@ -448,6 +456,9 @@
       "format": "fille_couteau"
     },
     {
+      "format": "fillebleu_detail"
+    },
+    {
       "format": "garde%d_detail",
       "iter": [ 5 ]
     },
@@ -467,6 +478,9 @@
     },
     {
       "format": "grand_raymond"
+    },
+    {
+      "format": "guerrier"
     },
     {
       "format": "herutis"
@@ -511,6 +525,9 @@
     },
     {
       "format": "pr_lactos"
+    },
+    {
+      "format": "rocher1"
     },
     {
       "format": "rumas"
@@ -1774,7 +1791,7 @@
     {
       "name": "Ofeva",
       "format": "%s",
-      "iter": [ [ "ile1xmlcna", "ile2vqjuvf" ] ]
+      "iter": [ [ "ile1xmlcna", "ile2vqjuvf", "ile3ibnxlq", "ile4rxxhcf", "ile5cmjlci", "ile6jwnlps", "ile7zbjols", "ile8kjbxsj", "ile9rlhilt", "ile10ctabgn", "ile11bkrwna", "ile12qwurkf", "ile13etyhcp", "ile14tagofi", "ile15sbspxc", "ile16fsulfl", "ile17yjpvhi", "ile18msegis", "ile19bkdnar", "ile20kubkxs", "ile22magdsk", "ile23pguydy", "ile24lgjbvt" ] ]
     },
     {
       "name": "Corridor de Far",
@@ -2062,10 +2079,7 @@
   ],
   "monstre/boss": [
     {
-      "format": "poisson"
-    },
-    {
-      "format": "herisson-lion"
+      "format": "aigle"
     },
     {
       "format": "bouquetin"
@@ -2074,19 +2088,25 @@
       "format": "dragon"
     },
     {
-      "format": "ombre_ailee"
+      "format": "fv1006"
     },
     {
       "format": "Gomina"
     },
     {
-      "format": "fv1006"
-    },
-    {
-      "format": "aigle"
+      "format": "herisson-lion"
     },
     {
       "format": "kuo_toa"
+    },
+    {
+      "format": "manticore"
+    },
+    {
+      "format": "ombre_ailee"
+    },
+    {
+      "format": "poisson"
     },
     {
       "format": "soldat"

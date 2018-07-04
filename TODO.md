@@ -40,13 +40,11 @@
 - Orc enchainé
 - Pirate
 - Triton
-- Monstres d'Ofeva
 - Monstres de Volcanos
 - Autres ?
 
 ### Objets
 
-- Crinière de manticore
 - Griffe de loup du glacier
 - Malédiction de l'équipage
 - Pièce de beta-testeur (v1)
