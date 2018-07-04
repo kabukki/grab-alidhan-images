@@ -48,8 +48,6 @@
 
 - Crinière de manticore
 - Griffe de loup du glacier
-- Plume de harpie
-- Tete d'hydre
 - Malédiction de l'équipage
 - Pièce de beta-testeur (v1)
 - Autres ?

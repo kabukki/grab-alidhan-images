@@ -18,7 +18,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "chope_bois2", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "manche_mineur", "oeil", "patte", "plante_herboriste", "pince2", "plume_coq", "poisson_pecheur" ]
+        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "chope_bois2", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poisson_pecheur", "tete_hydre" ]
       ]
     },
     {
@@ -146,6 +146,11 @@
       "format": "pierre_%s",
       "iter": [ [ "golem", "mineur" ] ]
     },
+	{
+	"name": "Plumes",
+	"format": "plume%s",
+	"iter": [[ "", "1", "_coq" ]]
+	},
     {
       "name": "Poudre",
       "format": "poudre%d",
@@ -1767,6 +1772,11 @@
       "iter": [ [ "eqsfsdfeirerz", "bhytresxcfgyuiklo", "ezrdfvblmiuouio", "vxcvxcvxcvxv", "iopfghxcqaze", "iojkjkhgcbvcbc" ] ]
     },
     {
+      "name": "Ofeva",
+      "format": "%s",
+      "iter": [ [ "ile1xmlcna", "ile2vqjuvf" ] ]
+    },
+    {
       "name": "Corridor de Far",
       "format": "corridor%d",
       "iter": [ 3 ]
@@ -1837,91 +1847,67 @@
   ],
   "monstre/insecte": [
     {
-      "format": "lezard"
-    },
-    {
-      "format": "gecko%d",
-      "iter": [
-        2
-      ]
-    },
-    {
-      "format": "escargot%d",
-      "iter": [
-        3
-      ]
-    },
-    {
-      "format": "insecte%02d",
-      "iter": [
-        2
-      ]
-    },
-    {
-      "format": "fourmi%d",
-      "iter": [
-        2
-      ]
-    },
-    {
-      "format": "chenille%d",
-      "iter": [
-        3
-      ]
-    },
-    {
-      "format": "mouche%d",
-      "iter": [
-        2
-      ]
-    },
-    {
-      "format": "lezard%d",
-      "iter": [
-        5
-      ]
-    },
-    {
-      "format": "scarabe%d",
-      "iter": [
-        9
-      ]
-    },
-    {
-      "format": "cloporte%d",
-      "iter": [
-        2
-      ]
-    },
-    {
-      "format": "grenouille%d",
-      "iter": [
-        2
-      ]
-    },
-    {
-      "format": "araignee%d",
-      "iter": [
-        5
-      ]
+      "format": "abeille%02d",
+      "iter": [ 1 ]
     },
     {
       "format": "abeille%d",
-      "iter": [
-        3
-      ]
+      "iter": [ 3 ]
     },
     {
-      "format": "abeille%02d",
-      "iter": [
-        1
-      ]
+      "format": "araignee%d",
+      "iter": [ 5 ]
+    },
+    {
+      "format": "chenille%d",
+      "iter": [ 3 ]
+    },
+    {
+      "format": "cloporte%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "crabe%d",
+      "iter": [ 3 ]
+    },
+    {
+      "format": "escargot%d",
+      "iter": [ 3 ]
+    },
+    {
+      "format": "fourmi%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "gecko%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "grenouille%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "insecte%02d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "lezard"
+    },
+    {
+      "format": "lezard%d",
+      "iter": [ 5 ]
     },
     {
       "format": "libellule%d",
-      "iter": [
-        4
-      ]
+      "iter": [ 4 ]
+    },
+    {
+      "format": "mouche%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "scarabe%d",
+      "iter": [ 9 ]
     }
   ],
   "monstre/prison": [
