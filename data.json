@@ -146,16 +146,16 @@
       "format": "pierre_%s",
       "iter": [ [ "golem", "mineur" ] ]
     },
-	{
-	"name": "Plumes",
-	"format": "plume%s",
-	"iter": [[ "", "1", "_coq" ]]
-	},
-	{
-	"name": "Poil",
-	"format": "poil%s",
-	"iter": [[ "", "1" ]]
-	},
+    {
+      "name": "Plumes",
+      "format": "plume%s",
+      "iter": [[ "", "1", "_coq" ]]
+    },
+    {
+      "name": "Poil",
+      "format": "poil%s",
+      "iter": [[ "", "1" ]]
+    },
     {
       "name": "Poudre",
       "format": "poudre%d",
@@ -236,7 +236,7 @@
       "iter": [
         5
       ]
-    },  
+    },
     {
       "format": "pioche"
     }
@@ -1271,7 +1271,7 @@
       "iter": [[ "", "_puissant", "_sup"]]
     },
     {
-      "format": "capuche%sti9",
+      "format": "capuche%s",
       "iter": [ [ "ti9","01" ] ]
     },
     {
@@ -1566,7 +1566,7 @@
     },
     {
       "format": "%sabeillerouge",
-	  "iter": [[ "ailes", "tete" ]]
+      "iter": [[ "ailes", "tete" ]]
     },
     {
       "format": "tetechauvesouris"
@@ -1723,8 +1723,8 @@
     },
     {
       "name": "Avant poste des justiciers",
-	  "format": "%s",
-	  "iter": [[ "cvfghnjkloi865", "bg49zer9sdf63xcv" ]]
+      "format": "%s",
+      "iter": [[ "cvfghnjkloi865", "bg49zer9sdf63xcv" ]]
     },
     {
       "name": "Divenia",
@@ -1793,11 +1793,11 @@
       "format": "%s",
       "iter": [ [ "ile1xmlcna", "ile2vqjuvf", "ile3ibnxlq", "ile4rxxhcf", "ile5cmjlci", "ile6jwnlps", "ile7zbjols", "ile8kjbxsj", "ile9rlhilt", "ile10ctabgn", "ile11bkrwna", "ile12qwurkf", "ile13etyhcp", "ile14tagofi", "ile15sbspxc", "ile16fsulfl", "ile17yjpvhi", "ile18msegis", "ile19bkdnar", "ile20kubkxs", "ile21grepqj", "ile22magdsk", "ile23pguydy", "ile24lgjbvt" ] ]
     },
-	{
-	"name": "Nilfheim & Muspelheim",
-	"format": "%s",
-	"iter": [[ "wqzdfr154" ]]
-	},
+    {
+      "name": "Nilfheim & Muspelheim",
+      "format": "%s",
+      "iter": [[ "wqzdfr154" ]]
+    },
     {
       "name": "Corridor de Far",
       "format": "corridor%d",
@@ -2209,11 +2209,11 @@
       "format": "%s",
       "iter": [ [ "offline", "online" ] ]
     },
-	{
-	"name": "Shifumi",
-	"format": "shifumi_%s",
-	"iter": [[ "pierre", "papier", "ciseaux" ]]
-	},
+    {
+      "name": "Shifumi",
+      "format": "shifumi_%s",
+      "iter": [[ "pierre", "papier", "ciseaux" ]]
+    },
     {
       "format": "%s",
       "iter": [ [ "masculin", "feminin" ] ]
