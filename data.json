@@ -6,6 +6,13 @@
       "iter": [ 4 ]
     }
   ],
+  "case": [
+    {
+      "format": "swirl%d",
+      "iter": [ 9 ],
+      "ext": [ "png", "gif"]
+    }
+  ],
   "grade": [
     {
       "name": "Grade",
@@ -348,6 +355,10 @@
       "format": "Lhysern_Mc_Callum_Jr"
     },
     {
+      "format": "lutin%s",
+      "iter": [ 2 ]
+    },
+    {
       "format": "lynus"
     },
     {
@@ -489,10 +500,14 @@
       "format": "jeune_guerrier"
     },
     {
-      "format": "lynus"
+      "format": "Lhysern_Mc_Callum_Jr"
     },
     {
-      "format": "Lhysern_Mc_Callum_Jr"
+      "format": "lutin%d",
+      "iter": [ 2  ]
+    },
+    {
+      "format": "lynus"
     },
     {
       "format": "Manashama"
@@ -1811,6 +1826,14 @@
       "format": "arene"
     },
     {
+      "name": "Event",
+      "format": "%s",
+      "iter": [[ "hallogdqok1", "hallogdqok2", "hallogdqok3", "hallogdqok4", "muvaxuqeu1", "muvaxuqeu2", "muvaxuqeu3" ]]
+    },
+    {
+      "format": "blanche"
+    },
+    {
       "format": "arene%d",
       "iter": [ 9 ]
     },
@@ -2200,6 +2223,12 @@
       "format": "bonus"
     },
     {
+      "name": "Old Faction",
+      "format": "%s",
+      "iter": [ [ "mal", "bien" ] ],
+      "ext": [ "gif" ]
+    },
+    {
       "name": "Faction",
       "format": "%s",
       "iter": [ [ "mal", "neutre", "bien", "brigand", "ermite" ] ]
@@ -2207,7 +2236,8 @@
     {
       "name": "Status",
       "format": "%s",
-      "iter": [ [ "offline", "online" ] ]
+      "iter": [ [ "offline", "online" ] ],
+      "ext": [ "png", "gif" ]
     },
     {
       "name": "Shifumi",
