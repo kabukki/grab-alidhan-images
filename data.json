@@ -1685,8 +1685,9 @@
       "iter": [ [ "ftgyz7y930", "fptni8evvh", "scmicg95rs", "ldkce73gm5", "1goztv8cc4" ] ]
     },
     {
-      "name": "Couloir sombre",
-      "format": "4m11v0qagoiceu"
+      "name": "Salle pestilentielle",
+      "format": "%s",
+	  "iter" : [ [ "4m11v0qagoiceu", "jle3vmtdfw" ] ]
     },
     {
       "name": "Corniche déboisée",
@@ -1707,6 +1708,11 @@
       "name": "Forêt sombre",
       "format": "%s",
       "iter": [ [ "6re4hr54z", "cne8585sd", "ezrgpok52k2" ] ]
+    },
+    {
+      "name": "Fangélice",
+      "format": "%s",
+      "iter": [ [ "cmlrk2by8dkbs1xhz5gem", "k1j03wqrlc0tgmrhl6y2", "6h7dde8az5d7k65pa85f", "tji78j80p0f472qx0sk5", "kbwie1ftmil2103guzi14", "opzhmywqofiotbgtia711", "qldc6fhnikzmzjs8r6zp", "f6tdh0i5066ftvwjy1a8", "f6tdh0i5066ftvwjy1a82", "p01zryw7spt5y", "veokd7xui5lrvd4kuq8j", "t8l5ohea7xbvjisw1e0tl", "mp71zmzrw5v780ccpta4" ] ]
     },
     {
       "name": "Brosems",
@@ -1791,7 +1797,7 @@
     {
       "name": "Mine de Terrestrine",
       "format": "%s",
-      "iter": [ [ "fvx65874dfvxcvs" ] ]
+      "iter": [ [ "fvx65874dfvxcvs", "cxvcbcv96d3gd", "asdfg54zer23dcxv389", "a87dsf5xvc32s64896", "az864cxv35sd4f9az" ] ]
     },
     {
       "name": "Corridor de Far",
