@@ -196,6 +196,10 @@
       ]
     },
     {
+      "format": "calice%d",
+	  "iter": [ 4 ]
+    },
+    {
       "format": "carte"
     },
     {
@@ -219,7 +223,7 @@
     },
     {
       "format": "cristal%d",
-      "iter": [ [ 1, 9] ]
+      "iter": [ [ 1, 9 ] ]
     },
     {
       "format": "cles%s",
@@ -369,6 +373,10 @@
     },
     {
       "format": "moine_copiste"
+    },
+    {
+      "format": "mort",
+	  "ext": [ "gif" ]
     },
     {
       "format": "paladin_varox"
