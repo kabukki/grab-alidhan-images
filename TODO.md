@@ -7,7 +7,6 @@
 ### Classes
 
 - Skin Ofeva (compétence 140)
-- Faucheuse
 - Ulrath
 - Erenan
 - Colombe

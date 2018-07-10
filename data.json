@@ -25,7 +25,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "chope_bois2", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "grenat_poli", "griffe", "grimoire", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
+        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "chope_bois2", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "griffe", "grimoire", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
       ]
     },
     {
@@ -1093,6 +1093,9 @@
       "format": "citrouille"
     },
     {
+      "format": "squelette"
+    },
+    {
       "format": "blob"
     },
     {
@@ -1660,7 +1663,7 @@
     {
       "name": "Fuisserage",
       "format": "%s",
-      "iter": [ [ "armurebien", "aubergebien", "banquebien", "villebien5", "villebien6"  ] ]
+      "iter": [ [ "armurebien", "aubergebien", "banquebien", "villebien5", "villebien6", "dsf684fr65sqfsa4", "262d6fgsergfrez4sq", "zv575wf8dcln", "bqua6mime5at", "ezf35df61erds" ] ]
     },
     {
       "name": "Grimlo",
@@ -1705,12 +1708,12 @@
     {
       "name": "Marécage de Far",
       "format": "%s",
-      "iter": [ [ "marec1", "marec2", "dfgbhyjghjvnvbrgrez342", "dfsdesdgcvbukllopo" ] ]
+      "iter": [ [ "marec1", "marec2", "grotte", "grotte2", "grotte3", "dfgbhyjghjvnvbrgrez342", "dfsdesdgcvbukllopo" ] ]
     },
     {
       "name": "Hutte de Gonk",
       "format": "%s",
-      "iter": [ [ "couloircave", "hutteinterieur", "haltehutte" ] ]
+      "iter": [ [ "couloircave", "hutteinterieur", "haltehutte", "sallecave" ] ]
     },
     {
       "name": "Forêt sombre",
@@ -1825,8 +1828,23 @@
     {
       "name": "Nilfheim & Muspelheim",
       "format": "%s",
-      "iter": [[ "wqzdfr154" ]]
+      "iter": [[ "fiidozs4542", "wqzdfr154" ]]
     },
+	{
+	"name": "Comath",
+	"format": "%s",
+	"iter": [[ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist" ]]
+	},
+	{
+	"name": "Ynahé",
+	"format": "%s",
+	"iter": [[ "kj8jfsgezr7fqsbz", "tyreg7412q", "f8g4z64zdfge1" ]]
+	},
+	{
+	"name": "Astaegan",
+	"format": "%s",
+	"iter": [[ "3erfokevdver54", "4df8g67ds", "5545fge4z54rgs", "186g4dfvdvsssd", "2ezrge9dfvz", "wktidxpeao", "jyfozwpioa", "xwmotrzkjh", "kesd445zdc", "zv457rds", "ssdf87ef", "ih54dzrc", "ac5454edqs", "hteakmkliw", "lsgmbsxpof" ]]
+	},
     {
       "name": "Corridor de Far",
       "format": "corridor%d",
