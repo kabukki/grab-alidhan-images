@@ -25,7 +25,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "carapace", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "griffe", "grimoire", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
+        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "griffe", "grimoire", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
       ]
     },
     {
@@ -65,8 +65,8 @@
     },
     {
       "name": "Carapace",
-      "format": "carapace%d",
-      "iter": [ 2 ]
+      "format": "carapace%s",
+      "iter": [ [ "", "2" ] ]
     },
     {
       "name": "Chapeau",
@@ -282,7 +282,7 @@
   "pnj": [
     {
       "format": "ambulant%d",
-      "iter": [ 2 ]
+      "iter": [ [ 2 ] ]
     },
     {
       "format": "archalan"
@@ -598,11 +598,11 @@
     },
     {
       "format": "boisson-gluante%d",
-      "iter": [ 3 ]
+      "iter": [ [ 2, 3 ] ]
     },
     {
       "format": "bonbec%d",
-      "iter": [ 13 ]
+      "iter": [ [ 10, 11, 12, 13 ] ]
     },
     {
       "format": "buffpot%d",
@@ -1356,9 +1356,7 @@
     },
     {
       "format": "crane%d",
-      "iter": [
-        2
-      ]
+      "iter": [ [ 2 ] ]
     },
     {
       "format": "croix"
@@ -1513,9 +1511,7 @@
     },
     {
       "format": "pelle%02d",
-      "iter": [
-        2
-      ]
+      "iter": [ [ 2 ]]
     },
     {
       "format": "pendentif"
@@ -1801,21 +1797,21 @@
       "format": "%s",
       "iter": [[ "fiidozs4542", "wqzdfr154" ]]
     },
-	{
-	"name": "Comath",
-	"format": "%s",
-	"iter": [[ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist" ]]
-	},
-	{
-	"name": "Ynahé",
-	"format": "%s",
-	"iter": [[ "kj8jfsgezr7fqsbz", "tyreg7412q", "f8g4z64zdfge1" ]]
-	},
-	{
-	"name": "Astaegan",
-	"format": "%s",
-	"iter": [[ "3erfokevdver54", "4df8g67ds", "5545fge4z54rgs", "186g4dfvdvsssd", "2ezrge9dfvz", "wktidxpeao", "jyfozwpioa", "xwmotrzkjh", "kesd445zdc", "zv457rds", "ssdf87ef", "ih54dzrc", "ac5454edqs", "hteakmkliw", "lsgmbsxpof" ]]
-	},
+    {
+      "name": "Comath",
+      "format": "%s",
+      "iter": [[ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist" ]]
+    },
+    {
+      "name": "Ynahé",
+      "format": "%s",
+      "iter": [[ "kj8jfsgezr7fqsbz", "tyreg7412q", "f8g4z64zdfge1" ]]
+    },
+    {
+      "name": "Astaegan",
+      "format": "%s",
+      "iter": [[ "3erfokevdver54", "4df8g67ds", "5545fge4z54rgs", "186g4dfvdvsssd", "2ezrge9dfvz", "wktidxpeao", "jyfozwpioa", "xwmotrzkjh", "kesd445zdc", "zv457rds", "ssdf87ef", "ih54dzrc", "ac5454edqs", "hteakmkliw", "lsgmbsxpof" ]]
+    },
     {
       "name": "Corridor de Far",
       "format": "corridor%d",
@@ -2293,6 +2289,13 @@
     },
     {
       "format": "cry"
+    }
+  ],
+  "avatar": [
+    {
+      "name": "Avatar",
+      "format": "%s",
+      "iter": [ ["balrog", "catapulte", "defaut", "galoregor", "kaldrass", "merc", "trebuchet", "vadort" ] ]
     }
   ]
 }
