@@ -432,13 +432,15 @@
   ],
   "pnjDetail": [
     {
-      "format": "ange"
+      "format": "ange%s",
+	  "iter": [[ "", "2" ]]
     },
     {
       "format": "archer"
     },
     {
-      "format": "ambulant2_detail"
+      "format": "ambulant%s_detail",
+	  "iter": [[ "", "2" ]]
     },
     {
       "format": "archalan_detail"
