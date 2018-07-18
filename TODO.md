@@ -8,10 +8,10 @@
 
 - Skin Ofeva (compétence 140)
 - Ulrath
-- Erenan
-- Colombe
+- Erenan (screen accepted)
+- Colombe (screen accepted)
 - Anciens skins NR
-- Anciens skins R
+- Anciens skins R (screen accepted)
 
 ### Compétences
 
@@ -52,6 +52,7 @@
 ### Objets de quêtes
 
 - Clé
+- Perles
 - Autres ?
 
 ### Pnj & Detail
