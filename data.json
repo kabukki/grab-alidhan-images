@@ -25,7 +25,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "griffe", "grimoire", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
+        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "grimoire", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
       ]
     },
     {
@@ -115,8 +115,8 @@
     },
     {
       "name": "Griffe",
-      "format": "griffe%d",
-      "iter": [ [ 2 ] ]
+      "format": "griffe%s",
+      "iter": [ [ "", "2" ] ]
     },
     {
       "name": "Minerai",
@@ -151,7 +151,7 @@
     {
       "name": "Pierre",
       "format": "pierre_%s",
-      "iter": [ [ "golem", "mineur" ] ]
+      "iter": [ [ "golem", "golem2", "mineur" ] ]
     },
     {
       "name": "Plumes",
@@ -368,6 +368,9 @@
     {
       "format": "Manashama"
     },
+	{
+	"format": "matriarche_01"
+	},
     {
       "format": "miroir"
     },
@@ -386,6 +389,9 @@
     },
     {
       "format": "petit_raymond"
+    },
+    {
+      "format": "pr_lactos"
     },
     {
       "format": "pnj1smallfh0"
@@ -675,7 +681,7 @@
     },
     {
       "format": "tete_chenille",
-      "ext": [ "jpg" ]
+      "ext": [ "png", "jpg" ]
     },
     {
       "format": "viande%d",
@@ -1114,9 +1120,7 @@
     {
       "format": "amulette%02d",
       "name": "Amulette",
-      "iter": [
-        13
-      ]
+      "iter": [ 13 ]
     },
     {
       "format": "anneau%s",
@@ -1125,9 +1129,7 @@
     {
       "format": "arbalete%d",
       "name": "Arbalete",
-      "iter": [
-        7
-      ]
+      "iter": [ 7 ]
     },
     {
       "format": "arc%d",
@@ -1172,7 +1174,7 @@
 	{ 
 	"name": "Bague de l'enragé",
 	"format": "bague_enrage%s",
-	"iter": [[ "", "_puissant" ]]
+	"iter": [ [ "", "_puissant" ] ]
 	},
     {
       "format": "baguette%d",
@@ -1212,9 +1214,7 @@
     },
     {
       "format": "bonnet_noel%s",
-      "iter": [
-        ["", "2", "_new"]
-      ]
+      "iter": [ ["", "2", "_new"] ]
     },
     {
       "format": "botte_justice_%s",
@@ -1222,9 +1222,7 @@
     },
     {
       "format": "botte_noel%s",
-      "iter": [
-        ["", "2", "_new"]
-      ]
+      "iter": [ ["", "2", "_new"] ]
     },
     {
       "format": "bottes%d",
@@ -1264,10 +1262,6 @@
       "iter": [ 8 ]
     },
     {
-      "format": "casque%d",
-      "iter": [ 28 ]
-    },
-    {
       "format": "cape_noel%s",
       "iter": [
         ["2", "_new"]
@@ -1275,11 +1269,15 @@
     },
     {
       "format": "capuche_chasseur%s",
-      "iter": [[ "", "_puissant", "_sup"]]
+      "iter": [ [ "", "_puissant", "_sup"] ]
     },
     {
       "format": "capuche%s",
       "iter": [ [ "ti9","01" ] ]
+    },
+    {
+      "format": "casque%d",
+      "iter": [ 28 ]
     },
     {
       "format": "cas_consc"
@@ -1319,25 +1317,19 @@
     },
     {
       "format": "cle%d",
-      "iter": [
-        1
-      ]
+      "iter": [ 1 ]
     },
     {
       "format": "collier01_%s",
-      "iter": [
-        ["a", "g", "m", "p"]
-      ]
+      "iter": [ ["a", "g", "m", "p"] ]
     },
     {
       "format": "collier%02d",
-      "iter": [
-        4
-      ]
+      "iter": [ 4 ]
     },
     {
       "format": "collier_infini_%s",
-      "iter": [["sup", "scintillant"]]
+      "iter": [ ["sup", "scintillant"] ]
     },
     {
       "format": "colliermort"
@@ -1350,9 +1342,7 @@
     },
     {
       "format": "couronne%d",
-      "iter": [
-        4
-      ]
+      "iter": [ 4 ]
     },
     {
       "format": "coutea%d",
@@ -1360,9 +1350,7 @@
     },
     {
       "format": "couteau%02d",
-      "iter": [
-        1
-      ]
+      "iter": [ 1 ]
     },
     {
       "format": "crane%d",
@@ -1373,15 +1361,11 @@
     },
     {
       "format": "crosse%d",
-      "iter": [
-        5
-      ]
+      "iter": [ 5 ]
     },
     {
       "format": "dague%d",
-      "iter": [
-        2
-      ]
+      "iter": [ 2 ]
     },
     {
       "format": "defaut_torse"
@@ -1398,13 +1382,11 @@
     },
     {
       "format": "epee%d",
-      "iter": [
-        22
-      ]
+      "iter": [ 22 ]
     },
     {
       "format": "epee_justice_%s",
-      "iter": [["sup","scin"]]
+      "iter": [ ["sup", "scin"] ]
     },
     {
       "format": "equip%d",
@@ -1415,9 +1397,7 @@
     },
     {
       "format": "fronde%02d",
-      "iter": [
-        1
-      ]
+      "iter": [ 1 ]
     },
     {
       "format": "gant%02d",
@@ -1425,55 +1405,43 @@
     },
     {
       "format": "gant%d",
-      "iter": [
-        10
-      ]
+      "iter": [ 10 ]
     },
     {
       "format": "gants01gf6"
     },
     {
       "format": "griffe%d",
-      "iter": [
-        4
-      ]
+      "iter": [ 4 ]
     },
     {
       "format": "griffe"
     },
     {
       "format": "grimoire%d",
-      "iter": [
-        6
-      ]
+      "iter": [ 6 ]
     },
     {
       "format": "grimoiremort"
     },
     {
       "format": "hache%d",
-      "iter": [
-        11
-      ]
+      "iter": [ 11 ]
     },
     {
       "format": "hache_sauvage_%s",
-      "iter": [["pui","sup"]]
+      "iter": [ ["pui", "sup"] ]
     },
     {
       "format": "hachette"
     },
     {
       "format": "haut%d",
-      "iter": [
-        30
-      ]
+      "iter": [ 30 ]
     },
     {
-      "format": "haut8_l"
-    },
-    {
-      "format": "haut14_l"
+      "format": "haut%s_l",
+	  "iter": [ [ 8, 14 ] ]
     },
     {
       "format": "madail%d",
@@ -1485,19 +1453,15 @@
     },
     {
       "format": "masque%02d",
-      "iter": [
-        2
-      ]
+      "iter": [ 2 ]
     },
     {
       "format": "masque_nature_%s",
-      "iter": [["sup","scintillant"]]
+      "iter": [ ["sup", "scintillant"] ]
     },
     {
       "format": "masse%d",
-      "iter": [
-        8
-      ]
+      "iter": [ 8 ]
     },
     {
       "format": "mitain%d",
@@ -1508,16 +1472,14 @@
     },
     {
       "format": "paire_pantoufle_%s",
-      "iter": [["puissante", "sup"]]
+      "iter": [ ["puissante", "sup"] ]
     },
     {
       "format": "pdtfnv1c2vk5"
     },
     {
       "format": "pelle%d",
-      "iter": [
-        1
-      ]
+      "iter": [ 1 ]
     },
     {
       "format": "pelle%02d",
@@ -1528,15 +1490,11 @@
     },
     {
       "format": "pendentif%02d",
-      "iter": [
-        11
-      ]
+      "iter": [ 11 ]
     },
     {
       "format": "pied%02d",
-      "iter": [
-        2
-      ]
+      "iter": [ 2 ]
     },
     {
       "format": "pierre%d",
@@ -1554,15 +1512,11 @@
     },
     {
       "format": "sabre%02d",
-      "iter": [
-        4
-      ]
+      "iter": [ 4 ]
     },
     {
       "format": "sandales%d",
-      "iter": [
-        5
-      ]
+      "iter": [ 5 ]
     },
     {
       "format": "serpe"
@@ -1585,7 +1539,7 @@
     },
     {
       "format": "toge_pelerin_%s",
-      "iter": [["puissant","sup"]]
+      "iter": [ ["puissant", "sup"] ]
     },
     {
       "format": "tunique_aventurier"
@@ -1980,13 +1934,22 @@
   ],
   "monstre/bizarre": [
     {
-      "format": "tortue"
+      "format": "ange%d",
+      "iter": [ 2 ]
     },
     {
-      "format": "galahaad"
+      "format": "elemental%d",
+      "iter": [ 13 ]
     },
     {
       "format": "epouvantail"
+    },
+    {
+      "format": "fantome%d",
+      "iter": [ 1 ]
+    },
+    {
+      "format": "galahaad"
     },
     {
       "format": "MudGolem"
@@ -1995,26 +1958,11 @@
       "format": "poulpe"
     },
     {
-      "format": "fantome%d",
-      "iter": [
-        1
-      ]
-    },
-    {
-      "format": "elemental%d",
-      "iter": [
-        13
-      ]
-    },
-    {
-      "format": "ange%d",
-      "iter": [
-        2
-      ]
-    },
-    {
       "format": "mort_vivant%s",
       "iter" : [ [ "", "_2" ] ]
+    },
+    {
+      "format": "tortue"
     },
     {
       "format": "zombie_02"
@@ -2025,93 +1973,77 @@
   ],
   "monstre/bestiaux": [
     {
+      "format": "chauve_souris%d",
+      "iter": [ 1 ]
+    },
+    {
       "format": "chat3nd2"
     },
     {
       "format": "chat1do2"
     },
     {
-      "format": "renard"
-    },
-    {
-      "format": "hog"
-    },
-    {
-      "format": "wolf"
-    },
-    {
-      "format": "lizardman"
-    },
-    {
-      "format": "salamandre"
-    },
-    {
-      "format": "serpentmer"
-    },
-    {
-      "format": "grenouille"
-    },
-    {
       "format": "coq%d",
-      "iter": [
-        2
-      ]
+      "iter": [ 2 ]
+    },
+    {
+      "format": "demon%d",
+      "iter": [ 1 ]
     },
     {
       "format": "diablotin%d",
       "iter": [ 2 ]
     },
     {
-      "format": "serpent%d",
-      "iter": [
-        4
-      ]
-    },
-    {
-      "format": "poisson%d",
-      "iter": [
-        3
-      ]
-    },
-    {
       "format": "goblin%d",
-      "iter": [
-        1
-      ]
-    },
-    {
-      "format": "gobelin%d",
       "iter": [ 1 ]
     },
     {
-      "format": "demon%d",
-      "iter": [
-        1
-      ]
+      "format": "gobelin%d",
+      "iter": [ 2 ]
     },
     {
-      "format": "ours%d",
-      "iter": [
-        6
-      ]
+      "format": "grenouille"
+    },
+    {
+      "format": "hog"
+    },
+    {
+      "format": "lizardman"
     },
     {
       "format": "loup%d",
-      "iter": [
-        8
-      ]
+      "iter": [ 8 ]
     },
     {
-      "format": "chauve_souris%d",
-      "iter": [
-        1
-      ]
+      "format": "ours%d",
+      "iter": [ 6 ]
+    },
+    {
+      "format": "poisson%d",
+      "iter": [ 3 ]
     },
     {
       "format": "rat"
     },
     {
+      "format": "renard"
+    },
+    {
+      "format": "salamandre"
+    },
+    {
+      "format": "serpent%d",
+      "iter": [ 4 ]
+    },
+    {
+      "format": "serpentmer"
+    },
+    {
       "format": "versable"
+    },
+    {
+      "format": "wolf"
     }
   ],
   "monstre/boss": [
@@ -2157,35 +2089,25 @@
   ],
   "monstre/flore": [
     {
-      "format": "tournesol%d",
-      "iter": [
-        2
-      ]
+      "format": "arbre%d",
+      "iter": [ 6 ]
     },
     {
       "format": "champignon%d",
-      "iter": [
-        4
-      ]
+      "iter": [ 4 ]
     },
     {
       "format": "champignon%02d",
-      "iter": [
-        3
-      ]
+      "iter": [ 3 ]
     },
     {
       "format": "plantecarnivore%d",
-      "iter": [
-        3
-      ]
+      "iter": [ 3 ]
     },
     {
-      "format": "arbre%d",
-      "iter": [
-        6
-      ]
-    }
+      "format": "tournesol%d",
+      "iter": [ 2 ]
+    },
   ],
   "banniere": [
     {
