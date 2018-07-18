@@ -22,7 +22,6 @@
 
 ### Ecran
 
-- Assassinat ?
 - Autres ?
 
 ### Maps
