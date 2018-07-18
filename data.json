@@ -25,7 +25,7 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "grimoire", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
+        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "grimoire", "hamecon_pecheur", "lame_herboriste", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
       ]
     },
     {
@@ -438,7 +438,7 @@
 	{
 	"name": "Indicateur",
 	"format": "%s",
-	"iter": [ [ "en_cours", "pas_commence" ]
+	"iter": [ [ "en_cours", "pas_commence" ] ]
 	}
   ],
   "pnjDetail": [
