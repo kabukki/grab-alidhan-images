@@ -434,7 +434,12 @@
       "name": "Divinités",
       "format": "%s",
       "iter": [["keirana", "randr", "joevina", "hardelbor", "burung", "heffquen", "maelic", "judbjorn" ]]
-    }
+    },
+	{
+	"name": "Indicateur",
+	"format": "%s",
+	"iter": [ [ "en_cours", "pas_commence" ]
+	}
   ],
   "pnjDetail": [
     {
