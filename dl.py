@@ -68,15 +68,15 @@ def processItem (dir, item):
 	if not 'format' in item:
 		print(f'{Fore.RED}Warning: missing mandatory field \'format\' in item')
 		return
-	
+
 	disp = item['name'] if 'name' in item else '<' + item['format'] + '>'
 	exts = item['ext'] if 'ext' in item and isinstance(item['ext'], list) else [DEFAULT_EXTENSION]
-	
+
 	print(f"{disp} : ", end='', flush=True)
-	
+
 	for ext in exts:
 		# Multiple files
-		if 'iter' in item and item['iter']:	
+		if 'iter' in item and item['iter']:
 			# Create arrays to iterate over
 			values = []
 			for iter in item['iter']:
@@ -86,7 +86,7 @@ def processItem (dir, item):
 				# Iterate over a range
 				elif isinstance(iter, int):
 					values.append(list(range(1, iter + 1)))
-			
+
 			# Get every possible file for this item
 			for args in allPossibleCases(values):
 				if isinstance(args, list):

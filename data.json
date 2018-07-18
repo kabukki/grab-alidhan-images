@@ -281,8 +281,8 @@
   ],
   "pnj": [
     {
-      "format": "ambulant%d",
-      "iter": [ [ 2 ] ]
+      "format": "ambulant%s",
+      "iter": [ [ "", "2" ] ]
     },
     {
       "format": "archalan"
@@ -368,9 +368,9 @@
     {
       "format": "Manashama"
     },
-	{
-	"format": "matriarche_01"
-	},
+    {
+      "format": "matriarche_01"
+    },
     {
       "format": "miroir"
     },
@@ -435,23 +435,23 @@
       "format": "%s",
       "iter": [["keirana", "randr", "joevina", "hardelbor", "burung", "heffquen", "maelic", "judbjorn" ]]
     },
-	{
-	"name": "Indicateur",
-	"format": "%s",
-	"iter": [ [ "en_cours", "pas_commence" ] ]
-	}
+    {
+      "name": "Indicateur",
+      "format": "%s",
+      "iter": [ [ "en_cours", "pas_commence" ] ]
+    }
   ],
   "pnjDetail": [
     {
       "format": "ange%s",
-	  "iter": [[ "", "2" ]]
+      "iter": [[ "", "2" ]]
     },
     {
       "format": "archer"
     },
     {
       "format": "ambulant%s_detail",
-	  "iter": [[ "", "2" ]]
+      "iter": [[ "", "2" ]]
     },
     {
       "format": "archalan_detail"
@@ -672,9 +672,9 @@
     {
       "format": "potmiel1uo7uc6"
     },
-	{
-	"format": "potionnoirep_halloween"
-	},
+    {
+      "format": "potionnoirep_halloween"
+    },
     {
       "format": "soupepoissonvapeuril7"
     },
@@ -712,13 +712,23 @@
       "format": "benediction_moine"
     },
     {
+      "format": "biere3"
+    },
+    {
       "format": "blizzard"
+    },
+    {
+      "format": "boisson-gluante2"
     },
     {
       "format": "bouclier_divin"
     },
     {
       "format": "boule_givree"
+    },
+    {
+      "format": "buffpot%s",
+      "iter": [ 8 ]
     },
     {
       "format": "BSA"
@@ -812,9 +822,7 @@
     },
     {
       "format": "justicier",
-      "ext": [
-        "gif"
-      ]
+      "ext": [ "gif" ]
     },
     {
       "format": "lien_tellurique"
@@ -824,6 +832,10 @@
     },
     {
       "format": "malediction_int"
+    },
+    {
+      "format": "malediction_constit",
+      "ext": [ "jpg" ]
     },
     {
       "format": "minage"
@@ -840,6 +852,17 @@
     {
       "format": "piege_mortel",
       "ext" : [ "png", "gif" ]
+    },
+    {
+      "format": "potion%d",
+      "iter": [ [ 1, 7, 12, 15, 41 ] ]
+    },
+    {
+      "format": "potion_%s_majeure",
+      "iter": [[ "agile", "constit", "dext", "force", "intel", "sagesse" ]]
+    },
+    {
+      "format": "potiron"
     },
     {
       "format": "pousser"
@@ -1176,11 +1199,11 @@
       "name": "Bague bete",
       "iter" : [ [ "puissante", "sup" ] ]
     },
-	{ 
-	"name": "Bague de l'enragé",
-	"format": "bague_enrage%s",
-	"iter": [ [ "", "_puissant" ] ]
-	},
+    {
+      "name": "Bague de l'enragé",
+      "format": "bague_enrage%s",
+      "iter": [ [ "", "_puissant" ] ]
+    },
     {
       "format": "baguette%d",
       "iter": [ 4 ]
@@ -1446,7 +1469,7 @@
     },
     {
       "format": "haut%s_l",
-	  "iter": [ [ 8, 14 ] ]
+      "iter": [ [ 8, 14 ] ]
     },
     {
       "format": "madail%d",
@@ -2112,7 +2135,7 @@
     {
       "format": "tournesol%d",
       "iter": [ 2 ]
-    },
+    }
   ],
   "banniere": [
     {
