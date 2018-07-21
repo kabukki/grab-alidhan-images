@@ -1,7 +1,6 @@
 ## Armes
 
 - Bracelets Serpents
-- Chaussettes haut en couleur
 - Certaines images d'artisanats ?
 
 ### Classes

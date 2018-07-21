@@ -25,9 +25,14 @@
       "name": "Standalone items",
       "format": "%s",
       "iter": [
-        [ "89erfgqzeraz7", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "grimoire", "hamecon_pecheur", "lame_herboriste", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
+        [ "89erfgqzeraz7", "ashkran", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamant1", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "grimoire", "hamecon_pecheur", "lame_herboriste", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
       ]
     },
+	{
+	"name": "Halloween",
+	"format": "%s",
+	"iter": [ [ "balaitrgr1", "capuchonancienneapparithh4", "drapmiteuxapparitionbo6", "poupetrzz9"]
+	},
     {
       "name": "Aile",
       "format": "aile%d",
@@ -1142,7 +1147,7 @@
       "format": "%s",
       "name": "Standalone items",
       "iter": [
-        [ "amuremort", "armemort", "baguerouge01lt5", "batonmagique1cl0", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "cape_chaos_puissant", "chausse_chaos_puissante", "citrouille", "eclipse", "fleau1", "pantalon_pelerin_puissant", "pe03mo5" ]
+        [ "amuremort", "armemort", "baguerouge01lt5", "batonmagique1cl0", "beret", "cacheoreilles", "canne_a_peche", "capenoel", "cape_chaos_puissant", "chausse_chaos_puissante", "chaussette", "citrouille", "eclipse", "fleau1", "pantalon_pelerin_puissant", "pe03mo5" ]
       ]
     },
     {
