@@ -939,6 +939,9 @@
       "format": "toucher_guerisseur"
     },
     {
+      "format": "vivacite_esprit"
+    },
+    {
       "format": "zone_soin"
     }
   ],
