@@ -2156,9 +2156,6 @@
   ],
   "style":  [
     {
-      "format": "cadre_carte"
-    },
-    {
       "format": "message"
     },
     {
@@ -2169,9 +2166,97 @@
     },
     {
       "format": "separation_menu"
+    },
+    {
+      "name": "Background",
+      "format": "background%s",
+      "iter": [ [ "", "_accueil" ] ]
+    },
+    {
+      "format": "barre_%s",
+      "iter": [ [ "fixe", "login", "skills_fond" ] ]
+    },
+    {
+      "format": "bt_%s",
+      "iter": [ [ "connexion", "inscription" ] ]
+    },
+    {
+      "format": "cadre_%s",
+      "iter": [ [ "carte", "noir", "pseudo" ] ]
+    },
+    {
+      "format": "conteneur_bas%s",
+      "iter": [ [ "", "_bis" ] ]
+    },
+    {
+      "format": "deconnexion"
+    },
+    {
+      "format": "favicon"
+    },
+    {
+      "format": "fond_bouton%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "fond_global%s",
+      "iter": [ [ "", "_1px", "_1px_bis", "_bis", "_haut_bis", "_haut_carte" ] ]
+    },
+    {
+      "format": "goutte_eau"
+    },
+    {
+      "format": "header_deco"
+    },
+    {
+      "format": "jauge_%s_%s",
+      "iter": [ ["rouge", "verte" ], [ "1px", "bord1", "bord2" ]]
+    },
+    {
+      "format": "jauge_xp_entiere"
+    },
+    {
+      "format": "lettrine_a"
+    },
+    {
+      "format": "loading",
+      "ext": [ "gif" ]
+    },
+    {
+      "format": "logo4"
+    },
+    {
+      "format": "menu%s",
+      "iter": [ [ "2_bas", "2_fond", "2_haut", "_gauche" ] ]
+    },
+    {
+      "format": "onglet_sous_menu"
+    },
+    {
+      "format": "pixel",
+      "ext": [ "gif" ]
+    },
+    {
+      "format": "switcher_skill"
+    },
+    {
+      "format": "translucide"
+    },
+    {
+      "format": "zone_pve_pvp%s",
+      "iter": [ [ "", "_bis", "_log" ] ]
+    }
+  ],
+  "messagerie": [
+    {
+      "format": "%slu",
+      "iter": [ [ "", "pas_" ] ]
     }
   ],
   "jeu": [
+    {
+      "format": "silhouette1"
+    },
     {
       "format": "profil"
     },
@@ -2221,8 +2306,17 @@
       "iter": [ [ "masculin", "feminin" ] ]
     },
     {
+      "format": "inventaire_%s",
+      "iter": [ [ "masculin", "feminin" ] ]
+    },
+    {
       "format": "1star%s",
       "iter": [ [ "", "_gold" ] ],
+      "ext": [ "gif" ]
+    },
+    {
+      "format": "plus%s",
+      "iter": [ [ "", "2" ] ],
       "ext": [ "gif" ]
     }
   ],
