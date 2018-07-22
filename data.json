@@ -28,11 +28,11 @@
         [ "89erfgqzeraz7", "ashkran", "barre_fer", "blood", "bolef5", "bois", "bouteille_vide", "cadavre_chenille", "chope_bois2", "clef", "clochette06yx7", "crane", "criniere_herisson", "dent_dragon", "diamant1", "diamclair7", "diamoir5", "drop5wi6", "fiolevide", "fourrure", "fragment", "gomina", "grenat_poli", "grimoire", "hamecon_pecheur", "lame_herboriste", "manche_mineur", "meche_cheveu", "oeil", "patte", "plante_herboriste", "pince2", "poison", "poisson_pecheur", "tete_hydre" ]
       ]
     },
-	{
-	"name": "Halloween",
-	"format": "%s",
-	"iter": [ [ "balaitrgr1", "capuchonancienneapparithh4", "drapmiteuxapparitionbo6", "poupetrzz9"] ]
-	},
+    {
+      "name": "Halloween",
+      "format": "%s",
+      "iter": [ [ "balaitrgr1", "capuchonancienneapparithh4", "drapmiteuxapparitionbo6", "poupetrzz9"] ]
+    },
     {
       "name": "Aile",
       "format": "aile%d",
@@ -1608,7 +1608,7 @@
       ]
     }
   ],
-  "map": [  
+  "map": [
     {
       "name": "Begharan",
       "format" : "%s",
@@ -1625,7 +1625,7 @@
       "name": "Nedmor",
       "format": "%s",
       "iter": [ [ "54azddezaq", "oijeeck", "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "q7sktyzmq1mexqqy", "x731ut9mgy", "sdg3vnbki4uluoiuerte2", "depotvente1", "banque1", "forgeauberge1", "sdgvnbkiuluoiuerte" ] ]
-    },	
+    },
     {
       "name": "Broquir",
       "format": "%s",
@@ -1648,20 +1648,18 @@
     },
     {
       "name": "Cimetiere",
-	  "format": "%s",
+      "format": "%s",
       "iter": [ [ "y4fetxgu53lx", "sdfgsd68svc4", "djildfcbjjdrzexcv" ] ]
     },
     {
       "name": "Forêt sombre",
       "format": "%s",
       "iter": [ [ "kdcc78e5d", "6re4hr54z", "cne8585sd", "ezrgpok52k2" ] ]
-    },	
+    },
     {
       "name": "Tuléa",
       "format": "%s",
-      "iter": [
-        [ "13zesdqs3", "5lllezesd4", "9llleze5", "xcvxc4422365", "dfsdf342354", "vxcvxcvx14sfsf", "fzef8ezr6sdf3sdf1" ]
-      ]
+      "iter": [ [ "13zesdqs3", "5lllezesd4", "9llleze5", "xcvxc4422365", "dfsdf342354", "vxcvxcvx14sfsf", "fzef8ezr6sdf3sdf1" ] ]
     },
     {
       "name": "Brosems",
@@ -1673,7 +1671,7 @@
     {
       "name": "Avant poste des justiciers",
       "format": "%s",
-      "iter": [[ "cvfghnjkloi865", "bg49zer9sdf63xcv" ]]
+      "iter": [ [ "cvfghnjkloi865", "bg49zer9sdf63xcv" ] ]
     },
     {
       "name": "Mine de Terrestrine",
@@ -1694,11 +1692,11 @@
       "name": "Nowenuld",
       "format": "%s",
       "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce" ] ]
-    },	
+    },
     {
       "name": "Forteresse",
       "format": "%s",
-      "iter": [ [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ] ]
+      "iter": [ [ "1ioedfza", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ] ]
     },
     {
       "name": "Lyberthas",
@@ -1758,7 +1756,7 @@
       "name": "Forêt des bras cassés",
       "format": "%s",
       "iter": [ [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg", "7a2ckjq5" ] ]
-    },	
+    },
     {
       "name": "Grimlo",
       "format": "%s",
@@ -1788,7 +1786,7 @@
       "name": "Comath",
       "format": "%s",
       "iter": [[ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist" ]]
-    },	
+    },
     {
       "name": "Hutte de Gonk",
       "format": "%s",
@@ -1801,7 +1799,7 @@
     },
     {
       "name": "Astaegan",
-      "format": "%s", 
+      "format": "%s",
       "iter": [[ "3erfokevdver54", "4df8g67ds", "5545fge4z54rgs", "186g4dfvdvsssd", "2ezrge9dfvz", "wktidxpeao", "jyfozwpioa", "xwmotrzkjh", "kesd445zdc", "zv457rds", "ssdf87ef", "ih54dzrc", "ac5454edqs", "hteakmkliw", "lsgmbsxpof", "s16efv1cdc651", "il6gyj2ty6j2", "ss65df98v7d4", "fsd651fd6g51" ]]
     },
     {
@@ -1809,36 +1807,36 @@
       "format": "%s",
       "iter": [[ "kj8jfsgezr7fqsbz", "tyreg7412q", "f8g4z64zdfge1", "68sr7hzetq87" ]]
     },
-	{
-	"name": "Repaire des brigands",
-	"format": "%s",
-	"iter": [ [ "vkb3g1t9omeg", "gr0e4xnbkf2u" ] ]
-	},
-	{
-	"name": "Khramas",
-	"format": "%s",
-	"iter": [ [ "eh87sd54gz", "f879dfs987gds", "86er7gd2zse5sdq", "mi6jhng8sd" ] ]
-	},
-	{
-	"name": "Thynias",
-	"format": "%s",
-	"iter": [ [ "87ve46r4ge6", "9e8rg54s5dfs", "v5ef969edcfs", "65efgre77xss" ] ]
-	},
-	{
-	"name": "Sylhens",
-	"format": "%s",
-	"iter": [ [ "er9gd9s49ez", "v8d7vxfssqf4d", "87vdgv4e9r4f", "e5zsqgre8a9erf" ] ]
-	},
-	{
-	"name": "Sombrios",
-	"format": "%s",
-	"iter": [ [ "86er4gsdfsfsds", "5684gfdgergsf", "dspofksq5f1qzef", "bhj5r1fsqz1", "654vdsqfsd", "ezfpokz41231sdf", "opkbgerz74sdf4", "fdg6nd6s5gs" ] ]
-	},
-	{
-	"name": "La Tanière",
-	"format": "%s",
-	"iter": [ [ "apcznkv60q", "sdgdv6sd4fv65v1", "dpokdopfc857q654", "sdpok656v1sd", "segjk54hg5tg54er", "8646sqd4fzqfdffgs" ] ]
-	},
+    {
+      "name": "Repaire des brigands",
+      "format": "%s",
+      "iter": [ [ "vkb3g1t9omeg", "gr0e4xnbkf2u" ] ]
+    },
+    {
+      "name": "Khramas",
+      "format": "%s",
+      "iter": [ [ "eh87sd54gz", "f879dfs987gds", "86er7gd2zse5sdq", "mi6jhng8sd" ] ]
+    },
+    {
+      "name": "Thynias",
+      "format": "%s",
+      "iter": [ [ "87ve46r4ge6", "9e8rg54s5dfs", "v5ef969edcfs", "65efgre77xss" ] ]
+    },
+    {
+      "name": "Sylhens",
+      "format": "%s",
+      "iter": [ [ "er9gd9s49ez", "v8d7vxfssqf4d", "87vdgv4e9r4f", "e5zsqgre8a9erf" ] ]
+    },
+    {
+      "name": "Sombrios",
+      "format": "%s",
+      "iter": [ [ "86er4gsdfsfsds", "5684gfdgergsf", "dspofksq5f1qzef", "bhj5r1fsqz1", "654vdsqfsd", "ezfpokz41231sdf", "opkbgerz74sdf4", "fdg6nd6s5gs" ] ]
+    },
+    {
+      "name": "La Tanière",
+      "format": "%s",
+      "iter": [ [ "apcznkv60q", "sdgdv6sd4fv65v1", "dpokdopfc857q654", "sdpok656v1sd", "segjk54hg5tg54er", "8646sqd4fzqfdffgs" ] ]
+    },
     {
       "name": "Divenia",
       "format": "wfxspigq1"
