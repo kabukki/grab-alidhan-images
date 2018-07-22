@@ -1608,21 +1608,13 @@
       ]
     }
   ],
-  "map": [
+  "map": [  
     {
-      "name": "Forteresse",
-      "format": "%s",
-      "iter": [ [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ] ]
-    },
-    {
-      "name": "Cyrosh",
-      "format": "%s",
-      "iter": [ [ "ew8gpe5lhu1z", "boutiqueneutreetage", "aubergeneutre", "boutiqueneutre", "villeneutre", "villeneutre5", "ezofijv9654654s", "cd864ev654v6d54", "v987sd864cx64zeq" ] ]
-    },
-    {
-      "name": "Nedmor",
-      "format": "%s",
-      "iter": [ [ "oijeeck", "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "x731ut9mgy", "sdg3vnbki4uluoiuerte2", "depotvente1", "banque1", "forgeauberge1", "sdgvnbkiuluoiuerte" ] ]
+      "name": "Begharan",
+      "format" : "%s",
+      "iter": [
+        [ "pekge8754zeaf", "douane", "maptuto", "sous_sol", "villetuto" ]
+      ]
     },
     {
       "name": "Fuisserage",
@@ -1630,110 +1622,40 @@
       "iter": [ [ "armurebien", "aubergebien", "banquebien", "villebien5", "villebien6", "dsf684fr65sqfsa4", "262d6fgsergfrez4sq", "zv575wf8dcln", "bqua6mime5at", "ezf35df61erds" ] ]
     },
     {
-      "name": "Grimlo",
+      "name": "Nedmor",
       "format": "%s",
-      "iter": [ [ "ghrimlong1lgvpg", "ghrimlong2htset", "ghrimlong3hatcn", "ghrimlong4emrqe", "ghrimlong5twcqw", "ghrimlong9tmokn", "ghrimlong11btfeu", "ghrimlong12hunkl", "ghrimlong13ymsbn", "ghrimlong14lfikn", "ghrimlong10yjzjb", "ghrimlong7tfgwd", "ghrimlong6qugth"  ] ]
-    },
+      "iter": [ [ "54azddezaq", "oijeeck", "nedmor_chateau", "rcflo9j7pd", "interieur", "yj1qp2tousah6pow", "q7sktyzmq1mexqqy", "x731ut9mgy", "sdg3vnbki4uluoiuerte2", "depotvente1", "banque1", "forgeauberge1", "sdgvnbkiuluoiuerte" ] ]
+    },	
     {
       "name": "Broquir",
       "format": "%s",
       "iter": [ [ "2s4f6e1sdf51qaa", "z87df4cd56z6641", "dg51v6q65f1e6ghjkl", "ss84231vd68eta84" ] ]
     },
     {
-      "name": "Rhogan",
+      "name": "Cyrosh",
       "format": "%s",
-      "iter": [ [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dtg6rt2g6er2g", "rgerg541e5g4", "jioeg7eger5g4z" ] ]
+      "iter": [ [ "ew8gpe5lhu1z", "boutiqueneutreetage", "aubergeneutre", "boutiqueneutre", "villeneutre", "villeneutre5", "mx6f76kvqg1j", "ezofijv9654654s", "cd864ev654v6d54", "v987sd864cx64zeq" ] ]
     },
     {
-      "name": "Phyléas",
-      "format": "%s",
-      "iter": [ [ "sdf6219ezr2fs", "vb1srq6d51fv", "sdg45dv6w", "sd6v59xcv9s5er", "ss5754fsd5c4e56f" ] ]
+      "name": "Mérulik",
+      "format" : "%s",
+      "iter" : [ [ "boutiquemilieu", "boutiquemilieusoussol", "ville2", "ville2bis", "plaine12", "87adedqaze" ]]
     },
     {
-      "name": "Forêt des bras cassés",
-      "format": "%s",
-      "iter": [ [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg" ] ]
+      "name": "Cimetiere",
+      "format": "cimetiere%d",
+      "iter": [ 2 ]
     },
     {
-      "name": "Vallon du chasseur de temps",
-      "format": "%s",
-      "iter": [ [ "ftgyz7y930", "fptni8evvh", "scmicg95rs", "ldkce73gm5", "1goztv8cc4" ] ]
-    },
-    {
-      "name": "Salle pestilentielle",
-      "format": "%s",
-      "iter" : [ [ "4m11v0qagoiceu", "jle3vmtdfw" ] ]
-    },
-    {
-      "name": "Corniche déboisée",
-      "format": "%s",
-      "iter": [ [ "sqdfxcvty2312fgr", "dg9ergse6g978" ] ]
-    },
-    {
-      "name": "Marécage de Far",
-      "format": "%s",
-      "iter": [ [ "marec1", "marec2", "grotte", "grotte2", "grotte3", "dfgbhyjghjvnvbrgrez342", "dfsdesdgcvbukllopo" ] ]
-    },
-    {
-      "name": "Hutte de Gonk",
-      "format": "%s",
-      "iter": [ [ "couloircave", "hutteinterieur", "haltehutte", "sallecave" ] ]
+      "name": "Cimetiere",
+	  "format": "%s",
+      "iter": [ [ "y4fetxgu53lx", "sdfgsd68svc4", "djildfcbjjdrzexcv" ] ]
     },
     {
       "name": "Forêt sombre",
       "format": "%s",
-      "iter": [ [ "6re4hr54z", "cne8585sd", "ezrgpok52k2" ] ]
-    },
-    {
-      "name": "Fangélice",
-      "format": "%s",
-      "iter": [ [ "cmlrk2by8dkbs1xhz5gem", "k1j03wqrlc0tgmrhl6y2", "6h7dde8az5d7k65pa85f", "tji78j80p0f472qx0sk5", "kbwie1ftmil2103guzi14", "opzhmywqofiotbgtia711", "qldc6fhnikzmzjs8r6zp", "f6tdh0i5066ftvwjy1a8", "f6tdh0i5066ftvwjy1a82", "p01zryw7spt5y", "veokd7xui5lrvd4kuq8j", "t8l5ohea7xbvjisw1e0tl", "mp71zmzrw5v780ccpta4" ] ]
-    },
-    {
-      "name": "Brosems",
-      "format": "%s",
-      "iter": [
-        [ "scxcvxcbhrturtujkolo", "xcvxcvcbnvgjghjyikklpo", "ergsdfsdckxjbcvbor", "sdfgxcxciopklmjkluyaz", "sdfgxcxciopklmjkluyaz2" ]
-      ]
-    },
-    {
-      "name": "Lyberthas",
-      "format": "%s",
-      "iter": [
-        [ "h54dfger51vsd", "erg4vqsdfh48t5961", "51yjfs5g1eqfsd", "dpfogdsg512dg" ]
-      ]
-    },
-    {
-      "name": "Lumos",
-      "format": "%s",
-      "iter": [
-        [ "98g14sqfea", "plfev84520eq", "87rtg987sd4etf", "h5dg45324ert" ]
-      ]
-    },
-    {
-      "name": "Forêt dévastée",
-      "format": "%s",
-      "iter": [
-        [ "azrluioifggdbcdff", "sdxccvfgrtftyezeznjh" ]
-      ]
-    },
-    {
-      "name": "Avant poste des justiciers",
-      "format": "%s",
-      "iter": [[ "cvfghnjkloi865", "bg49zer9sdf63xcv" ]]
-    },
-    {
-      "name": "Divenia",
-      "format": "wfxspigq1"
-    },
-    {
-      "name": "Poste de garde",
-      "format": "1alllezesdqs1"
-    },
-    {
-      "name": "Guet de Khemor",
-      "format": "1alllezesdqs2"
-    },
+      "iter": [ [ "kdcc78e5d", "6re4hr54z", "cne8585sd", "ezrgpok52k2" ] ]
+    },	
     {
       "name": "Tuléa",
       "format": "%s",
@@ -1742,32 +1664,16 @@
       ]
     },
     {
-      "name": "Mérulik",
-      "format" : "%s",
-      "iter" : [ [ "ville2", "ville2bis", "plaine12", "87adedqaze" ]]
-    },
-    {
-      "name": "Comptoir de la Hanse",
-      "format" : "%s",
-      "iter": [ [ "145fsqf9", "98985devdfgs" ] ]
-    },
-    {
-      "name": "Bois antique de Far",
-      "format" : "%s",
-      "iter": [ [ "okke12zb1", "hjbbe2ok0", "coihe3tg8", "24fz8998c9e8" ] ]
-    },
-    {
-      "name": "Cimetière",
-      "format": "djildfcbjjdrzexcv"
-    },
-    {
-      "name": "Clairière de Nch",
-      "format": "7a2ckjq5"
-    },
-    {
-      "name": "Nowenuld",
+      "name": "Brosems",
       "format": "%s",
-      "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce" ] ]
+      "iter": [
+        [ "ergsdfsdckxjbcvbor", "xcvxcvcbnvgjghjyikklpo", "scxcvxcbhrturtujkolo", "sdfgxcxciopklmjkluyaz", "sdfgxcxciopklmjkluyaz2", "1alllezesdqs1", "1alllezesdqs2" ]
+      ]
+    },
+    {
+      "name": "Avant poste des justiciers",
+      "format": "%s",
+      "iter": [[ "cvfghnjkloi865", "bg49zer9sdf63xcv" ]]
     },
     {
       "name": "Mine de Terrestrine",
@@ -1775,14 +1681,93 @@
       "iter": [ [ "fvx65874dfvxcvs", "cxvcbcv96d3gd", "asdfg54zer23dcxv389", "a87dsf5xvc32s64896", "az864cxv35sd4f9az" ] ]
     },
     {
-      "name": "Corridor de Far",
-      "format": "%s",
-      "iter": [ [ "wwwxxdzssxnklmpouyg", "dfgdbgsregqlmp112", "vbxbcvbncvneiiii", "vbxbcvbncvneiiii1", "vbxbcvbncvneiiii2" ] ]
+      "name": "Comptoir de la Hanse",
+      "format" : "%s",
+      "iter": [ [ "145fsqf9", "98985devdfgs" ] ]
     },
     {
       "name": "Northrend",
       "format": "%s",
       "iter": [ [ "eqsfsdfeirerz", "bhytresxcfgyuiklo", "ezrdfvblmiuouio", "vxcvxcvxcvxv", "iopfghxcqaze", "iojkjkhgcbvcbc" ] ]
+    },
+    {
+      "name": "Nowenuld",
+      "format": "%s",
+      "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce" ] ]
+    },	
+    {
+      "name": "Forteresse",
+      "format": "%s",
+      "iter": [ [ "1ioedfza", "q7sktyzmq1mexqqy", "2dffqsjy", "3xrpttdsa", "4sdzezoid" ] ]
+    },
+    {
+      "name": "Lyberthas",
+      "format": "%s",
+      "iter": [ [ "h54dfger51vsd", "erg4vqsdfh48t5961", "51yjfs5g1eqfsd", "dpfogdsg512dg" ] ]
+    },
+    {
+      "name": "Lumos",
+      "format": "%s",
+      "iter": [ [ "98g14sqfea", "plfev84520eq", "87rtg987sd4etf", "h5dg45324ert" ] ]
+    },
+    {
+      "name": "Fangélice",
+      "format": "%s",
+      "iter": [ [ "cmlrk2by8dkbs1xhz5gem", "k1j03wqrlc0tgmrhl6y2", "6h7dde8az5d7k65pa85f", "tji78j80p0f472qx0sk5", "kbwie1ftmil2103guzi14", "opzhmywqofiotbgtia711", "qldc6fhnikzmzjs8r6zp", "f6tdh0i5066ftvwjy1a8", "f6tdh0i5066ftvwjy1a82", "p01zryw7spt5y", "veokd7xui5lrvd4kuq8j", "t8l5ohea7xbvjisw1e0tl", "mp71zmzrw5v780ccpta4" ] ]
+    },
+    {
+      "name": "Phyléas",
+      "format": "%s",
+      "iter": [ [ "sdf6219ezr2fs", "vb1srq6d51fv", "sdg45dv6w", "sd6v59xcv9s5er", "ss5754fsd5c4e56f" ] ]
+    },
+    {
+      "name": "Corridor de Far",
+      "format": "%s",
+      "iter": [ [ "wwwxxdzssxnklmpouyg", "dfgdbgsregqlmp112", "vbxbcvbncvneiiii", "vbxbcvbncvneiiii1", "vbxbcvbncvneiiii2" ] ]
+    },
+    {
+      "name": "Corridor de Far",
+      "format": "corridor%d",
+      "iter": [ 3 ]
+    },
+    {
+      "name": "Vallon de Far",
+      "format": "foret__14"
+    },
+    {
+      "name": "Marécage de Far",
+      "format": "%s",
+      "iter": [ [ "marec1", "marec2", "grotte", "grotte2", "grotte3", "dfgbhyjghjvnvbrgrez342", "dfsdesdgcvbukllopo" ] ]
+    },
+    {
+      "name": "Forêt dévastée",
+      "format": "%s",
+      "iter": [ [ "azrluioifggdbcdff", "sdxccvfgrtftyezeznjh" ] ]
+    },
+    {
+      "name": "Bois antique de Far",
+      "format" : "%s",
+      "iter": [ [ "okke12zb1", "hjbbe2ok0", "coihe3tg8", "24fz8998c9e8" ] ]
+    },
+    {
+      "name": "Salle pestilentielle",
+      "format": "%s",
+      "iter" : [ [ "4m11v0qagoiceu", "jle3vmtdfw" ] ]
+    },
+    {
+      "name": "Forêt des bras cassés",
+      "format": "%s",
+      "iter": [ [ "rqhysxvwuvcu", "jht73vax9y", "u1mz4qju75", "pxc0qegg", "7a2ckjq5" ] ]
+    },	
+    {
+      "name": "Grimlo",
+      "format": "%s",
+      "iter": [ [ "ghrimlong1lgvpg", "ghrimlong2htset", "ghrimlong3hatcn", "ghrimlong4emrqe", "ghrimlong5twcqw", "ghrimlong9tmokn", "ghrimlong11btfeu", "ghrimlong12hunkl", "ghrimlong13ymsbn", "ghrimlong14lfikn", "ghrimlong10yjzjb", "ghrimlong7tfgwd", "ghrimlong6qugth"  ] ]
+    },
+    {
+      "name": "Vallon du chasseur de temps",
+      "format": "%s",
+      "iter": [ [ "ftgyz7y930", "fptni8evvh", "scmicg95rs", "ldkce73gm5", "1goztv8cc4" ] ]
     },
     {
       "name": "Ofeva",
@@ -1795,39 +1780,71 @@
       "iter": [[ "fiidozs4542", "wqzdfr154" ]]
     },
     {
+      "name": "Rhogan",
+      "format": "%s",
+      "iter": [ [ "dghrdf3vb2sd26", "fsf51zefsqf1", "dfh5rdf5sg4", "dtg6rt2g6er2g", "rgerg541e5g4", "jioeg7eger5g4z", "xcyfbmxixt2" ] ]
+    },
+    {
       "name": "Comath",
       "format": "%s",
       "iter": [[ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist" ]]
+    },	
+    {
+      "name": "Hutte de Gonk",
+      "format": "%s",
+      "iter": [ [ "couloircave", "hutteinterieur", "haltehutte", "sallecave" ] ]
+    },
+    {
+      "name": "Corniche déboisée",
+      "format": "%s",
+      "iter": [ [ "sqdfxcvty2312fgr", "dg9ergse6g978" ] ]
+    },
+    {
+      "name": "Astaegan",
+      "format": "%s", 
+      "iter": [[ "3erfokevdver54", "4df8g67ds", "5545fge4z54rgs", "186g4dfvdvsssd", "2ezrge9dfvz", "wktidxpeao", "jyfozwpioa", "xwmotrzkjh", "kesd445zdc", "zv457rds", "ssdf87ef", "ih54dzrc", "ac5454edqs", "hteakmkliw", "lsgmbsxpof", "s16efv1cdc651", "il6gyj2ty6j2", "ss65df98v7d4", "fsd651fd6g51" ]]
     },
     {
       "name": "Ynahé",
       "format": "%s",
-      "iter": [[ "kj8jfsgezr7fqsbz", "tyreg7412q", "f8g4z64zdfge1" ]]
+      "iter": [[ "kj8jfsgezr7fqsbz", "tyreg7412q", "f8g4z64zdfge1", "68sr7hzetq87" ]]
     },
+	{
+	"name": "Repaire des brigands",
+	"format": "%s",
+	"iter": [ [ "vkb3g1t9omeg", "gr0e4xnbkf2u" ] ]
+	},
+	{
+	"name": "Khramas",
+	"format": "%s",
+	"iter": [ [ "eh87sd54gz", "f879dfs987gds", "86er7gd2zse5sdq", "mi6jhng8sd" ] ]
+	},
+	{
+	"name": "Thynias",
+	"format": "%s",
+	"iter": [ [ "87ve46r4ge6", "9e8rg54s5dfs", "v5ef969edcfs", "65efgre77xss" ] ]
+	},
+	{
+	"name": "Sylhens",
+	"format": "%s",
+	"iter": [ [ "er9gd9s49ez", "v8d7vxfssqf4d", "87vdgv4e9r4f", "e5zsqgre8a9erf" ] ]
+	},
+	{
+	"name": "Sombrios",
+	"format": "%s",
+	"iter": [ [ "86er4gsdfsfsds", "5684gfdgergsf", "dspofksq5f1qzef", "bhj5r1fsqz1", "654vdsqfsd", "ezfpokz41231sdf", "opkbgerz74sdf4", "fdg6nd6s5gs" ] ]
+	},
+	{
+	"name": "La Tanière",
+	"format": "%s",
+	"iter": [ [ "apcznkv60q", "sdgdv6sd4fv65v1", "dpokdopfc857q654", "sdpok656v1sd", "segjk54hg5tg54er", "8646sqd4fzqfdffgs" ] ]
+	},
     {
-      "name": "Astaegan",
-      "format": "%s",
-      "iter": [[ "3erfokevdver54", "4df8g67ds", "5545fge4z54rgs", "186g4dfvdvsssd", "2ezrge9dfvz", "wktidxpeao", "jyfozwpioa", "xwmotrzkjh", "kesd445zdc", "zv457rds", "ssdf87ef", "ih54dzrc", "ac5454edqs", "hteakmkliw", "lsgmbsxpof" ]]
-    },
-    {
-      "name": "Corridor de Far",
-      "format": "corridor%d",
-      "iter": [ 3 ]
-    },
-    {
-      "format": "couloirsombre%d",
-      "iter": [ 3 ]
+      "name": "Divenia",
+      "format": "wfxspigq1"
     },
     {
       "format": "arene"
-    },
-    {
-      "name": "Event",
-      "format": "%s",
-      "iter": [[ "hallogdqok1", "hallogdqok2", "hallogdqok3", "hallogdqok4", "muvaxuqeu1", "muvaxuqeu2", "muvaxuqeu3" ]]
-    },
-    {
-      "format": "blanche"
     },
     {
       "format": "arene%d",
@@ -1835,34 +1852,23 @@
     },
     {
       "format": "ville%s%02d",
-      "iter": [
-        [ "N", "M", "B"],
-        4
-      ]
+      "iter": [ [ "N", "M", "B"], 4 ]
+    },
+    {
+      "format": "couloirsombre%d",
+      "iter": [ 3 ]
     },
     {
       "format": "foret%d",
       "iter": [ 18 ]
     },
     {
-      "name": "Vallon de Far",
-      "format": "foret__14"
+      "format": "blanche"
     },
     {
-      "name": "Cimetiere",
-      "format": "cimetiere%d",
-      "iter": [ 2 ]
-    },
-    {
-      "name": "Cimetiere",
-      "format": "sdfgsd68svc4"
-    },
-    {
-      "name": "Begharan",
-      "format" : "%s",
-      "iter": [
-        [ "pekge8754zeaf", "douane", "maptuto", "sous_sol", "villetuto" ]
-      ]
+      "name": "Event",
+      "format": "%s",
+      "iter": [[ "hallogdqok1", "hallogdqok2", "hallogdqok3", "hallogdqok4", "muvaxuqeu1", "muvaxuqeu2", "muvaxuqeu3" ]]
     }
   ],
   "monstre/alpha": [

@@ -19,20 +19,19 @@
 - Piège magique
 - Dissipation magique
 
-### Ecran
-
-- Autres ?
-
 ### Maps
 
-- Mass
+- Volcanos
+- Crypte des moines (Nowenuld)
+- Caverne des gobelins de Mérulik,
+- Grotte de Golia
+- Passage secret Méru-Hanse
 
 ### Monstres
 
 - Chef Gobelin
 - Crane infernal
 - Harpie
-- Loup du glacier
 - Mort-vivant
 - Orc enchainé
 - Pirate
@@ -42,7 +41,6 @@
 
 ### Objets
 
-- Griffe de loup du glacier
 - Malédiction de l'équipage
 - Pièce de beta-testeur (v1)
 - Autres ?
@@ -52,11 +50,3 @@
 - Clé
 - Perles
 - Autres ?
-
-### Pnj & Detail
-
-- Pnj d'event
-
-### Potions
-
-- Potions d'artisanats ?
