@@ -29,14 +29,13 @@
 ### Monstres
 
 - Chef Gobelin
+- Crapaud méchant
 - Crane infernal
-- Harpie
-- Mort-vivant
-- Orc enchainé
-- Pirate
+- Esprit majeur blanc, bleu, gris
+- Golem de pierre
+- Harpies
+- Pirate et Pirate maudit
 - Triton
-- Monstres de Volcanos
-- Autres ?
 
 ### Objets
 

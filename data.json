@@ -2094,7 +2094,8 @@
       "format": "bouquetin"
     },
     {
-      "format": "dragon"
+      "format": "dragon%s",
+      "iter": [ [ "", "_bleu", "_noir", "_rouge", "_vert" ] ]
     },
     {
       "format": "fv1006"
@@ -2103,7 +2104,14 @@
       "format": "Gomina"
     },
     {
+      "format": "gobelin%s",
+      "iter": [ [ "", "2" ] ]
+    },
+    {
       "format": "herisson-lion"
+    },
+    {
+      "format": "hydre"
     },
     {
       "format": "kuo_toa"
@@ -2115,10 +2123,16 @@
       "format": "ombre_ailee"
     },
     {
+      "format": "orc"
+    },
+    {
       "format": "poisson"
     },
     {
       "format": "soldat"
+    },
+    {
+      "format": "tyrannoeil"
     },
     {
       "format": "vouivre"
