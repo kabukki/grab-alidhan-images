@@ -1,6 +1,5 @@
 ## Armes
 
-- Bracelets Serpents
 - Certaines images d'artisanats ?
 
 ### Classes
