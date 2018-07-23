@@ -1,7 +1,3 @@
-## Armes
-
-- Certaines images d'artisanats ?
-
 ### Classes
 
 - Skin Ofeva (compétence 140)
