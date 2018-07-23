@@ -935,6 +935,9 @@
       "format": "tir_precis",
       "ext": [ "gif" ]
     },
+	{
+	"format": "toline"
+	},
     {
       "format": "toucher_guerisseur"
     },

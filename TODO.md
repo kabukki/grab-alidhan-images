@@ -14,7 +14,6 @@
 
 ### Compétences
 
-- Vent Toline
 - Piège magique
 - Dissipation magique
 
