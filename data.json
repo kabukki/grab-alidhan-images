@@ -384,7 +384,7 @@
     },
     {
       "format": "mort",
-      "ext": [ "gif" ]
+      "ext": [ "png", "gif" ]
     },
     {
       "format": "paladin_varox"
