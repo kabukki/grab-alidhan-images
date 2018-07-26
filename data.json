@@ -1980,6 +1980,9 @@
       "format": "ange%d",
       "iter": [ 2 ]
     },
+	  {
+		  "format": "crane_feu"
+	  },
     {
       "format": "elemental%d",
       "iter": [ 13 ]
