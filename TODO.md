@@ -23,8 +23,6 @@
 ### Monstres
 
 - Chef Gobelin
-- Crapaud méchant
-- Crane infernal
 - Esprit majeur blanc, bleu, gris
 - Golem de pierre
 - Harpies
