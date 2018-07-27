@@ -935,9 +935,9 @@
       "format": "tir_precis",
       "ext": [ "gif" ]
     },
-	{
-	"format": "toline"
-	},
+    {
+      "format": "toline"
+    },
     {
       "format": "toucher_guerisseur"
     },
@@ -1687,7 +1687,7 @@
     {
       "name": "Comptoir de la Hanse",
       "format" : "%s",
-      "iter": [ [ "145fsqf9", "98985devdfgs" ] ]
+      "iter": [ [ "145fsqf9", "98985devdfgs", "oierfezvqe847sdgq", "pefkpqzcezr8551" ] ]
     },
     {
       "name": "Northrend",
@@ -1980,9 +1980,9 @@
       "format": "ange%d",
       "iter": [ 2 ]
     },
-	  {
-		  "format": "crane_feu"
-	  },
+    {
+      "format": "crane_feu"
+    },
     {
       "format": "elemental%d",
       "iter": [ 13 ]
