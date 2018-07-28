@@ -218,7 +218,8 @@
       "format": "coeur"
     },
     {
-      "format": "coffre_fer"
+      "format": "coffre_fer%s",
+	  "iter": [ [ "", "2" ] ]
     },
     {
       "format": "clef_%d",
