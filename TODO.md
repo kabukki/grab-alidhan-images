@@ -26,7 +26,6 @@
 - Esprit majeur blanc, bleu, gris
 - Golem de pierre
 - Harpies
-- Pirate et Pirate maudit
 - Triton
 
 ### Objets
