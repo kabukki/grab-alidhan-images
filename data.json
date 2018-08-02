@@ -771,6 +771,9 @@
       "format": "devotion_pretre"
     },
     {
+      "format": "dissipation%20magique"
+    },
+    {
       "format": "elementaire_boue"
     },
     {
