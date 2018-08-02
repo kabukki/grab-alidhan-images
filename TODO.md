@@ -7,11 +7,6 @@
 - Anciens skins NR
 - Anciens skins R (screen accepted)
 
-### Compétences
-
-- Piège magique
-- Dissipation magique
-
 ### Maps
 
 - Volcanos
