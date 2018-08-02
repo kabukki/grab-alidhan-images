@@ -821,6 +821,9 @@
       "ext": [ "gif" ]
     },
     {
+      "format": "glyphe"
+    },
+    {
       "format": "harpon_glace"
     },
     {
@@ -1755,7 +1758,7 @@
     {
       "name": "Bois antique de Far",
       "format" : "%s",
-      "iter": [ [ "okke12zb1", "hjbbe2ok0", "coihe3tg8", "24fz8998c9e8" ] ]
+      "iter": [ [ "okke12zb1", "hjbbe2ok0", "coihe3tg8", "24fz8998c9e8", "8442ded" ] ]
     },
     {
       "name": "Salle pestilentielle",
