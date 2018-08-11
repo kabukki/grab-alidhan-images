@@ -1855,6 +1855,16 @@
       "format": "wfxspigq1"
     },
     {
+      "name": "Pharadisio",
+      "format": "%s",
+      "iter": [ [ "rgdfgdfsg1518", "dsfgerh54rt545", "dfgrtg561r6g51" ] ]
+    },
+    {
+      "name": "Labyrinthe",
+      "format": "labyrinthe%d",
+      "iter": [ [ 5 ] ]
+    },
+    {
       "format": "arene"
     },
     {
