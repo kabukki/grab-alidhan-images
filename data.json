@@ -1862,7 +1862,7 @@
     {
       "name": "Labyrinthe",
       "format": "labyrinthe%d",
-      "iter": [ [ 5 ] ]
+      "iter": [ 5 ]
     },
     {
       "format": "arene"
