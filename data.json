@@ -219,7 +219,7 @@
     },
     {
       "format": "coffre_fer%s",
-	  "iter": [ [ "", "2" ] ]
+      "iter": [ [ "", "2" ] ]
     },
     {
       "format": "clef_%d",
@@ -2132,10 +2132,10 @@
     {
       "format": "manticore"
     },
-	{
-	"format": "monstro%d",
-	"iter": [ 2 ]
-	},
+    {
+      "format": "monstro%d",
+      "iter": [ 2 ]
+    },
     {
       "format": "ombre_ailee"
     },
