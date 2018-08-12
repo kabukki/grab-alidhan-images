@@ -384,7 +384,8 @@
       "format": "moine_copiste"
     },
     {
-      "format": "mort",
+      "format": "mort%s",
+	  "iter": [ [ "", "1" ] ]
       "ext": [ "png", "gif" ]
     },
     {
@@ -544,7 +545,7 @@
     },
     {
       "format": "mort%s_detail",
-      "iter": [ [ "_r", "_e", "-c" ] ]
+      "iter": [ [ "", "1", "_r", "_e", "-c" ] ]
     },
     {
       "format": "new_garde_%s_detail",
@@ -1852,7 +1853,8 @@
     },
     {
       "name": "Divenia",
-      "format": "wfxspigq1"
+      "format": "wfxspigq%d"
+	  "iter": [ 2 ]
     },
     {
       "name": "Pharadisio",

@@ -13,7 +13,6 @@
 - Crypte des moines (Nowenuld)
 - Caverne des gobelins de Mérulik,
 - Grotte de Golia
-- Passage secret Méru-Hanse
 
 ### Monstres
 
@@ -25,7 +24,6 @@
 
 ### Objets
 
-- Malédiction de l'équipage
 - Pièce de beta-testeur (v1)
 - Autres ?
 
