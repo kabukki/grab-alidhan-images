@@ -385,7 +385,7 @@
     },
     {
       "format": "mort%s",
-	  "iter": [ [ "", "1" ] ]
+      "iter": [ [ "", "1" ] ],
       "ext": [ "png", "gif" ]
     },
     {
@@ -1853,8 +1853,8 @@
     },
     {
       "name": "Divenia",
-      "format": "wfxspigq%d"
-	  "iter": [ 2 ]
+      "format": "wfxspigq%d",
+      "iter": [ 2 ]
     },
     {
       "name": "Pharadisio",
