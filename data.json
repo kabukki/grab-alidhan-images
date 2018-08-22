@@ -183,22 +183,23 @@
     {
       "name": "Perles",
       "format": "%s",
-      "iter": [ [ "jevx7i5doqbh","p9jp2wnq9bsa","zj20ek71lkzk","oj7xs31n2mak", "s8o3w3rclupk" ] ]
+      "iter": [ [ "jevx7i5doqbh", "p9jp2wnq9bsa", "zj20ek71lkzk", "oj7xs31n2mak", "s8o3w3rclupk" ] ]
     },
     {
       "format": "alchimie"
+    },
+	{
+	"format": "antidote",
+	},
+    {
+      "format": "bonbec10"
     },
     {
       "format": "bousolle"
     },
     {
-      "format": "bonbec10"
-    },
-    {
       "format": "branche%d",
-      "iter": [
-        1
-      ]
+      "iter": [ 1 ]
     },
     {
       "format": "calice%d",
@@ -209,6 +210,14 @@
     },
     {
       "format": "chardon"
+    },
+    {
+      "format": "clef_%d",
+      "iter": [ [2, 3] ]
+    },
+    {
+      "format": "cles%s",
+      "iter" : [ [ "", "_tresor" ] ]
     },
     {
       "format": "coeur%s",
@@ -222,38 +231,34 @@
       "iter": [ [ "", "2" ] ]
     },
     {
-      "format": "clef_%d",
-      "iter": [
-        [2, 3]
-      ]
-    },
-    {
       "format": "cristal%d",
       "iter": [ [ 1, 9 ] ]
     },
-    {
-      "format": "cles%s",
-      "iter" : [ [ "", "_tresor" ] ]
-    },
+	{
+	"format": "enveloppe_%s",
+	"iter": [ [ "glator", "rumas" ] ]
+	},
     {
       "format": "fragment%d",
       "iter": [ 4 ]
     },
     {
       "format": "gateau_noel_%02d",
-      "iter": [
-        1
-      ]
+      "iter": [ 1 ]
     },
     {
       "format": "machin"
     },
     {
       "format": "parchemin%d",
-      "iter": [
-        5
-      ]
+      "iter": [ 5 ]
     },
+	{
+	"format": "pendentif"
+	},
+	{
+	"format": "pierre_mandural"
+	},
     {
       "format": "pioche"
     }
@@ -1705,7 +1710,7 @@
     {
       "name": "Nowenuld",
       "format": "%s",
-      "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce" ] ]
+      "iter": [ [ "xc9zfl23w515s9f", "zhhd7n43jqje8ce", "crypte" ] ]
     },
     {
       "name": "Forteresse",

@@ -10,7 +10,6 @@
 ### Maps
 
 - Volcanos
-- Crypte des moines (Nowenuld)
 - Caverne des gobelins de Mérulik,
 - Grotte de Golia
 
