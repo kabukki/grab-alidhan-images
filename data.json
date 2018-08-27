@@ -188,9 +188,9 @@
     {
       "format": "alchimie"
     },
-	{
-	"format": "antidote"
-	},
+    {
+      "format": "antidote"
+    },
     {
       "format": "bonbec10"
     },
@@ -234,10 +234,10 @@
       "format": "cristal%d",
       "iter": [ [ 1, 9 ] ]
     },
-	{
-	"format": "enveloppe_%s",
-	"iter": [ [ "glator", "rumas" ] ]
-	},
+    {
+      "format": "enveloppe_%s",
+      "iter": [ [ "glator", "rumas" ] ]
+    },
     {
       "format": "fragment%d",
       "iter": [ 4 ]
@@ -250,15 +250,19 @@
       "format": "machin"
     },
     {
+      "format": "morceau_%d",
+      "iter": [ 4 ]
+    },
+    {
       "format": "parchemin%d",
       "iter": [ 5 ]
     },
-	{
-	"format": "pendentif"
-	},
-	{
-	"format": "pierre_mandural"
-	},
+    {
+      "format": "pendentif"
+    },
+    {
+      "format": "pierre_mandural"
+    },
     {
       "format": "pioche"
     }
@@ -356,9 +360,9 @@
     {
       "format": "glator"
     },
-	{
-	"format": "Golia"
-	},
+    {
+      "format": "Golia"
+    },
     {
       "format": "herutis"
     },
@@ -497,6 +501,10 @@
       "format": "elfe_detail"
     },
     {
+      "format": "espion%d",
+      "iter": [ 2 ]
+    },
+    {
       "format": "fee8_detail"
     },
     {
@@ -523,9 +531,9 @@
     {
       "format": "glator"
     },
-	{
-	"format": "Golia"
-	},
+    {
+      "format": "Golia"
+    },
     {
       "format": "grand_raymond"
     },
