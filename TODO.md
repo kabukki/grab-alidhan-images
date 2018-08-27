@@ -10,8 +10,7 @@
 ### Maps
 
 - Volcanos
-- Caverne des gobelins de Mérulik,
-- Grotte de Golia
+- Caverne des gobelins de Mérulik
 
 ### Monstres
 

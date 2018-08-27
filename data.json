@@ -356,6 +356,9 @@
     {
       "format": "glator"
     },
+	{
+	"format": "Golia"
+	},
     {
       "format": "herutis"
     },
@@ -520,6 +523,9 @@
     {
       "format": "glator"
     },
+	{
+	"format": "Golia"
+	},
     {
       "format": "grand_raymond"
     },
@@ -1658,7 +1664,7 @@
     {
       "name": "Mérulik",
       "format" : "%s",
-      "iter" : [ [ "boutiquemilieu", "boutiquemilieusoussol", "ville2", "ville2bis", "plaine12", "87adedqaze" ]]
+      "iter" : [ [ "boutiquemilieu", "boutiquemilieusoussol", "ville2", "ville2bis", "plaine12", "87adedqaze", "cave01" ]]
     },
     {
       "name": "Cimetiere",
