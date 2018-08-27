@@ -28,5 +28,4 @@
 ### Objets de quêtes
 
 - Clé
-- Perles
 - Autres ?
