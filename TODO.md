@@ -16,7 +16,6 @@
 
 - Chef Gobelin
 - Esprit majeur blanc, bleu, gris
-- Golem de pierre
 - Harpies
 - Triton
 
