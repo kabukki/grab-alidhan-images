@@ -9,7 +9,6 @@
 
 ### Maps
 
-- Volcanos
 - Caverne des gobelins de Mérulik
 
 ### Monstres

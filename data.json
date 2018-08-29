@@ -1818,7 +1818,7 @@
     {
       "name": "Comath",
       "format": "%s",
-      "iter": [[ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist" ]]
+      "iter": [[ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist"  ]]
     },
     {
       "name": "Hutte de Gonk",
@@ -1885,6 +1885,16 @@
       "format": "labyrinthe%d",
       "iter": [ 5 ]
     },
+	{
+	"name": "Volcanos"
+	"format": "g3npd2dydtuxf%d",
+	"iter": [ 7 ]
+	},
+	{
+	"name": "Volcanos"
+	"format": "x6wx3nge2z1%d",
+	"iter": [ 9 ]
+	},
     {
       "format": "arene"
     },
