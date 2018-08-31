@@ -20,7 +20,6 @@
 
 ### Objets
 
-- Pièce de beta-testeur (v1)
 - Autres ?
 
 ### Objets de quêtes
