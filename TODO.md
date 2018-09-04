@@ -9,5 +9,3 @@
 ### Monstres
 
 - Esprit majeur blanc, bleu, gris
-- Harpies
-- Triton

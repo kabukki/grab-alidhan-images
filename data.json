@@ -1697,9 +1697,7 @@
     {
       "name": "Brosems",
       "format": "%s",
-      "iter": [
-        [ "ergsdfsdckxjbcvbor", "xcvxcvcbnvgjghjyikklpo", "scxcvxcbhrturtujkolo", "sdfgxcxciopklmjkluyaz", "sdfgxcxciopklmjkluyaz2", "1alllezesdqs1", "1alllezesdqs2" ]
-      ]
+      "iter": [ [ "ergsdfsdckxjbcvbor", "xcvxcvcbnvgjghjyikklpo", "scxcvxcbhrturtujkolo", "sdfgxcxciopklmjkluyaz", "sdfgxcxciopklmjkluyaz2", "1alllezesdqs1", "1alllezesdqs2" ] ]
     },
     {
       "name": "Avant poste des justiciers",
@@ -1808,7 +1806,7 @@
     {
       "name": "Nilfheim & Muspelheim",
       "format": "%s",
-      "iter": [[ "fiidozs4542", "wqzdfr154" ]]
+      "iter": [ [ "fiidozs4542", "wqzdfr154" ] ]
     },
     {
       "name": "Rhogan",
@@ -1818,7 +1816,7 @@
     {
       "name": "Comath",
       "format": "%s",
-      "iter": [[ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist"  ]]
+      "iter": [ [ "xcyfbmxixt", "nyguhpillt", "sauzlavlko", "ojdnriaist"  ] ]
     },
     {
       "name": "Hutte de Gonk",
@@ -1833,12 +1831,12 @@
     {
       "name": "Astaegan",
       "format": "%s",
-      "iter": [[ "3erfokevdver54", "4df8g67ds", "5545fge4z54rgs", "186g4dfvdvsssd", "2ezrge9dfvz", "wktidxpeao", "jyfozwpioa", "xwmotrzkjh", "kesd445zdc", "zv457rds", "ssdf87ef", "ih54dzrc", "ac5454edqs", "hteakmkliw", "lsgmbsxpof", "s16efv1cdc651", "il6gyj2ty6j2", "ss65df98v7d4", "fsd651fd6g51" ]]
+      "iter": [ [ "3erfokevdver54", "4df8g67ds", "5545fge4z54rgs", "186g4dfvdvsssd", "2ezrge9dfvz", "wktidxpeao", "jyfozwpioa", "xwmotrzkjh", "kesd445zdc", "zv457rds", "ssdf87ef", "ih54dzrc", "ac5454edqs", "hteakmkliw", "lsgmbsxpof", "s16efv1cdc651", "il6gyj2ty6j2", "ss65df98v7d4", "fsd651fd6g51" ] ]
     },
     {
       "name": "Ynahé",
       "format": "%s",
-      "iter": [[ "kj8jfsgezr7fqsbz", "tyreg7412q", "f8g4z64zdfge1", "68sr7hzetq87" ]]
+      "iter": [ [ "kj8jfsgezr7fqsbz", "tyreg7412q", "f8g4z64zdfge1", "68sr7hzetq87" ] ]
     },
     {
       "name": "Repaire des brigands",
@@ -1885,16 +1883,21 @@
       "format": "labyrinthe%d",
       "iter": [ 5 ]
     },
-	{
-	"name": "Volcanos",
-	"format": "g3npd2dydtuxf%d",
-	"iter": [ 7 ]
-	},
-	{
-	"name": "Volcanos",
-	"format": "x6wx3nge2z1%d",
-	"iter": [ 9 ]
-	},
+    {
+      "name": "Volcanos",
+      "format": "g3npd2dydtuxf%d",
+      "iter": [ 7 ]
+    },
+    {
+      "name": "Volcanos",
+      "format": "m115uvbjlt%d",
+      "iter": [ 3 ]
+    },
+    {
+      "name": "Volcanos",
+      "format": "x6wx3nge2z%d",
+      "iter": [ 9 ]
+    },
     {
       "format": "arene"
     },
@@ -2090,7 +2093,7 @@
     },
     {
       "format": "goblin%d",
-      "iter": [ [ 1, 3 ] ]
+      "iter": [ 1 ]
     },
     {
       "format": "gobelin%d",
@@ -2108,6 +2111,10 @@
     {
       "format": "loup%d",
       "iter": [ 8 ]
+    },
+    {
+      "format": "oiseau%d",
+      "iter": [ 6 ]
     },
     {
       "format": "ours%d",
@@ -2158,6 +2165,10 @@
       "format": "Gomina"
     },
     {
+      "format": "goblin%d",
+      "iter": [ [ 3 ] ]
+    },
+    {
       "format": "gobelin%s",
       "iter": [ [ "", "2" ] ]
     },
@@ -2174,7 +2185,8 @@
       "format": "kuo_toa"
     },
     {
-      "format": "manticore"
+      "format": "manticore%s",
+      "iter": [ [ "", "2" ] ]
     },
     {
       "format": "monstro%d",
@@ -2187,7 +2199,8 @@
       "format": "orc"
     },
     {
-      "format": "poisson"
+      "format": "poisson%s",
+      "iter": [ [ "", "1" ] ]
     },
     {
       "format": "soldat"
