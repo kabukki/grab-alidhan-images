@@ -2041,10 +2041,10 @@
     {
       "format": "epouvantail"
     },
-	{
-	"format":"esprit_majeur%d",
-	"iter": [ 5 ]
-	},
+    {
+      "format":"esprit_majeur%d",
+      "iter": [ 5 ]
+    },
     {
       "format": "fantome%d",
       "iter": [ 1 ]
