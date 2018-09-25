@@ -8,6 +8,10 @@
   ],
   "case": [
     {
+      "format": "%s",
+      "iter": [ [ "blanc", "noir"] ]
+    },
+    {
       "format": "swirl%d",
       "iter": [ 9 ],
       "ext": [ "png", "gif"]
@@ -332,6 +336,9 @@
     {
       "format": "coffre%d",
       "iter": [ 5 ]
+    },
+    {
+      "format": "Badur"
     },
     {
       "format": "Bamou"
@@ -2484,6 +2491,11 @@
     }
   ],
   "bonus": [
+    {
+      "format": "%s",
+      "iter": [ [ "AMEX", "AURORE" ] ],
+      "ext": [ "gif" ]
+    },
     {
       "format": "%s",
       "iter": [ ["fr", "be", "ca", "ch", "dom", "uk", "us" ] ],
