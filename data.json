@@ -1,4 +1,10 @@
 {
+  "aperçu": [
+    {
+      "format": "apercu%d_%s",
+      "iter": [ [ 1 ], [ "fr" ] ]
+    }
+  ],
   "coffre": [
     {
       "name": "Coffre",
@@ -15,6 +21,23 @@
       "format": "swirl%d",
       "iter": [ 9 ],
       "ext": [ "png", "gif"]
+    }
+  ],
+  "capture": [
+    {
+      "format": "capture%d",
+      "iter": [ 16 ]
+    }
+  ],
+  "chat": [
+    {
+      "format": "%s",
+      "iter": [ [ "big_smile", "lol", "neutral", "yikes" ] ]
+    },
+    {
+      "format": "%s",
+      "iter": [ [ "heart", "rougit", "siffle" ] ],
+      "ext": [ "gif" ]
     }
   ],
   "grade": [
@@ -932,11 +955,11 @@
     },
     {
       "format": "skill%d",
-      "iter": [ [ 1,2,3,16,17,19,23,40,41,44,46,48,50,51,55,56,120,121,123,124 ] ]
+      "iter": [ [ 1,2,3,16,17,19,23,29,30,31,32,39,40,41,44,45,46,47,48,50,51,55,56,120,121,123,124 ] ]
     },
     {
       "format": "skill%d",
-      "iter": [ [ 4,5,7,8,9,10,11,14 ] ],
+      "iter": [ [ 1,2,3,4,5,7,8,9,10,11,14 ] ],
       "ext": [ "gif" ]
     },
     {
@@ -945,8 +968,13 @@
     },
     {
       "format": "soin%d",
-      "iter": [ 4 ]
+      "iter": [ 4 ],
+      "ext": [ "gif", "png" ]
     },
+    {
+      "format":"sphere",
+      "ext": [ "jpg" ]
+    }
     {
       "format": "stalactite"
     },
@@ -1121,10 +1149,8 @@
       "format": "mort"
     },
     {
-      "format": "fantome"
-    },
-    {
-      "format": "fantome2"
+      "format": "fantome%s",
+      "iter": [ [ "", "2" ] ]
     },
     {
       "format": "chauvesouris"
@@ -2185,7 +2211,7 @@
     },
     {
       "format": "goblin%d",
-      "iter": [ [ 3 ] ]
+      "iter": [ [ 2, 3 ] ]
     },
     {
       "format": "gobelin%s",
@@ -2266,6 +2292,10 @@
   ],
   "style":  [
     {
+      "format": "A",
+      "ext": [ "jpg" ]
+    }
+    {
       "format": "message"
     },
     {
@@ -2278,13 +2308,16 @@
       "format": "separation_menu"
     },
     {
+      "format": "deplacement"
+    },
+    {
       "name": "Background",
       "format": "background%s",
       "iter": [ [ "", "_accueil" ] ]
     },
     {
       "format": "barre_%s",
-      "iter": [ [ "fixe", "login", "skills_fond" ] ]
+      "iter": [ [ "fixe", "login", "skills_fond", "bas_zeffyr", "vie_vide" ] ]
     },
     {
       "format": "bt_%s",
@@ -2296,7 +2329,7 @@
     },
     {
       "format": "chrono%s",
-      "iter": [ [ "", "_attaque", "_potion" ] ]
+      "iter": [ [ "", "_attaque", "_potion", "_special" ] ]
     },
     {
       "format": "conteneur_bas%s",
@@ -2314,7 +2347,7 @@
     },
     {
       "format": "fond_global%s",
-      "iter": [ [ "", "_1px", "_1px_bis", "_bis", "_haut_bis", "_haut_carte" ] ]
+      "iter": [ [ "", "_1px", "_1px_bis", "_bis", "_haut", "_haut_bis", "_haut_carte" ] ]
     },
     {
       "format": "goutte_eau"
@@ -2368,6 +2401,13 @@
     }
   ],
   "jeu": [
+    {
+      "format": "mappemonde"
+    },
+    {
+      "format": "interrogation",
+      "ext" : [ "gif" ]
+    },
     {
       "format": "silhouette1"
     },
