@@ -1742,7 +1742,7 @@
     {
       "name": "Fangélice",
       "format": "%s",
-      "iter": [ [ "cmlrk2by8dkbs1xhz5gem", "k1j03wqrlc0tgmrhl6y2", "6h7dde8az5d7k65pa85f", "tji78j80p0f472qx0sk5", "kbwie1ftmil2103guzi14", "opzhmywqofiotbgtia711", "qldc6fhnikzmzjs8r6zp", "f6tdh0i5066ftvwjy1a8", "f6tdh0i5066ftvwjy1a82", "p01zryw7spt5y", "veokd7xui5lrvd4kuq8j", "t8l5ohea7xbvjisw1e0tl", "mp71zmzrw5v780ccpta4" ] ]
+      "iter": [ [ "cmlrk2by8dkbs1xhz5gem", "k1j03wqrlc0tgmrhl6y2", "6h7dde8az5d7k65pa85f", "tji78j80p0f472qx0sk5", "kbwie1ftmil2103guzi14", "opzhmywqofiotbgtia711", "qldc6fhnikzmzjs8r6zp", "f6tdh0i5066ftvwjy1a8", "f6tdh0i5066ftvwjy1a82", "p01zryw7spt5y", "veokd7xui5lrvd4kuq8j", "t8l5ohea7xbvjisw1e0tl", "mp71zmzrw5v780ccpta4", "j4i54azdpt3ihdu", "e538we6ryqj5jdm", "12jwq4h7uw1xm","ag3jghpjqa83r", "16r1q1ul5lu1c", "mb0esgqjft4xa", "ghjixjf72zpj3", "beedfaruscyao", "7lngaxo7oca43" ] ]
     },
     {
       "name": "Phyléas",
@@ -2061,6 +2061,14 @@
     {
       "format": "mort_vivant%s",
       "iter" : [ [ "", "_2" ] ]
+    },
+    {
+      "format": "poupee%d",
+      "iter": [ 2 ]
+    },
+    {
+      "format": "squelettexb%d",
+      "iter": [ 1 ]
     },
     {
       "format": "tortue"
@@ -2458,6 +2466,37 @@
       "name": "Avatar",
       "format": "%s",
       "iter": [ ["balrog", "catapulte", "defaut", "galoregor", "kaldrass", "merc", "trebuchet", "vadort" ] ]
+    }
+  ],
+  "parchemin": [
+    {
+      "format": "infosup_%03d",
+      "iter": [ 9 ],
+      "ext": [ "gif" ]
+    },
+    {
+      "format": "infosup",
+      "ext": [ "gif" ]
+    },
+    {
+      "format": "parchemin",
+      "ext": [ "jpg" ]
+    }
+  ],
+  "bonus": [
+    {
+      "format": "%s",
+      "iter": [ ["fr", "be", "ca", "ch", "dom", "uk", "us" ] ],
+      "ext": [ "gif" ]
+    },
+    {
+      "format": "bt_cartes"
+    },
+    {
+      "format": "ticket_surf"
+    },
+    {
+      "format": "bt_paypal"
     }
   ]
 }
